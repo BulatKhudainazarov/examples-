@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Сравнение объектов</title>
+</head>
+<body>
+    <script>
+        let a = {};
+        let b = a; // копируем по ссылке
+        
+        alert( a == b ); // true
+        // так как элементы ссылаются на тот же элемент
+        alert( a === b ); // true имеют один тип
+        
+        let c = {};
+        let d = {};
+        
+        alert( c == d ); // false 
+        // так как разные объекты никогда не равны
+        alert( c === d ); // false 
+    </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Объекты-константы</title>
+</head>
+<body>
+    <script>
+        const user = {
+            name: "John"
+        };
+        // можем добавлять новые ключи в user
+        user.age = 20; 
+        user = {
+            name: "Pete" // выдаст ошибку, нельзя переназначать существующие элементы, то есть ключи
+        }
+        alert(user.age);
+    </script>
+</body>
+</html>

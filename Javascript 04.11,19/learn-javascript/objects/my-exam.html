@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let obj = {
+            let: 1, 
+            for: 2, 
+            if: 3,
+            return: 4
+        };
+        console.log( obj.return + obj.for + obj.let + obj.if);
+        
+        // если есть __proto__ это значение всегда должно быть 
+        // объектом 
+        let obj1 = {};
+        obj1.__proto__ = 5;
+        alert(obj1.__proto__);
+        // приравнивание 5 ки не работает 
+        //#
+        function makeUser(name, age) {
+            return {
+                name: name,
+                age: age
+            }
+        }
+        let user = makeUser("John", 19);
+        alert(user.name + " " + user.age + " лет")
+        // Оператор in проверяет наличие в строке др строки
+        let user1 = { name: "John", age: 30 };
+        
+        alert( "age" in user1); // Выведет true
+        alert( "name" in user1 ); // Выведет true
+        alert( "blablabla" in user1); // falce
+        /* Слева от if всегда должно быть значение 
+        */
+        let user3 = { age: 30 };
+        // создаем строку "age" и записываем в ячейку key
+        let key = "age";
+        alert( key in user3 ); // true
+        // Поиск значений через цикл for
+        for (key in object1) {
+            
+        }
+    </script>
+</body>
+</html>

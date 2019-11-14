@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    
+</head>
+<body>
+    <script>
+    // копируем по значению: строки, числа, лог значения
+        let message = "Hello!";
+        let phrase = message;
+        alert(message + " выводим на прямую");
+    // копируем переменную message in phrase и выводим phrase
+        alert(phrase);
+    // это все лишь адрес в памяти!, то есть просто ссылка
+        //--------------------------
+    // сам object(name: "John") хранится где то в памяти, user 
+        // user это ключ(ссылка) к name
+        let user = {
+            // name это ящик 
+            name: "John"
+        };
+        // просто ссылаемся на name
+        let kopiOfUser = user;
+        
+        alert(user.name) // John
+        
+        alert(kopiOfUser.name) // John
+        
+        kopiOfUser.age = 19; // можем даже добавить что то еще
+        
+        alert(kopiOfUser.age);
+        alert(user.age); 
+        // 19 выведется в каждом вызове, так как мы поменяли именно объект через ссылку
+        
+    </script>
+</body>
+</html>
