@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .build {
+            padding: 10px;
+            background: #575752;
+            font-size: 13px;
+        }
+        .content {
+            border: 1px solid #626262;
+            border-radius: 5px;
+            padding: 5px 25px;
+        }
+        label > a {
+            margin-right: 15px;
+        }
+        a {
+            color: white;
+            margin-right: 7.5px;
+            margin-left: 7.5px;
+        }
+        input {
+            border-radius: 3px; border: none;
+            padding: 4px 8px;
+            width: 250px;
+            margin-right: 15px;
+        }
+        .splasher {
+            display: inline-block;
+            height: 19px;
+            border-right: 1px solid #626262;
+        }
+        .active {
+            color: grey;
+        }
+        .main {
+            width: 667px;
+        }
+    </style>
+</head>
+<body>
+    <div class="build">
+        <div class="content">
+            <div class="main" >
+                <label><a href="#">Вакансии</a></label><input placeholder="Поиск по вакансиям" type="search">
+                <div class="splasher"><a href="#">Зарплаты</a><a href="#">Компании</a></div>
+                <div class="splasher"><a href="#">Блог</a><a class="active" href="#">Новости</a></div>
+                <a href="#">Календарь</a>
+             </div>
+        </div>
+    </div>
+</body>
+</html>

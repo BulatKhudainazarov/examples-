@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+ <title>Изучаем DOM</title>
+</head>
+<body>
+ <h1 id="main-heading">Привет, мир!</h1>
+ <h1 id="other"></h1>
+ <h2></h2>
+ <h3>Привет</h3>
+ <button id="hide">Скрыть</button>
+ <button id="show">Показать</button>
+ <p id="someother">1 абзац</p>
+ <p id="someother">2 абзац</p>
+ <p id="someother">3 абзац</p>
+ <p id="someother">4 абзац</p>
+ <p id="someother">5 абзац</p>
+ <p id="someother">6 абзац</p>
+ <p id="somesting"></p>
+ <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+ <script>
+     //var newHeadingText = prompt("Введите новый заголовок:");
+     //$("h2").text(newHeadingText);
+     $("#main-heading").fadeOut(1000).fadeIn(1000);
+     $("h3").text("Этот текст скоро исчезнет").fadeOut(6000);
+     for (var i = 0; i < 1; i++) {
+         $("#other").text("Уплывание").slideUp(1000).slideDown(1000);
+     }
+     $("#somesting").text("Количество исчезаний");
+     //for (var i = 0; i < 1; i++) {
+     //    var hobby = prompt("Введите одно из ваших хобби:");
+         $("body").append("<p>" + "hobby" + "</p>");
+         $("#other").fadeIn(1000);
+    // }
+     $(document).ready(function(){
+         $("#hide").click(function(){ // задаем функцию при нажатиии на элемент с классом hide
+             $("p").hide();
+         }); // скрываем все элементы <p>
+         $("#show").click(function(){
+             $("p").show(); // отображает все элементы <p>
+         });
+     });
+ </script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        a {
+            color: dodgerblue;
+        }
+        a:hover {
+            color: grey;
+        }
+        .other:visited {
+            color: rebeccapurple;
+        }
+        input:focus {
+            background: baqualue;
+            border: 3px solid grey;
+            outline: none;
+        }
+        li:first-child {
+            background: aqua
+        }
+        li:last-child {
+            background: grey;
+        }
+        li:nth-child(4) {
+            background: fuchsia;
+        }
+        p {
+            margin: 15px 24px;
+        }
+        .important {
+            background: aqua;
+        }
+        .new li:nth-child(odd) {
+            background: red;
+        }
+        .new li:nth-child(even) {
+            background: aqua;
+        }
+        .new li:nth-child(3n) {
+            background: white;
+        }
+    </style>
+</head>
+<body>
+    <p>Наведите курсор <a href="#">на эту ссылку</a> и увидите, как она становится серой.</p>
+    <p>Нажим <a href="#" class="other">на эту ссылку</a> и увидишь, как она станет посещенной.</p>
+    <p>При нажатии на форму она становится <strong class="important">голубой</strong>, добавь рамка 3px с цветом grey и удали свечение вокруг поля.</p>
+    <form action="#">
+    <p><input type="text" placeholder="Введите имя"></p>
+    </form>
+    <p class="firstp">Задайка Булат первому элементу цвет aqua через child, а <br>
+    четверому эл. цвет fuchsia через child(x) и последнему эл. серый цвет через child</p>
+
+    <ul>
+        <li>Один</li>
+        <li>Два</li>
+        <li>Три</li>
+        <li>Четыре</li>
+        <li>Пять</li>
+        <li>Шесть</li>
+        <li>Семь</li>
+    </ul>
+    <p class="firstp">
+        Нацелься на каждый нечётный элемент красным цветом, а на каждый четный зеленым(aqua) и каждый третий элемент с белым цветом
+    </p>
+    <ul>
+        <li class="new">Один</li>
+        <li class="new">Два</li>
+        <li class="new">Три</li>
+        <li class="new">Четыре</li>
+        <li class="new">Пять</li>
+        <li class="new">Шесть</li>
+        <li class="new">Семь</li>
+    </ul>
+
+</body>
+</html>

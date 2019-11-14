@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            background: #18326D;
+        }
+
+        form {
+            background: #2b417a;
+            padding: 20px;
+            margin: 20px;
+            border: 1px solid #44567e;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .row {
+            overflow: hidden;
+            margin-bottom: 1rem;
+        }
+
+        input,
+        textarea {
+            background: #182a50;
+            box-shadow: inset -2px -2px 2px #425575;
+            width: 300px;
+            border: none;
+            color: #fff;
+            padding: 5px;
+        }
+
+        label {
+            color: #8dacfe;
+            width: 100px;
+            float: left;
+            text-align: right;
+            margin-right: 10px;
+        }
+
+        buttom {
+            padding: 10px 20px;
+            background: #0D1321;
+            color: #8DC2FE;
+            margin-left: 110px;
+            font-weight: bold;
+            text-transform: uppercase;
+            border: none;
+        }
+
+        textarea {
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="#">
+        <div class="row">
+            <label for="">Имя</label>
+            <input type="text">
+        </div>
+        <div class="row">
+            <label for="">Фамилия</label>
+            <input type="text">
+        </div>
+        <div class="row">
+            <label for="">Email</label>
+            <input type="text">
+        </div>
+        <div class="row">
+            <label for="">Сообщение</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <buttom>ОТПРАВИТЬ</buttom>
+        </div>
+    </form>
+</body>
+
+</html>

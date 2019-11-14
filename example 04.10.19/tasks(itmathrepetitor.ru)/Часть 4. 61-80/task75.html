@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .block {
+            width: 270px;
+            font-family: sans-serif;
+            position: relative;
+        }
+        .block::after {
+            border: 20px solid transparent; border-left: 20px solid green;
+            position: relative;
+        }
+        q {
+            padding: 15px 15px 20px;
+            background: #F5BAAC;
+            border-radius: 5px;
+            color: #fff;
+            width: 240px;
+            display: block;
+            margin-bottom: 30px;
+        }
+        q:hover {
+            background: #a17f89;
+        }
+        q:hover::after {
+            border-left: 20px solid #a17f89;
+        }
+        q::after {
+            content: "";
+            display: inline;
+            transform: rotate(20deg);
+            position: absolute;
+            left: 150px; top: 90px;
+            border: 50px solid transparent;
+            border-top: 0;
+            border-left: 20px solid #F5BAAC;
+        }
+        cite {
+            display: inline-block;
+            color: #A17F89;
+            font-style: normal;
+            margin-bottom: 15px;
+        }
+        cite:hover {
+            color: grey;
+        }
+        .border {
+            display: inline-block;
+            width: 100%; height: 4px;
+            background: #F5BAAC;
+        }
+        .border:hover {
+            background: #a17f89;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="block">
+            <q>Дизайн - это вечная попытка соединить комфорт с люксом, практичность с мечтой.</q>
+            <cite>Донна Каран</cite>
+            <div class="border"></div>
+        </div>
+    </main>
+</body>
+</html>

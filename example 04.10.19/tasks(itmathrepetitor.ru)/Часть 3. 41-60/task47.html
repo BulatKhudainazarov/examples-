@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .conteiner {
+            padding: 20px;
+            width: 550px;
+            margin: auto;
+            text-align: center;
+            font-family: sans-serif;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            padding: 9px 15px;
+            font-size: 20px;
+            background: #3D3D3D;
+            margin-right: 3px;
+            transition: 1s;
+            display: inline-block;
+        }
+        .active {
+            background: #FF6C00;
+        }
+        a:hover {
+            background: #FF6C00;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <a href="#" class="first">‹ Previous</a>
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#" class="active">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#" class="next">Next ›</a>
+        <a href="#" class="last">Last »</a>
+    </div>
+</body>
+</html>

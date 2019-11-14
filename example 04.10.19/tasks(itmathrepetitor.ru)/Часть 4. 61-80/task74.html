@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .back {
+            padding: 10px 40px;
+            width: 320px;
+
+        }
+        .main {
+            padding: 20px 20px;;
+            background: #F5FFE7;
+            border: 1px solid #C8D2B5;
+            border-radius: 5px;
+            box-shadow: inset 0px 0px 5px rgba(0,0,0,0.5);
+            position: relative;
+        }
+        p {
+            margin: 0 0 10px 0;
+        }
+        cite {
+            font-weight: bold;
+            font-style: normal;
+        }
+        .main::after {
+            content: '';
+            border: 20px solid transparent;
+            border-left: 20px solid #F5FFE7;
+            border-top: 20px solid #F5FFE7;
+            position: absolute;
+            top: 200px; left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="back">
+        <div class="main">
+            <p>Я многое узнала на подготовительных курсах, более углубленно изучила некоторые материалы, вспомнила многое из того, что подзабыла. Естественно, ведь в школе мы изучаем только базовые знания, а на курсах мы более углубленно разбираем какую-либо тему.</p>
+            <cite>ДО ЕХУ ЗЫОНГ (СШ №38)</cite>
+        </div>
+    </div>
+</body>
+</html>

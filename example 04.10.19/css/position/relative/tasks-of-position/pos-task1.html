@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        section {
+            font-family: Arial, sans-serif;
+            background: #795548;
+        }
+        h1 {
+            color: #FEEA3B;
+            font-weight: normal;
+            text-align: center;
+            padding-top: 20px;
+            margin-bottom: 0;
+            position: relative;
+        }
+        h1::before {
+            content: '';
+            background: #feea3b;
+            display: inline-block;
+            height: 1px;
+            vertical-align: middle;
+            width: 33%;
+            position: relative;
+            right: 10px;
+            margin-left: -50%;
+        }
+        h1:after {
+            content: '';
+            background: #feea3b;
+            height: 1px;
+            width: 33%;
+            display: inline-block;
+            vertical-align: middle;
+            position: relative;
+            left: 10px;
+            margin-right: -50%;
+        }
+
+        p {
+            color: white;
+            margin-top: 0;
+            padding: 25px 25px 40px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Апперцепция</h1>
+        <p>Гештальт, как бы это ни казалось парадоксальным, понимает культурный комплекс, к тому же этот вопрос касается чего-то слишком общего.</p>
+    </section>
+</body>
+</html>

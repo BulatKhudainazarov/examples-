@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .timer > p {
+            font-size: 12px;
+            font-weight: bold;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+        }
+        .timer {
+            font-family: sans-serif;
+            padding: 5px 5px 10px 5px;
+            border: 1px solid #e1e1e1;
+            width: 212px;
+            border-radius: 3px;
+        }
+        ul {
+            margin: 0; padding: 0;
+        }
+        li {
+            padding: 3px 5px;
+            display: inline-block;
+            list-style: none;
+            background: #2f2f2f;
+            color: #fff;
+            border-radius: 3px;
+        }
+        span {
+            font-weight: bold;
+        }
+        li:nth-child(3n + 1) {
+            margin-right: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="timer">
+            <p>осталось:</p>
+            <ul>
+                <li>0</li><li>7</li>
+                <span>:</span>
+                <li>0</li><li>6</li>
+                <span>:</span>
+                <li>3</li><li>3</li>
+                <span>:</span>
+                <li>1</li><li>4</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

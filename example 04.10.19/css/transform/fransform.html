@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        @keyframes translating {
+            0% { transform: translate(0, 0);
+            }
+            25% {
+                transform: translate(240px, 0);
+            }
+            50% {
+                transform: translate(240px, 240px);
+            }
+            75% {
+                transform: translate(0, 240px);
+            }
+            100% {
+                transform: translate(0, 0);
+            }
+        }
+         p:nth-child(2) {
+                animation: translating 4s forwards 0s infinite;
+                background: turquoise;
+                color: white;
+                height: 60px;
+                line-height: 60px;
+                margin: 0;
+                position: absolute;
+                text-align: center;
+                width: 60px;
+        }
+        @keyframes rotating {
+            0% {
+                transform: rotate(0deg)
+            }
+            100% {
+                transform: rotate(360deg)
+            }
+        }
+        p:nth-child(3) {
+            animation: rotating 4s linear 0s infinite;
+            background: grey;
+            border-radius: 60px;
+            color: white;
+            height: 120px;
+            width: 120px;
+            text-align: center;
+            line-height: 120px;
+            margin: 120px;
+        }
+        @keyframes scaling {
+            0%
+        }
+    </style>
+</head>
+<body>
+    <p>Кнопка</p>
+    <p class="asd">Винил</p>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        "us strict"
+        let thisYear = prompt("Какой сейчас год?");
+        if (thisYear == 2019) {
+            alert("Вы совершенно правы! Сейчас " + thisYear + " год.");
+        } else {
+            alert("Нет, сейчас 2019 год")
+        }
+        if (0) { // Такой if никогда не выполнится 0 is falsy
+            //...
+        }
+        if (1) { // Такой if выполнится всегда 1 is truthy
+            //..
+        }
+        let cond = (thisYear == 2019); // Будет true или false
+        if (cond) { // Если cond = true код выполнится, если нет то не выполнится
+            //...
+            alert("Код выполнился!")
+        }
+
+        let age = prompt("Сколько вам лет?", "");
+        let accessAllowed = age > 18;
+        alert(accessAllowed);
+        /*
+            Оператор / ? /
+        */
+        let age1 = prompt("Возраст?", 18);
+
+        let message = (age1 < 3) ? "Здравствуй малыш!":
+            (age1 < 18) ? "Привет!":
+            (age1 < 100) ? "Здравствуйте!":
+            "Какой не обычный возраст!";
+        /*  Тот же самый пример только через if
+        if (age1 > 3) {
+            message = "Здравствуй малыш!":
+        } else if (age1 < 18) {
+            message = "Привет!";
+        } else if (age1 < 100) {
+            message = "Здравствуйте!":
+        } else {
+            message = "Какой не обычный возраст!";
+        }
+        */
+        alert(message);
+        // Задание: Название JavaScript
+        let response = prompt("Какое «официальное» название JavaScript?");
+        if (response == "ECMAScript") {
+            alert("Верно!");
+        } else {
+            alert("Не знаете? ECMAScript")
+        }
+    </script>
+</body>
+</html>

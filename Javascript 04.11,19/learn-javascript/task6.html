@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let userName = prompt("Введите логин: ");
+        if (userName  == "Админ") {
+            let passWord = prompt("Введите пароль:");
+            if (passWord == 123456) {
+                alert("Здравствуйте!");
+            } else if (passWord == null) {
+                alert("Отменено");
+            } else {
+                alert("Неверный пароль");
+            }
+        } else if (userName == null || " ") {
+            alert("Отменено");
+        } else {
+            alert("Я вас не знаю");
+        }
+    </script>
+</body>
+</html>

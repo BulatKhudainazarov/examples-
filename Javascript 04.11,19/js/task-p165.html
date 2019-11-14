@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #heading1 {
+            display:  inline-block;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+</head>
+<body>
+    <h1 id="first">Run</h1>
+   <h1 id="heading1">Клик был тут</h1>
+    <script>
+        // #1. Следом за кликами
+        $("html").click(function (event) {
+            $("#heading1").offset({
+                left: event.pageX,
+                top: event.pageY
+            });
+        });
+        // #2. Создайте собственную анимацию
+        var leftOffset = 0;
+        var topOffset = 0;
+        var rightOffset = 200;
+        var moveHeading = function() {
+            for (var i = 0; leftOffset != 200 && i < 3; i++) {
+                $("#first").offset({left: leftOffset});
+                leftOffset++;
+                if (leftOffset > 200) {
+                    leftOffset = 200;
+                }
+            }
+        }
+        setInterval(moveHeading, 500);
+        var clickHandler = function (event) {
+             $("h1").click(clickHandler);
+        };
+        var clear = .click(clickHandler);
+    </script>
+</body>
+</html>

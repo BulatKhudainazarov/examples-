@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        .back {
+            width: 650px;
+            overflow: hidden;
+            margin: auto;
+        }
+        h1, h3 {
+            margin: 0;
+        }
+        h1 {
+            font-size: 60px;
+            font-weight: 100;
+        }
+        h1::after {
+            content: '';
+            background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAACFCAMAAAApQEceAAAACVBMVEXOESb///8AJlSwZ3BxAAAAhUlEQVR4nO3PMREAAAgEILV/aEO8kwcNqAl0rO6IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIg8jSwHx2Cj1TNfxAAAAABJRU5ErkJggg==');
+            background-size: 30px 30px;
+            background-repeat: no-repeat;
+            width: 200px;
+            height: 20px;
+            position: absolute;
+            margin-left: 10px;
+            margin-top: 29px;
+        }
+        h3 {
+            font-size: 30px;
+        }
+        .title {
+            padding: 10px;
+            background-color: rgba(0, 0, 0, .6);
+            width: 500px;
+            color: #fff;
+        }
+        .block {
+            padding: 10px;
+            background-image: url("https://tournavigator.pro/%D1%84%D0%BE%D1%82%D0%BE/other/1001/1002/1545078882.jpg");
+            background-size: 650px 250px; background-repeat: no-repeat;
+            min-height: 250px;
+        }
+        h4 {
+            font-weight: 500;
+            margin: 10px 0 10px 0;
+            color: #28517B;
+        }
+        .content {
+            padding: 10px;
+            background: #F3F4F8;
+            border-radius: 10px;
+        }
+        .example {
+            background: #FFFFFF;
+            padding: 15px;
+            border-left: 2px solid #0A346C;
+            margin-bottom: 10px;
+            position: relative;
+            line-height: 17px;
+        }
+        .example::before {
+            content: "";
+            border: 10px solid transparent;
+            border-left: 5px solid #0A346C;
+            position: absolute;
+            left: 0px; top: 31px;
+        }
+        img {
+            width: 50px; height: 50px;
+            float: left; border-radius: 5px;
+        }
+        .some {
+            color: grey;
+        }
+        .other  {
+            color: #2B5486;
+        }
+        .example > p {
+            margin: 5px 0 5px 60px;
+            font-size: 12px;
+        }
+        a {
+            color: #6ABAE9; font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="back">
+        <div class="block">
+            <div class="title">
+                <h1>Париж</h1>
+                <h3>2748 вариантво размещения</h3>
+            </div>
+        </div>
+        <div class="content">
+            <h4>Только что забронировано</h4>
+            <div class="example one">
+                <img src="http://ae01.alicdn.com/kf/HTB1Uagbc56guuRkSnb4q6zu4XXam.jpg_q50.jpg" alt="">
+                <p class="some">Гость из Франции</p>
+                <p class="other">забронировал проживание в: <a href="#">Hotel Royal Phare</a></p>
+            </div>
+            <div class="example one">
+               <img src="http://ae01.alicdn.com/kf/HTB1Uagbc56guuRkSnb4q6zu4XXam.jpg_q50.jpg" alt="">
+                <p class="some">Гость из Германии</p>
+                <p class="other">забронировал проживание в: <a href="#">Amelie</a></p>
+            </div>
+            <div class="example one">
+               <img src="http://ae01.alicdn.com/kf/HTB1Uagbc56guuRkSnb4q6zu4XXam.jpg_q50.jpg" alt="">
+                <p class="some">Гость из Бельгии</p>
+                <p class="other">забронировал проживание в: <a href="#">Les Jardins Du Marais</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

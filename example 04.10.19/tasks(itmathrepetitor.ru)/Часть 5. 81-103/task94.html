@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        main {
+            font-family: sans-serif;
+            overflow: hidden;
+        }
+        .blocks {
+            width: 700px;
+            padding: 15px;
+            border: 1px solid #DBDBDB;
+            overflow: hidden;
+            position: relative;
+        }
+        li > a {
+            color: #3CA9FB;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        li {
+            display: inline-block;
+            padding: 10px 40px;
+            background: #E9EFEC;
+            border: 1px solid #DBDBDB;
+        }
+        li:first-child {
+            margin-left: 20px;
+        }
+        ul {
+            border-bottom: 1px solid #DBDBDB;
+            padding-right: 50px;
+            margin: 0; padding: 0;
+            padding-right: 50px;
+            overflow: hidden;
+        }
+        .active {
+            background: #fff;
+            border-bottom: none;
+            position: absolute;
+            margin-left: 5px;
+            height: 20px;
+            z-index: 10;
+        }
+        .inputs, label, input  {
+            display: inline-block;
+        }
+        .other-label {
+            margin: 15px 0 5px 0px;
+        }
+        .num1 {
+            width: 320px;
+            padding: 10px;
+            border: 1px solid #CDCDCD;
+            border-radius: 5px;
+        }
+        input:focus {
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            border: 1px solid #999999;
+        }
+        progress {
+            margin: 10px 0;
+            width: 342px;
+            display: block;
+        }
+        label, p {
+            font-size: 12px;
+        }
+        .icon {
+            position: relative;
+            margin-left: 20px;
+        }
+        .icon::before {
+            content: "";
+            background: url("https://image.flaticon.com/icons/svg/1/1176.svg") 0px 0 no-repeat;
+            position: absolute;
+            left: -20px; top: -1px;
+            width: 20px; height: 20px;
+            background-size: 15px;
+        }
+        img {
+            margin-right: 5px;
+        }
+        .one1 > input {
+            margin: 0; padding: 0;
+        }
+        .one1 > label {
+            width: 200px;
+            color: #636363;
+        }
+        .creat {
+            background: #0795F9;
+            color: #fff;
+            padding: 7px 10px;
+            border: none;
+            border-radius: 2px;
+            margin: 10px 0 0;
+        }
+        .last-text {
+            font-family: monospace;
+            font-weight: bolder;
+            color: #4A7FA9;
+        }
+        .last-text > a {
+            color: #70B9E4;
+        }
+        .left-block {
+            position: absolute;
+            color: #375F93;
+            top: 75px; left: 420px;
+            width: 220px;
+        }
+        h4 {
+            margin-bottom: 0;
+        }
+        span {
+            margin-right: 20px;
+        }
+        .left-block > p > span::before {
+            content: "";
+            display: inline-block;
+            position: absolute;
+            left: 0;
+            background: url("https://cdn1.iconfinder.com/data/icons/jetflat-multimedia-vol-4/90/0042_089_check_well_ready_okey-512.png") 0px 0 no-repeat;
+            background-size: 15px;
+            width: 15px; height: 15px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="blocks">
+            <ul>
+                <li><a href="#">Войти</a></li>
+                <li class="active"><a href="#">Зарегистрироваться</a></li>
+            </ul>
+            <div class="inputs">
+                <label class="other-label" for="">Адрес электронной почты</label><br><input class="num1" type="text"><br>
+                <label class="other-label" for="">Пароль</label><br><input class="num1" type="password">
+            </div>
+            <progress value="70" max="100" ></progress>
+            <p class="icon">Высокая</p>
+            <div class="one1">
+                <label for=""><b><input type="checkbox">Я хочу получать рассылку с Эксклюзивными предложениями</b>
+                </label>
+            </div>
+            <button class="creat">Создать мой профиль</button>
+            <p class="last-text">Создавая аккаунт, вы соглашаетесь с нашими <a href="#">Правилами и условиями</a> и <a href="#">Положением о конфиденциальности</a></p>
+            <div class="left-block">
+                <h4>Быстро, бесплатно и<br> надежно!</h4><p><span></span>Вносите изменения в <br>бронирование</p>
+                <p><span></span>Настраивайте рассылку предолжений</p>
+                <p><span></span>Выигрывайте время</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

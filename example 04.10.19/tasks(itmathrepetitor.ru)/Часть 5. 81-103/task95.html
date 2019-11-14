@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        main {
+            font-family: sans-serif;
+            padding: 1px 20px;
+            background: #F2F2F2;
+            width: 700px;
+        }
+        div {
+            margin-bottom: 20px;
+        }
+        .value {
+            margin-left: 115px;
+        }
+        .up-comment {
+            display: inline-block;
+            width: 120px;
+
+        }
+        .inputing {
+            padding: 8px 8px;
+            width: 350px;
+        }
+        .comment {
+            margin: 5px;
+            margin-left: 120px;
+            font-size: 12px;
+        }
+        .button {
+            background: #55B334;
+            border: 0;
+            border-radius: 3px;
+            font-weight: bolder;
+            color: #fff;
+            font-size: 20px;
+            width: auto;
+            padding: 12px 35px;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+        .a1 {
+            display: inline-block;
+        }
+        .other {
+            vertical-align: middle;
+        }
+        .other > .up-comment {
+            margin: 0;
+            float: left;
+            margin-top: 20px;
+        }
+        .margin {
+            margin: 0;
+            margin-left: 120px;
+            font-size: 12px;
+        }
+        textarea {
+            float: right;
+            position: absolute;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="conteiner">
+            <h2>Бесплатно зарегистрироваться</h2>
+            <div class="value">
+                <input name="type" type="radio"><label name="freelancer" for="">Фрилансер </label><input name="type" type="radio"><label name="arbeitgeber" for="">Работодатель</label>
+            </div>
+            <div class="in-input">
+                <div class="writing">
+                    <label class="up-comment" for="">E-mail</label><input class="inputing" type="text">
+                    <p class="comment">Нигде не публикуется</p>
+                </div>
+            </div>
+            <div class="in-input">
+                <div class="writing">
+                    <label class="up-comment" for="">Логин</label><input class="inputing" type="text">
+                    <p class="comment">3--15 символов: латинские буквы, цифры, <br>занк почёркивания (_) и дефис (-)</p>
+                </div>
+            </div>
+            <div class="in-input">
+                <div class="writing">
+                    <label class="up-comment" for="">Пароль</label><input class="inputing" type="text">
+                    <p class="comment">От 6 до 24 символов. Допустимы латинские буквы, <br>циырф и знак подчёркивания (_)</p>
+                </div>
+            </div>
+            <div class="in-input">
+                <div class="other">
+                    <p class="up-comment" for="">Код с картинки</p><img height="60" width="100" src="https://cdn.tproger.ru/wp-content/uploads/2018/12/captcha2-770x270.jpg" alt=""><textarea name="" id="" cols="15" rows="3"></textarea>
+                    <p class="margin">
+                    <a href="#" class="a1">Обновить картинку</a>
+                    </p>
+                </div>
+            </div>
+            <div class="in-input">
+                <div class="writing">
+                    <label class="up-comment" for=""></label><input class="inputing button" type="submit" value="Зарегистрироваться">
+                    <p class="comment">Нажимая на кнопу "Зарегистрироваться", я соглашаюсь с <a href="#">публичной офертой</a><br> и <a href="#">правилами сайта</a>.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

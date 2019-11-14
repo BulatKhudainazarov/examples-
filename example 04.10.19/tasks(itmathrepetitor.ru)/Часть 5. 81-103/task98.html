@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .content {
+            padding: 20px;
+            font-family: sans-serif;
+            overflow: hidden;
+        }
+        main {
+            border: 1px solid #d0d0d0;
+            border-radius: 5px;
+            width: 600px;
+        }
+        h3 {
+            margin: 0;
+        }
+        .some-div {
+            width: 50%;
+            margin-bottom: 35px;
+            float: left;
+        }
+        .input-text {
+            padding: 10px;
+            width: 240px;
+            margin-bottom: 13px;
+            border-radius: 5px;
+            border: 1px solid #D0D0D0;
+        }
+        .next {
+            background: #0897FF;
+            color: #fff; border: 0;
+            float: right;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bolder;
+            margin-right: 18px;
+        }
+        .of-button > a {
+            text-decoration: none;
+            font-size: 13px;
+        }
+        footer {
+            background: #F3F4F8;
+            overflow: hidden;
+            padding: 20px 20px 20px;
+        }
+        footer > p, a {
+            font-size: 13px;
+            text-decoration: none
+        }
+        footer > p {
+            margin: 0;
+        }
+        footer > a {
+            color: #469BDC;
+            border-bottom: 1px dashed #469BDC;
+            margin-left: 25px;
+        }
+        footer > span::before {
+            content: "";
+            background: url("http://s1.iconbird.com/ico/2013/9/452/w512h3361380476923mail.png") 0 4px no-repeat;
+            background-size: 20px;
+            width: 50px; height: 50px;
+            position: absolute;
+        }
+        .some-div2 {
+            width: 50%;
+            float: right;
+        }
+        ul, li {
+            margin: 0 0 8px 35px; padding: 0;
+            list-style: none;
+        }
+        li::before {
+            width: 20px; height: 20px;
+            content: "";
+            background: url(https://toppng.com/public/uploads/preview/belaya-galochka-11550712758q3x3yvupgh.png) 0 0 no-repeat;
+            width: 20px; height: 20px;
+            display: inline-block;
+            background-size: 20px 20px;
+            position: relative;
+            top: 4px; right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="content">
+            <h3>Управляйте имеющимися бронированием</h3>
+            <div class="some-div">
+                <p>Регистрация не обязательна</p>
+                <input class="input-text" type="text" placeholder="Номер заказа">
+                <input class="input-text" type="text" placeholder="Пин.код">
+                <button class="next">Вперед</button><label for="" class="of-button"><a href="#">Где я могу найти эту информацию?</a></label>
+            </div>
+            <div class="some-div2">
+                <ul>
+                    <li>Измените даты</li>
+                    <li>Отредактируйте данные<br> гостей</li>
+                    <li>Напишите в объект<br> размещения</li>
+                    <li>Повысьте категорию <br> номера</li>
+                    <li>Отмените бронирование</li>
+                    <li>и многое другое</li>
+                </ul>
+            </div>
+        </div>
+        <footer>
+                <p>Не можете найти письмо с подтверждением бронирования?</p>
+                <span></span><a href="#">Мы отправим его вам еще раз</a>
+        </footer>
+    </main>
+</body>
+</html>

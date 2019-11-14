@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            background: url("https://www.toptal.com/designers/subtlepatterns/patterns/grid_noise.png");
+        }
+        .content {
+            margin: auto;
+            margin-top: 50px;
+            width: 700px;
+            text-align: center;
+            height: 42px;
+            background: #444444;
+            font-family: sans-serif;
+        }
+        .content::before {
+            content: '';
+            display: block;
+            width: 700px; height: 4px;
+            position: absolute;
+            background: #FF8400;
+            top: 94px;
+        }
+        a {
+            display: inline-block;
+            padding: 12px 20px;
+            text-decoration: none;
+            color: white;
+            margin: 0;
+        }
+        .active {
+            padding: 12px 40px;
+            background: #FF8400;
+            position: relative;
+            height: 20px;
+        }
+        .red {
+            background: #E42B2B;
+        }
+        .purple {
+            background: #A800FF;
+        }
+        .blue {
+            background: #49A7F3;
+        }
+        .green {
+            background: #41D05F;
+        }
+        a:hover {
+            background: #FF8400;
+
+            position: relative;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <a href="#" class="active">Главная</a><a href="#" class="red">Математика</a><a href="#" class="purple">Физика</a><a href="#" class="blue">Химия</a><a href="#" class="green">История</a>
+    </div>
+</body>
+</html>

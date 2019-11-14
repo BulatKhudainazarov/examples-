@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .block {
+            width: 400px;
+            height: 200px;
+            position: relative;
+        }
+        .blo {
+            height: 30px; width: 30px;
+            text-align: center;
+            line-height: 30px;
+            color: #fff;
+            font-weight: bold;
+            display: inline-block;
+        }
+        .plus {
+            background: grey;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+        .minus {
+            background: red;
+            border-bottom-right-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+        .plus:hover {
+            background: blue;
+        }
+        .minus:hover {
+            background: blue;
+        }
+        .plus:hover::before, .minus:hover::before {
+            content: "Зарегистрируйтесь, чтобы иметь возможность голосововать";
+            color: #000;
+            text-align: left;
+            width: 300px; height: 85px;
+            background: orange;
+            position: absolute;
+            bottom: 60px; right: -15px; 
+            font-family: sans-serif;
+            font-weight: normal;
+            box-sizing: border-box;
+            padding: 10px 10px 10px;
+            border-radius: 5px;
+        }
+        p {
+            display: inline-block;
+            color: grey;
+            font-weight: bold;
+            font-family: sans-serif;
+            font-size: 20px;
+            vertical-align: middle;
+        }
+        .plus:hover::after, .minus:hover:after {
+            content: '';
+            border: 12px solid transparent;
+            border-top: 13px solid orange;
+            position: absolute;
+        }
+        .plus:hover::after {
+            right: 53px; top: 0px; 
+        }
+        .minus:hover::after {
+            top: 0px; right: 3px;
+        }
+        .blocks {
+            position: absolute;
+            right: 0; bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="block">
+        <div class="blocks">
+            <div class="blo plus">+</div> <p>0</p>
+            <div class="blo minus">-</div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <script>
+        var double = function (number) {
+            return number * 2;
+        };
+        console.log(double(5) + double(3));
+        console.log(double(double(3)));
+// ---------------------------------------------------------------------- //
+        var pickRandomWord = function (words) {
+            return words[Math.floor(Math.random() * words.length)];
+        }
+
+        var randomWords = ["Планета", "Червяк", "Цветок", "Компьютер"];
+
+        console.log(pickRandomWord(randomWords));
+        console.log(pickRandomWord(["Чарли", "Радж", "Николь", "Кейт", "Сэнди"]));
+
+        var randomBodyParts = ["глаз", "нос", "череп"];
+        var randomAdjectives = ["вонючая", "унылая", "дурацкая"];
+        var randomWords = ["муха", "выдра", "дубина", "мартышка", "крыса"];
+        // Соединяем случайные строки в предложение:
+        var randomInsult = "У тебя " + pickRandomWord(randomBodyParts) + " словно " + pickRandomWord(randomAdjectives) + " " + pickRandomWord(randomWords) + "!!!";
+        console.log(randomInsult);
+        var generateRandomInsult = function() {
+            var randomBodyParts = ["глаз", "нос", "череп"];
+            var randomAdjectives = ["вонючая", "унылая", "дурацкая"];
+            var randomWords = ["муха", "выдра", "дубина", "мартышка", "крыса"];
+                // Соединяем случайные строки в предложение:
+            var randomInsult = "У тебя " + pickRandomWord(randomBodyParts) + " словно " + pickRandomWord(randomAdjectives) + " " + pickRandomWord(randomWords) + "!!!";
+            return randomInsult;
+        };
+        console.log(generateRandomInsult());
+        var fifthLetter = function(name) {
+            if (name.length < 5) {
+                return console.log("В веденном имени меньше чем 5 букв!");
+            } else {
+                return "Пятая буква в имени - " + name[4] + ".";
+            }
+        }
+        console.log(fifthLetter("And"));
+            var score = Math.floor(Math.random() * 10);
+            var medalForScore = function(score) {
+                if (score < 3) {
+                    return "Бронзовая";
+                }
+                if (score < 7) {
+                    return "Серебряная";
+                }
+                    return "Золотая";
+            }
+            console.log(medalForScore(score));
+
+        // #1. Математические расчеты и функции
+        var add = function(numadd, numadd1) {
+            return numadd + numadd1;
+        };
+        var multiply = function(nummulti, nummulti1) {
+            return nummulti * nummulti1;
+        };
+        var multiplyed = multiply(36325, 9824);
+        console.log(add(multiplyed, 777));
+        // #2. Совпадают ли массивы?
+        var areArraysSame = function(array1, array2) {
+            if (array1.length != array2.length) {
+                return false;
+            } else
+                for (var i = 0; i < array1.length; i++) {
+                    if (array1[i] === array2[i]) {
+                        return true;
+                    } else
+                        return false;
+                    }
+        }
+        areArraysSame([1, 2, 3], [4, 5, 6]);
+
+    </script>
+</body>
+
+</html>

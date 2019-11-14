@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .box {
+            position: absolute;
+            left: 50%;
+            top: 50px;
+            transform-origin: 50% 100%;
+        }
+        .box1 {
+            transform: rotateZ(-15deg);
+        }
+        .box3 {
+            transform: rotateZ(15deg)
+        }
+        .box:hover {
+            z-index: 2;
+        }
+    </style>
+</head>
+<body>
+    <img class="box box1" src="https://webref.ru/assets/files/3.png" alt="">
+    <img class="box box2" src="https://webref.ru/assets/files/7.png" alt="">
+    <img class="box box3" src="https://webref.ru/assets/files/ace.png" alt="">
+</body>
+</html>

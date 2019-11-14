@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        li, ul, p {
+            margin: 0; padding: 0;
+        }
+        li {
+            display: inline-block;
+        }
+        a {
+            position: relative;
+            border-radius: 4px;
+            text-decoration: none;
+            color: #FFF;
+            padding: 10px 20px;
+            display: inline-block;
+            font-family: sans-serif;
+        }
+        .white1 {
+            color: #595959;
+            background: #E3E3E3;
+        }
+        .grey {
+            background: #595959;
+        }
+        .orange {
+            background: #EE7540;
+        }
+        a > p {
+            font-family: serif;
+            font-size: 11px;
+            position: relative;
+        }
+        .content {
+            width: 130px;
+            position: relative;
+        }
+        .content::after {
+            content: "▼";
+            top: 16px; right: 10px;
+            position: absolute;
+            border-left: 4px dotted; padding-left: 10px;
+        }
+
+        /*hover start*/
+        .in-menu {
+            position: relative;
+        }
+        .list {
+            border-top: 5px solid #fff;
+            display: none;
+        }
+        .in-menu:hover > .list {
+            display: inline-block;
+            position: absolute;
+            top: 100%; left: 0;
+        }
+        .other {
+            width: 130px;
+            border-radius: 0;
+            padding-left: 60px;
+        }
+        .img1::before {
+            content: "";
+            position: absolute;
+            background: url(https://image.flaticon.com/icons/png/512/122/122118.png) 0px 0px no-repeat;
+            width: 60px; height: 60px;
+            background-size: 40px;
+            position: absolute;
+            left: 10px; top: 10%;
+        }
+        .img2::before {
+            content: "";
+            position: absolute;
+            background: url(https://library.kissclipart.com/20180918/vuq/kissclipart-video-play-icon-clipart-video-computer-icons-fe42a379dff4fe97.png) 0px 0px no-repeat;
+            width: 60px; height: 60px;
+            background-size: 40px;
+            position: absolute;
+            left: 10px; top: 10%;
+        }
+        .img3::before {
+            content: "";
+            position: absolute;
+            background: url(https://cdn0.iconfinder.com/data/icons/graphic-design-services-1/64/Word-Template-page-layout-design-512.png) 0px 0px no-repeat;
+            width: 60px; height: 60px;
+            background-size: 40px;
+            position: absolute;
+            left: 10px; top: 10%;
+        }
+
+        .in-menu > .list > li > a {
+            border: 5px solid #595959;
+        }
+        .in-menu > .list > li > a:hover {
+            background: #5DBDE0;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>
+            <a class="white1" href="#">
+            <span>Components</span>
+            <p>Работа с объектами</p>
+            </a>
+        </li>
+        <li class="in-menu">
+            <a class="grey content" href="#">
+            <span>Interface</span>
+            <p>Интерфейс</p>
+            </a>
+            <ul class="list">
+                <li class="">
+                    <a class="grey other img1" href="#">
+                    <span>Graphics</span>
+                    <p>Работа с графикой</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="grey other img2" href="#">
+                    <span>Multimedia</span>
+                    <p>работа с мультимедиа</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="grey other img3" href="#">
+                    <span>Template</span>
+                    <p>Темы для оформления</p>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li><a class="orange content" href="#">
+            <span>Directory</span>
+            <p>Справочник по C++</p>
+            </a>
+        </li>
+    </ul>
+</body>
+</html>

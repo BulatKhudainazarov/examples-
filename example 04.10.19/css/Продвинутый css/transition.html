@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .first a {
+            background: lightgrey;
+            color: grey;
+            padding: 5px 15px;
+            border: 2px solid aqua;
+        }
+        .first a:hover {
+            background: yellow;
+            color: red;
+        }
+        .first a.with-transition {
+            transition: 1s;
+        }
+        .first a.with-fast-transition {
+            transition: 0.5s;
+        }
+        .first a.with-slow-transition {
+            transition: 3s;
+        }
+        .second a {
+            color: gray;
+            background-color: lightgray;
+            padding: 8px
+        }
+        .second a:hover {
+            background: black;
+            color: white;
+            border: 5px solid #a9a9a9;
+        }
+        .second a.with-transition {
+            transition-duration: 5s;
+            transition-property: background;
+        }
+        .second a.transition-for-all {
+            transition-duration: 2s;
+        }
+    </style>
+</head>
+<body>
+  <div class="first">
+   <p>Задание 1.</p>
+    <ol>
+        <li>Задай 4 кнопки, с фоном lightgrey с цветом буков grey и с расстоянием от текста по вертикали 5px, а слевой и правой стороны по 15px</li>
+        <li>При наведении на кнопки должен меняться фон на yellow и цвет текста на red</li>
+        <li>Первая кнопка без перехода, вторая 1 сек, третья кнопка 0.5 сек, четвертая 3 сек </li>
+    </ol>
+    <!--<p class="borderp">-->
+    <a class="number1">Без перехода</a>
+    <a class="with-transition">Переход 1s</a>
+    <a class="with-fast-transition">Переход 0.5s</a><!--</p>-->
+    <a class="with-slow-transition">Переход 3s</a>
+   </div>
+   <div class="second">
+   <p>Задание 2:</p>
+    <ol>
+        <li>При наведении на первую кнопку появляется сплошная рамка 5px с цветом #a9a9a9 и цветом шрифта white ицветом фона black.</li>
+        <li>При наведении на вторую кнопку происходит все тоже самое, только фон меняется за 5 сек. </li>
+        <li>При наведдении на третью кнопку меняется все за 5 сек.</li>
+    </ol>
+    <a>Без перехода</a>
+    <a class="with-transition">Переход только для background</a>
+    <a class="transition-for-all">Переход для всех свойств</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            background: #f7f6f2;
+        }
+        figure {
+            display: inline-block;
+            padding: 12px;
+            margin: 0px;
+            overflow: hidden;
+            position: relative;
+        }
+        .one::after, .two::before {
+            content: '';
+            position: absolute;
+            z-index: 2;
+            width: 70px;
+            height: 70px;
+            left: -40px;
+            bottom: -40px;
+            transform: rotate(45deg);
+            box-shadow: 0 0 10px rgba(0,0,0,.5);
+            outline: #c2b59d dashed 1px;
+            outline-offset: -3px;
+            background: #f7f6f2;
+           }
+        .one::after {
+            left: auto;
+            right: -40px;
+            top: -40px;
+        }
+        figure img {
+            display: block;
+            padding: 4px;
+            background: #dad6cf;
+            border: 2px solid #c2b59d;
+        }
+    </style>
+</head>
+<body>
+    <figure class="one">
+        <img src="https://webref.ru/assets/files/cocktail.jpg" width="200" height="200" alt="">
+    </figure>
+    <figure class="two">
+        <img src="https://webref.ru/example/image/cocktail-2.jpg" width="200" height="200" alt="">
+    </figure>
+</body>
+</html>

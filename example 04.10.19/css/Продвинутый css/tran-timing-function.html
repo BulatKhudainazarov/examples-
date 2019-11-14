@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        div {
+            left: 0;
+            position: relative;
+            transition: 1s;
+            height: 20px;
+            width: 20px;
+
+            }
+        .easeInOutElastic {
+            transition-timing-function: easeInOutElastic;
+        }
+        .ease {
+                transition-timing-function: ease;
+            }
+        .linear { transition-timing-function: linear; } /* Постоянная скорость */
+        .ease-in { transition-timing-function: ease-in; }
+        .ease-out { transition-timing-function: ease-out; }
+        .ease-in-out { transition-timing-function: ease-in-out; }
+        div:nth-child(2) {
+                background: crimson;
+            }
+        div:nth-child(4) {
+                background: midnightblue;
+            }
+        div:nth-child(6) {
+                background: mediumseagreen;
+            }
+        div:nth-child(8) {
+                background: orangered;
+            }
+        div:nth-child(10) {
+                background: darkviolet;
+            }
+        main:hover div {
+            left: 460px;
+            }
+    </style>
+</head>
+<body>
+    <main>
+    <!--
+    transition-property: какие свойства анимируются;
+    transition-duration: как долго длится анимация;
+    transition-timing-function: как вычисляются промежуточные состояния;
+    transition-delay: анимация начинается через некоторое время.
+    -->
+  <p><strong>ease</strong>: медленно начинается, быстро в середине, медленно завершается</p>
+  <div class="ease"></div>
+   <p><strong>linear</strong>: постоянная скорость</p>
+  <div class="linear"></div>
+  <p><strong>ease-in</strong>: медленно начинается, быстро завершается</p>
+  <div class="ease-in"></div>
+  <p><strong>ease-out</strong>: быстро начинается, медленно завершается</p>
+  <div class="ease-out"></div>
+  <p><strong>ease-in-out</strong>: похоже на ease, но с более выраженным ускорением/замедлением</p>
+  <div class="ease-in-out"></div>
+    </main>
+</body>
+</html>

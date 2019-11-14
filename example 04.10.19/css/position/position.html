@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Elements of position</title>
+    <style>
+        p {
+            border: 1px solid blue;
+        }
+        .second {
+            border: 1px solid red;
+            position: relative;
+            top: 10px;
+            left: 20px;
+        }
+        section {
+            background-color: yellow;
+            height: 200px;
+            padding: 10px;
+            position: relative;
+        }
+        .name1 {
+            background: limegreen;
+            color: white;
+            padding: 10px;
+            position: absolute;
+            bottom: 10px;
+            left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <p>Едва мы спрятали лодку, Джа увлёк меня в джунгли, и вскоре мы вышли на узкую, хорошо утоптанную тропу.</p>
+    <p class="second">Я ринулся вверх, пытаясь в последнем усилии дотянуться до руки Джа, но ситик с такой силой рванул копьё на себя, что оно вырвалось из рук мезопа, едва не сорвавшегося со скалы, а я, всё ещё цепляясь за древко, полетел вниз, прямо в раскрытую пасть зверюги.</p>
+    <p>Он уже перешёл на бег, замахиваясь на ходу тяжёлым копьём.</p>
+    <section>
+        Я позиционирован относительно.
+        <p class="name1">Я позиционирован абсолютно</p>
+    </section>
+</body>
+</html>

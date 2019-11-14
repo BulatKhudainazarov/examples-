@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        ul {
+            margin: 0;
+            padding: 10px;
+            list-style: none;
+            font: normal 16px Arial, sans-serif;
+            counter-reset: num;
+            background: #f0f0f0;
+            overflow: hidden;
+        }
+        li {
+            float: left;
+            padding: 0 10px;
+        }
+        li::before {
+            counter-increment: num;
+            content: counter(num);
+            border-radius: 50%;
+            background: #d4d8d3;
+            padding: 5px 10px;
+            margin-right: 10px;
+        }
+        li.active::before {
+            background: #91be4a;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Заказ</li>
+        <li>Подтверждение</li>
+        <li class="active">Оплата</li>
+        <li>Доставка</li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        main {
+            font-family: sans-serif;
+            background: #ACACAC;
+            padding: 20px;
+        }
+        .first {
+            color: #646A6D;
+            font-size: 20px;
+        }
+        .form1 {
+            width: 700px;
+            margin: auto;
+            padding: 20px 30px;
+            border-radius: 10px;
+            text-align: center;
+            background: #F2F2F2;
+            position: relative;
+        }
+        .form1::after {
+            content: "";
+            width: 30px; height: 30px;
+            position: absolute;
+            background: #000;
+            border-radius: 50%;
+            border: 2px solid #fff;
+            box-shadow: 0 0 10px;
+            top: -17px; right: -17px;
+        }
+        .form > p {
+            text-align: center;
+        }
+        figure {
+            margin: 0;
+            width: 11.92%;
+            display: inline-block;
+            text-align: center;
+            overflow: hidden;
+        }
+        figcaption {
+            margin-top: 5px;
+        }
+        a {
+            color: #2270C3;
+            font-size: 14px;
+        }
+        .last {
+            color: #646a6d;
+            margin: 30px 0;
+            font-size: 14px;
+        }
+        p.someone {
+            color: #646a6d;
+            position: relative;
+            font-weight: bold;
+        }
+        p.someone::before {
+            content: "";
+            height: 1px; width: 28%;
+            background: #646a6d;
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: -30%;
+            margin-right: 2%;
+            top: 10px;
+            position: absolute;
+        }
+
+        p.someone::after {
+            content: "";
+            height: 1px; width: 28%;
+            background: #646a6d;
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: -30%;
+            margin-left: 2%;
+            position: absolute;
+            top: 10px;
+        }
+        .inputs {
+            text-align: center;
+            width: 70%;
+            float: left;
+        }
+        .inputs > input {
+            font-size: 15px;
+            padding: 8px 5px;
+            margin-top: 10px;
+        }
+        .button {
+            overflow: auto;
+            width: 30%;
+            text-align: center;
+        }
+        button {
+            background: #2072BC;
+            color: #fff;
+            padding: 10px 50px;
+            margin-top: 32px;
+        }
+        form {
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="form1">
+            <p class="first">Вы можете не регистрироваться, а просто войти, <br> если зарегестрированы на одном из:</p>
+            <div class="link">
+                <figure>
+                    <img width="50" src="http://pngimg.com/uploads/facebook_logos/facebook_logos_PNG19761.png" alt="">
+                    <figcaption><a href="#">Facebook</a></figcaption>
+                </figure>
+                <figure>
+                    <img width="50" src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/072011/b-vk2.png?itok=gkEsXZxE" alt="">
+                    <figcaption><a href="#">Вконтакте</a></figcaption>
+                </figure>
+                <figure>
+                    <img width="50" src="https://cdn0.iconfinder.com/data/icons/socicons/512/LiveJournal-512.png" alt="">
+                    <figcaption><a href="#">Livejournal</a></figcaption>
+                </figure>
+                <figure>
+                    <img width="50" src="https://iconorbit.com/icons/256-watermark/1804201618250052119-twitter%20t%20icon.jpg" alt="">
+                    <figcaption><a href="#">Twitter</a></figcaption>
+                </figure>
+                <figure>
+                    <img width="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Google_Chrome_icon_%28September_2014%29.svg/1200px-Google_Chrome_icon_%28September_2014%29.svg.png" alt="">
+                    <figcaption><a href="#">Google</a></figcaption>
+                </figure>
+                <figure>
+                    <img width="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Yandex.Browser_icon.svg/1200px-Yandex.Browser_icon.svg.png" alt="">
+                    <figcaption><a href="#">Yandex</a></figcaption>
+                </figure>
+                <figure>
+                    <img width="50" src="https://cdn.pixabay.com/photo/2016/06/13/17/30/mail-1454731_960_720.png" alt="">
+                    <figcaption><a href="#">Mail</a></figcaption>
+                </figure>
+                <figure>
+                    <img width="50" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR746-bNKDatdqMNgsANyUisBtt7WsDEnVllRsMVyol-SMXRdyDWQ&s" alt="">
+                    <figcaption><a href="#">OpenID</a></figcaption>
+                </figure>
+            </div>
+            <p class="last">зачем такая скучная и длинная анекта :) как представлена ниже ?</p>
+            <p class="someone">или все таки зарегестрироваться?</p>
+            <form action="#">
+                <div class="inputs">
+                    <input class="some-user" name="user" placeholder="Желаемый логин" type="text">
+                    <input placeholder="Имя на сайте" type="text" class="users-name">
+                </div>
+                <div class="inputs">
+                    <input class="some-user" name="user" placeholder="E-mail" type="text">
+                    <input placeholder="Пароль" type="password" class="users-name">
+                </div>
+                <div class="button">
+                    <button>ГОТОВО</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

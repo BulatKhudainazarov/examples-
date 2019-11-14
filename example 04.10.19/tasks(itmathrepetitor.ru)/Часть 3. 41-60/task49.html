@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .conteiner {
+            background: linear-gradient(to top, #445D62, #669197);
+            font-family: sans-serif;
+            width: 834px;
+            padding: 2px 0 2px 0;
+
+        }
+        .menu > a {
+            text-transform: uppercase;
+            color: white;
+            display: inline-block;
+            text-decoration: none;
+            padding: 10px 10px;
+            margin-right: 5px;
+            position: relative;
+        }
+        a:hover {
+            color: #C2EB86;
+        }
+        a:hover::before {
+            display: block;
+            position: absolute;
+            top: 37px;
+            content: '';
+            width: 100%; height: 4px;
+            background: #C2EB86;
+            left: 0
+        }
+        a.active::before {
+            display: block;
+            position: absolute;
+            top: 37px;
+            content: '';
+            width: 100%; height: 3px;
+            background: #3F565B;
+            left: 0
+        }
+        a.active {
+            color: #C2EB86;
+            background: #C2EB86;
+            color: #5C8188;
+
+            border-radius: 3px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="menu">
+            <a href="#">новости</a>
+            <a href="#" class="active">аналитика</a>
+            <a href="#">достижения науки</a>
+            <a href="#">наука и власть</a>
+            <a href="#">мнения</a>
+            <a href="#">территория</a>
+        </div>
+    </div>
+</body>
+</html>

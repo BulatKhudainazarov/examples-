@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let i = 0;
+        while (i < 3) {
+            console.log(i);
+            i++;
+        }
+        //****************************//
+        let condition = 0;
+        do {
+            // тело цикла.
+        } while (condition);
+        //****************************//
+        let i1 = 0;
+        do {
+            alert(i1);
+            i1++;
+        } while (i1 < 3);
+        // Цикл for //
+        for (let a = 0; a < 3; a++) { // Но при созданной в цикле переменной ее незлья испол. ВНЕ ЦИКЛА!!!
+            console.log(a + " Цикл for");
+        }// Или просто использовать существующую переменную
+        let i2 = 0;
+
+        for (i2 = 0; i2 < 3; i2++) {
+            alert(i2);
+        }
+        alert(i2); // Переменная i2 будет доступна так как была объявл до цикла
+    </script>
+</body>
+</html>

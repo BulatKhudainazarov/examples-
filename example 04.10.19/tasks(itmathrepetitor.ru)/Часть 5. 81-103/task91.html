@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        html {
+            font-family: sans-serif;
+        }
+        .salary {
+            width: 311px;
+            overflow: hidden;
+        }
+        .sum {
+            padding: 10px;
+            border: 1px solid #C5C5C5;
+            margin-right: 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .sum > span:first-child {
+            color: #88858E;
+            margin-right: 2px;
+        }
+        .sum, .normal {
+            vertical-align: middle;
+            display: inline-block;
+        }
+        h1 {
+            font-size: 21px;
+            margin-bottom: 5px;
+        }
+        ul {
+            display: inline-block;
+            margin: 0; padding: 0;
+        }
+        li {
+            display: inline-block;
+            text-transform: uppercase;
+            font-size: 11px;
+        }
+        div.months ul > li {
+            color: #948E8E;
+            font-size: 11px;
+            padding: 10px 14px;
+            background: #E4E4E4;
+        }
+        div.months ul > li:first-child {
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+        div.months ul > li:last-child {
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+        .middle > li {
+            color: #125793;
+            border-top: 2px solid #125793;
+            padding: 10px 13.6px;
+            float: left;
+        }
+        ul.middle {
+            position: relative;
+            height: 70px;
+            border-bottom: 1px solid #DCDCDC;
+        }
+        .one {
+            margin-top: 20px;
+        }
+        .num2 {
+            margin-top: 10px;
+        }
+        .num3 {
+            margin-top: 13px;
+        }
+        .num4 {
+            margin-top: 10px;
+        }
+        .num5 {
+            margin-top: 10px;
+        }
+        .num6 {
+            margin-top: 10px;
+        }
+        .first {
+            margin-top: 5px;
+            float: left;
+        }
+        .first > a {
+            font-weight: bold;
+            color: #3D7AB5;
+        }
+        .last {
+            margin-top: 5px;
+            position: relative;
+            float: right;
+        }
+        .last > a {
+            color: #BF7C5C;
+        }
+        a {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="salary">
+        <h1>Зарплаты</h1>
+        <div class="block1" >
+            <p class="sum"><span>$</span><b>1500</b></p><p class="normal" >Медиана зарплаты в <br>ИТ за 3 месяца</p>
+        </div>
+        <div class="months">
+            <ul class="mon-list">
+                <li>июн</li><li>июл</li><li>авг</li><li>сен</li><li>окт</li><li>ноя</li>
+            </ul>
+        </div>
+        <ul class="middle">
+            <li class="one">1200</li><li class="num2" >1500</li><li class="num3" >1400</li><li class="num4" >1500</li><li class="num5" >1500</li><li class="num6" >1500</li>
+        </ul>
+        <p class="first"><a href="#">Полный отчёт</a></p><p class="last"><a href="#">Добавить свою зарплату</a></p>
+    </div>
+</body>
+</html>

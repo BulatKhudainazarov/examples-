@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        .content {
+            width: 850px; height: 500px;
+            background-color: #E74C3C;
+            margin: auto;
+            text-align: center;
+            color: #fff;
+            font-family: sans-serif;
+            background-image: url("https://refactoring.guru/images/content-public/windmill-ugly.svg"), url("https://refactoring.guru/images/content-public/windmill-pretty.svg");
+            background-repeat: no-repeat;
+            background-position: 10% 80%, 90% 80%;
+            background-size: 150px, 150px;
+        }
+        .languages {
+            padding-top: 25px;
+        }
+        li {
+            display: inline-block;
+            background: #CD4538;
+        }
+        a {
+            display: inline-block;
+            text-decoration: none;
+            color: #fff;
+            height: 30px;
+            padding: 0 10px;
+            line-height: 20px;
+        }
+        a:hover {
+            background: #fff;
+            color: #CD4538;
+        }
+        .nul {
+            color: #CD4538;
+        }
+        .nul:hover {
+            color:  #fff;
+        }
+        ul {
+            margin: auto;
+            width: 290px;
+            border-radius: 50px;
+            background: #d04436 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAADdcAAA3XAUIom3gAAAAHdElNRQfgCxAKKDnylnTYAAAA6UlEQVQoz33RPUoDURTF8RtJoagrsLIwAzbuwGVYiJ2IYBv8aHQFmSKFKBbaCWYLaUw/YOsChHSDiJBC489iPmPhv3qPd7jv3HMiSmxJZXK5TCqJNroGfkx9e/GpYKjbPI9xJtHTc69iXEoMzR2W4hs8OPBcTIkICW7rzzp2nUZY9QSSkGJue8HTmkczkIYMbPyxXJGFHFy3BPsa8krAeYQVfX2vi4KsPM6c2MHcR0uQLcWknLwcl7EZxzGJ9ZbfSbFmw9SFdyPT8p4UQbX5chWh464Mqo66YU/HkVkddV1WxcjbQln/1/0LvgA8gpJmc10AAAAldEVYdGRhdGU6Y3JlYXRlADIwMTYtMTEtMTZUMTA6NDA6NTcrMDE6MDB2F9mNAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE2LTExLTE2VDEwOjQwOjU3KzAxOjAwB0phMQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAAASUVORK5CYII=") no-repeat 5% 50%;
+        }
+        h1 {
+            font-size: 44px;
+            display: inline-block;
+            margin:20px auto 10px;
+            border-bottom: 4px dotted #B42F21;
+            padding-bottom: 5px;
+        }
+        p {
+            font-size: 26px;
+            width: 240px;
+            margin: auto;
+        }
+        span {
+            padding-bottom: 10px;
+            border-bottom: 4px dotted #B42F21;
+        }
+        .buttons {
+            width: 250px;
+            margin: auto;
+        }
+        .buttons > a {
+            padding: 5px 20px;
+            padding-left: 40px;
+            border: 2px solid;
+            margin: 10px;
+            line-height: 30px;
+
+        }
+        .other {
+            margin-bottom: 25px;
+        }
+        .one {
+            background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZlcnNpb249IjEuMSIgaWQ9ImFsaWduLWoiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMTBweCIgaGVpZ2h0PSIxMHB4IiB2aWV3Qm94PSIwIDAgNTExLjYzIDUxMS42MzEiPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik00OTMuMzU2LDI3NC4wODhIMTguMjc0Yy00Ljk1MiwwLTkuMjMzLDEuODExLTEyLjg1MSw1LjQyOEMxLjgwOSwyODMuMTI5LDAsMjg3LjQxNywwLDI5Mi4zNjJ2MzYuNTQ1ICAgIGMwLDQuOTQ4LDEuODA5LDkuMjM2LDUuNDI0LDEyLjg0N2MzLjYyMSwzLjYxNyw3LjkwNCw1LjQzMiwxMi44NTEsNS40MzJoNDc1LjA4MmM0Ljk0NCwwLDkuMjMyLTEuODE0LDEyLjg1LTUuNDMyICAgIGMzLjYxNC0zLjYxLDUuNDI1LTcuODk4LDUuNDI1LTEyLjg0N3YtMzYuNTQ1YzAtNC45NDUtMS44MTEtOS4yMzMtNS40MjUtMTIuODQ3QzUwMi41ODgsMjc1Ljg5NSw0OTguMywyNzQuMDg4LDQ5My4zNTYsMjc0LjA4OHoiIGZpbGw9IiNmZmYiLz4KCQk8cGF0aCBkPSJNNDkzLjM1NiwzODMuNzIxSDE4LjI3NGMtNC45NTIsMC05LjIzMywxLjgxLTEyLjg1MSw1LjQyN0MxLjgwOSwzOTIuNzYyLDAsMzk3LjA0NiwwLDQwMS45OTR2MzYuNTQ2ICAgIGMwLDQuOTQ4LDEuODA5LDkuMjMyLDUuNDI0LDEyLjg1NGMzLjYyMSwzLjYxLDcuOTA0LDUuNDIxLDEyLjg1MSw1LjQyMWg0NzUuMDgyYzQuOTQ0LDAsOS4yMzItMS44MTEsMTIuODUtNS40MjEgICAgYzMuNjE0LTMuNjIxLDUuNDI1LTcuOTA1LDUuNDI1LTEyLjg1NHYtMzYuNTQ2YzAtNC45NDgtMS44MTEtOS4yMzItNS40MjUtMTIuODQ3QzUwMi41ODgsMzg1LjUzLDQ5OC4zLDM4My43MjEsNDkzLjM1NiwzODMuNzIxeiIgZmlsbD0iI2ZmZiIvPgoJCTxwYXRoIGQ9Ik01MDYuMjA2LDYwLjI0MWMtMy42MTctMy42MTItNy45MDUtNS40MjQtMTIuODUtNS40MjRIMTguMjc0Yy00Ljk1MiwwLTkuMjMzLDEuODEyLTEyLjg1MSw1LjQyNCAgICBDMS44MDksNjMuODU4LDAsNjguMTQzLDAsNzMuMDkxdjM2LjU0N2MwLDQuOTQ4LDEuODA5LDkuMjI5LDUuNDI0LDEyLjg0N2MzLjYyMSwzLjYxNiw3LjkwNCw1LjQyNCwxMi44NTEsNS40MjRoNDc1LjA4MiAgICBjNC45NDQsMCw5LjIzMi0xLjgwOSwxMi44NS01LjQyNGMzLjYxNC0zLjYxNyw1LjQyNS03Ljg5OCw1LjQyNS0xMi44NDdWNzMuMDkxQzUxMS42Myw2OC4xNDMsNTA5LjgyLDYzLjg2MSw1MDYuMjA2LDYwLjI0MXoiIGZpbGw9IiNmZmYiLz4KCQk8cGF0aCBkPSJNNDkzLjM1NiwxNjQuNDU2SDE4LjI3NGMtNC45NTIsMC05LjIzMywxLjgwNy0xMi44NTEsNS40MjRDMS44MDksMTczLjQ5NSwwLDE3Ny43NzgsMCwxODIuNzI3djM2LjU0NyAgICBjMCw0Ljk0NywxLjgwOSw5LjIzMyw1LjQyNCwxMi44NDVjMy42MjEsMy42MTcsNy45MDQsNS40MjksMTIuODUxLDUuNDI5aDQ3NS4wODJjNC45NDQsMCw5LjIzMi0xLjgxMiwxMi44NS01LjQyOSAgICBjMy42MTQtMy42MTIsNS40MjUtNy44OTgsNS40MjUtMTIuODQ1di0zNi41NDdjMC00Ljk1Mi0xLjgxMS05LjIzMS01LjQyNS0xMi44NDdDNTAyLjU4OCwxNjYuMjYzLDQ5OC4zLDE2NC40NTYsNDkzLjM1NiwxNjQuNDU2eiAgICAiIGZpbGw9IiNmZmYiLz4KCTwvZz4KPC9nPgoKPC9zdmc+Cg==");
+            background-repeat: no-repeat;
+            background-position: 13.5px 50%;
+            background-size: 15px;
+        }
+        .two {
+            background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZlcnNpb249IjEuMSIgaWQ9ImFycm93X2QiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMTBweCIgaGVpZ2h0PSIxMHB4IiB2aWV3Qm94PSIwIDAgNDQ0LjgxOSA0NDQuODE5Ij4KPGc+Cgk8cGF0aCBkPSJNNDM0LjI1MiwxODUuNzIxbC0yMS40MDktMjEuNDEzYy03LjQxOS03LjA0Mi0xNi4wODQtMTAuNTY0LTI1Ljk3NS0xMC41NjRjLTEwLjA5NSwwLTE4LjY1NywzLjUyMS0yNS43LDEwLjU2NCAgIGwtODMuOTM4LDgzLjkzOVY0Ny4yNTVjMC05LjktMy42MjEtMTguNDY0LTEwLjg1NS0yNS42OTdjLTcuMjM0LTcuMjMyLTE1Ljc5Ny0xMC44NS0yNS42OTMtMTAuODVoLTM2LjU0NSAgIGMtOS44OTcsMC0xOC40NjQsMy42MjEtMjUuNjkzLDEwLjg1Yy03LjIzNiw3LjIzMy0xMC44NSwxNS43OTctMTAuODUsMjUuNjk3djIwMC45OTJsLTgzLjkzOS04My45MzkgICBjLTcuMDQyLTcuMDQyLTE1LjYwNi0xMC41NjQtMjUuNjk3LTEwLjU2NGMtOS44OTYsMC0xOC41NTksMy41MjEtMjUuOTc5LDEwLjU2NGwtMjEuMTI4LDIxLjQxM0MzLjYxNSwxOTIuOTQ4LDAsMjAxLjYxNSwwLDIxMS43ICAgYzAsMTAuMjgyLDMuNjE5LDE4Ljg0OCwxMC44NDgsMjUuNjk4bDE4NS44NjQsMTg2LjE0NmM3LjA0NSw3LjA0NiwxNS42MDksMTAuNTY3LDI1LjY5NywxMC41NjcgICBjOS44OTcsMCwxOC41NTgtMy41MjEsMjUuOTc3LTEwLjU2N2wxODUuODY1LTE4Ni4xNDZjNy4wNDMtNy4wNDMsMTAuNTY3LTE1LjYwOCwxMC41NjctMjUuNjk4ICAgQzQ0NC44MTksMjAxLjgwNSw0NDEuMjk1LDE5My4xNDUsNDM0LjI1MiwxODUuNzIxeiIgZmlsbD0iI2ZmZiIvPgo8L2c+Cgo8L3N2Zz4K");
+            background-repeat: no-repeat;
+            background-position: 12.5px; center;
+            background-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="languages">
+           <ul><li><a href="#">English<sup>8</sup></a></li><li><a href="#">Русский<sup class="nul">0</sup></a></li><li><a href="#">Украiнська<sup>8</sup></a></li>
+           </ul>
+        </div>
+        <h1>REFACTORING</h1>
+        <p class="other">Controllable process improving your code without writing new <span>functionality.</span></p>
+        <div class="buttons">
+            <a class="one" href="#">Study the catalog</a>
+        </div>
+        <div class="buttons">
+            <a class="two" href="#">Learn more</a>
+        </div>
+    </div>
+</body>
+</html>

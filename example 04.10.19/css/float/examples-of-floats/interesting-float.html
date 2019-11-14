@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .nav, .content, .side {
+            padding: 10px;
+            box-sizing: border-box;
+            min-height: 100px;
+        }
+        .nav {
+            float: left; /* Колонка слева*/
+            width: 200px; /* Ширина колонки*/
+            background: #FDE9F1;
+        }
+        .content {
+            margin-left:  200px; /* Ширина колонки слева*/
+            margin-right: 20%; /* Ширина колонки справа*/
+            background: #C8EAF5;
+        }
+        .side {
+            width: 20%;
+            float: right;
+            background: #FFEAD0;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="nav">Навигация</div>
+        <div class="side">Боковая панель</div>
+        <div class="content">Содержимое</div>
+    </div>
+</body>
+</html>

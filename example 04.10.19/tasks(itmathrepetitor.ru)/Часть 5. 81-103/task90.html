@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        main {
+            min-height: 1000px;
+        }
+        .other-block {
+            background: #FAE4D2;
+            display: inline-block;
+            padding: 5px;
+            border-radius: 5px;
+            position: fixed;
+            top: 40%; right: 60px;
+        }
+        .support::before, .support:after {
+            content: "";
+            height: 0; width: 0;
+            border: 20px solid transparent;
+            border-left: 20px solid #D3C7BD;
+            position: absolute;
+        }
+        .support::before {
+            right: -40px;
+            top: 50%;
+        }
+        .support::after {
+            border-left: 20px solid #F2F2F2;
+            right: -38px;
+            top: 50%;
+        }
+        .other-block::before, .other-block::before {
+            content: "";
+            height: 0; width: 0;
+            border: 20px solid transparent;
+            border-left: 20px solid #FAE4D2;
+            position: absolute;
+            top: 50%; right: -40px;
+        }
+        .support {
+            width: 260px;
+            padding: 10px;
+            border: 1px solid #D3C7BD;
+            border-radius: 5px;
+            background: #F2F2F2;
+            position: relative;
+        }
+        img {
+            float: left;
+        }
+        .buttons > button {
+            padding: 7px 15px;
+            margin-right: 3px;
+            background: #E6E6E6;
+            border: none;
+        }
+        .chat {
+            top: 50%; right: -80px;
+            position: fixed;
+            display: inline-block;
+            background: #30A6CC;
+            color: #fff;
+            padding: 10px 30px;
+            font-weight: bold;
+            font-family: sans-serif;
+            transform: rotate(-90deg)
+        }
+        .chat > p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+   <main>
+    <div class="other-block">
+        <div class="support">
+            <img width="100" src="https://image.flaticon.com/icons/png/512/999/999094.png" alt="">
+            <p>Могу ли я Вам чем-то<br> помочь?</p>
+            <div class="buttons"><button>Да</button> <button>Нет</button></div>
+        </div>
+    </div>
+    <div class="chat">
+        <p>чат с оператором</p>
+    </div>
+    </main>
+</body>
+</html>

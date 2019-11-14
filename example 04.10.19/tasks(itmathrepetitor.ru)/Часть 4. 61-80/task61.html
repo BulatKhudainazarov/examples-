@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        aside {
+            width: 265px;
+            padding: 5px;
+        }
+        .first {
+            padding-left: 15px;
+            border-left: 5px solid #338F61;
+        }
+        h4 {
+            font-size: 22px;
+            margin: 5px 0 ;
+            color: #338F61;
+            font-weight: normal;
+        }
+        p, a {
+            font-family: sans-serif;
+        }
+        a {
+            color: #E76B37;
+        }
+        .other {
+            margin-left: 5px;
+            border-left: none;
+            position: relative;
+        }
+        h4::before {
+            content: '';
+            display: inline-block;
+            width: 5px; height: 5px;
+            background: #338F61;
+            position: absolute;
+            left: -5px;
+            top: 10px;
+        }
+        a.some {
+            color: #000;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .partners > a {
+            color: #fff;
+            padding: 10px 10px;
+            background: #000;
+            text-decoration: none;
+            display: block;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <aside>
+        <div class="first">
+            <h4>НЕТЛЕНКА</h4>
+            <p>Арсений Рогинский<br>
+            <a href="#">Нобелевская премия и память о терроре</a></p>
+            <p>Каха Бендукидзе<br><a href="#">"Обмена политических взглядов на комфортную жизнь не будет"</a></p>
+            <p>Теодор Шанин Борис Юдин<br><a href="#">Сила самоиронии. К 80-ти летию Юрия Левады</a></p>
+            <p>Сергей Неклюдов<br><a href="#">Гуманитарное знание и народная традиция</a></p>
+            <p>Михаил Фаворов<br><a href="#">Вакцины, вакцинация и их роль в общественном здравоохранении</a></p>
+        </div>
+        <div class="first other">
+            <h4>СЕМИНАРЫ</h4>
+        </div>
+        <div class="first other">
+            <h4>СПЕЦПРОЕКТЫ</h4>
+            <a href="#" class="some">Экологическая повестка.</a>
+            <a href="#" class="some">Открытое государство.</a>
+            <a href="#" class="some">Русская политейя.</a>
+            <a href="#" class="some">Прыжок в будущее.</a>
+            <a href="#" class="some">Проект "Москва".</a>
+            <a href="#" class="some">История: человек, институты</a>
+        </div>
+        <div class="first other">
+            <h4>ДОКУМЕНТЫ</h4>
+        </div>
+        <div class="first other">
+            <h4>О ПРОЕКТЕ</h4>
+        </div>
+        <div class="partners">
+            <a href="#">ПАРТНЕРЫ</a>
+        </div>
+    </aside>
+</body>
+</html>

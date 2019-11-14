@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        section {
+            width: 240px;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+            display: block;
+        }
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+       section li {
+            padding: 5px;
+            list-style: none;
+            border-bottom: 1px solid;
+        }
+        .textdec {
+            text-decoration: underline;
+            color: royalblue;
+        }
+        ul.second li {
+            border: 0;
+        }
+        a:hover {
+            color: royalblue;
+            text-decoration: underline;
+        }
+        ul.second a::before {
+            content: '\25ba';
+            margin-right: 2px;
+            font-size: 10px;
+            vertical-align: middle;
+        }
+        li:last-child {
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <section>
+       <ul>
+           <li><a href="#">Научное наследие</a></li>
+           <li><a class="textdec" href="#">Теория</a></li>
+           <ul class="second">
+            <li><a href="#">Отдельные издания</a></li>
+            <li><a href="#">Труды РАО</a></li>
+            <li><a href="#">Диссертационные <br>материалы</a></li>
+           </ul>
+           <li><a href="#">Практика</a></li>
+           <li><a href="#">История</a></li>
+           <li><a href="#">Периодические издания</a></li>
+           <li><a href="#">Справочные материалы</a></li>
+           <li><a href="#">Библиография</a></li>
+           <li><a href="#">Материалы научно-<br>парктических мероприятий</a></li>
+       </ul>
+    </section>
+</body>
+</html>

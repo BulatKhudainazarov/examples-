@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        a {
+            color: gray;
+            background-color: lightgray;
+            padding: 8px
+        }
+        a:hover {
+            background: black;
+            color: white;
+            border: 5px solid #a9a9a9;
+        }
+        a.with-transition {
+            transition-duration: 5s;
+            transition-property: background;
+        }
+        a.transition-for-all {
+            transition-duration: 2s;
+        }
+    </style>
+</head>
+<body>
+    <p>Задание 1:</p>
+    <ul>
+        <li>При наведении на первую кнопку появляется сплошная рамка 5px с цветом #a9a9a9 и цветом шрифта white ицветом фона black.</li>
+        <li>При наведении на вторую кнопку происходит все тоже самое, только фон меняется за 5 сек. </li>
+        <li>При наведдении на третью кнопку меняется все за 5 сек.</li>
+    </ul>
+    <a>Без перехода</a>
+    <a class="with-transition">Переход только для background</a>
+    <a class="transition-for-all">Переход для всех свойств</a>
+</body>
+</html>

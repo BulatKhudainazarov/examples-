@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0 8px;
+        }
+        .one {
+            margin-top: 5px;
+        }
+        section {
+            padding: 5px 35px;
+            font-size: 14px;
+            font-family: arial;
+            border-left: 1px solid #CBCBCB;
+        }
+        div {
+            background: #F6F5F3;
+            padding: 5px 7px;
+            border: 1px solid #CBCBCB;
+        }
+        div p {
+            margin: 0;
+            padding: 4px 0px;
+            letter-spacing: 1px;
+            font-size: 11px;
+            font-family:monospace;
+        }
+        span {
+            display: inline-block;
+            background: #F6F5F3;
+            padding: 5px;
+            border: 1px solid #CBCBCB;
+            font-size: 11px;
+            letter-spacing: 0.5px;
+            box-shadow: 0 0 1px 0 #E8E8E8;
+            border-radius: 2px;
+            font-family: monospace;
+        }
+        .average {
+            margin: 20px 0px;
+        }
+        .last {
+            margin: 30px 0 0;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <p class="one">Собираем проект:</p>
+        <div>
+            <p class="first">$ bem make</p>
+        </div>
+        <p>Первая сборка с <span>bem-tools</span> займет некоторое время, так как именно в этот момент в директорию проекта устанавливаются все необходимые npm-пакеты.</p>
+        <p class="average">Для запуска сервера выполняем:
+        </p>
+        <div>
+            <p>$ bem server</p>
+        </div>
+        <p class="average">
+            В результате вы увидите следующее сообщение:
+        </p>
+        <div>
+            <p style="overflow-x: scroll">info: Server is listening on port 8080. Point your browser to http://<em style="font-style: italic">localhost:8080/</em></p>
+        </div>
+        <p class="average"><strong>Проблемы?</strong></p>
+        <p class="last"> Если порт 8080 уже использутеся другой программмой, его можно переназанчить с помощью аргумента <span>-p</span>.</p>
+    </section>
+</body>
+</html>

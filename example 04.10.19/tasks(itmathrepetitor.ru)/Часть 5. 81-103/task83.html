@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .figures {
+            font-family: sans-serif;
+            position: relative;
+            width: 800px;
+        }
+        .one {
+            position: absolute;
+            top: 80px; left: 200px;
+            width: 0; height: 0;
+            border-style: solid;
+            border-width: 0px 30px 50px 30px;
+            border-color: transparent transparent #B0ECF0 transparent;
+            z-index: 1;
+        }
+        .some {
+            position: absolute;
+            left: 150px; top: 120px;
+            width: 60px; height: 10px;
+            border-style: solid;
+            border-width:  0px 50px 80px 50px;
+            border-color: transparent transparent #4DD0E2 transparent;
+            z-index: 1;
+        }
+        .block {
+            position: absolute;
+            width: 160px;
+            height: 0;
+            border-style: solid;
+            border-width: 0px 90px 150px 90px;
+            border-color: transparent transparent #00ACC2 transparent;
+            top: 210px; left: 60px;
+            z-index: 1;
+        }
+        .of_one {
+            position: absolute;
+            top: 83px; left: 537px;
+            z-index: 2;
+        }
+        .other::before {
+            margin-right: 125px;
+            top: 145px;
+        }
+        .of_one::before {
+            content: "";
+            height: 2px; width: 300px;
+            position: absolute;
+            background: #B16D93;
+            top: 8px; right: 5px;
+            margin-right: 155px;
+        }
+        .other::before {
+            margin-right: 100px;
+        }
+        .other {
+            top: 145px;
+        }
+        .other1 {
+            top: 260px;
+        }
+        .other1::before {
+            margin-right: 79px;
+        }
+    </style>
+</head>
+<body>
+    <div class="figures">
+        <p class="of_one">Floating action button</p>
+        <p class="of_one other">Raised button</p>
+        <p class="of_one other1">Flat button</p>
+        <div class="one"></div>
+        <div class="some"></div>
+        <div class="block"></div>
+    </div>
+</body>
+</html>

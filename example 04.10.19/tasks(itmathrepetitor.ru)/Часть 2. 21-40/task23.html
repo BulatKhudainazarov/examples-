@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            background: #BDBDBD;
+        }
+        section {
+            width: 500px;
+            position: relative;
+            margin: auto;
+        }
+        .trio {
+            padding: 20px;
+            position: absolute;
+        }
+        .trio::before {
+            content: '';
+            border: 50px solid transparent;
+            border-bottom: 50px solid green;
+        }
+        .large {
+            position: absolute;
+        }
+        .large::after {
+            content: '';
+            border: 70px solid transparent;
+            border-top: 160px solid green;
+        }
+        .first {
+            left: 60px;
+            top: 150px;
+        }
+        .large {
+            left: 180px;
+            top: 235px;
+        }
+        .last {
+            left: 300px;
+            top: 150px;
+        }
+    </style>
+</head>
+<body>
+   <section>
+    <div class="trio first"></div>
+    <div class="large"></div>
+    <div class="trio last"></div>
+    </section>
+</body>
+</html>

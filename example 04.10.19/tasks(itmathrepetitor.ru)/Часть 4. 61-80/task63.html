@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 20px;
+        }
+        .content {
+            width: 970px;
+            border: 2px solid #e1e1e1;
+            overflow: hidden;
+            padding: 20px;
+            padding-bottom: 0;
+        }
+        h1 {
+            text-align: center;
+        }
+        img {
+            float: left;
+        }
+        h3 {
+            display: inline-block;
+            margin: 35px auto 25px 20px;
+        }
+        .row1 {
+            display: inline-block;
+        }
+        ol {
+            padding-left: 20px;
+            margin: 20px auto 5px 0px;
+            width: 440px;
+        }
+        ul {
+            padding-left: 0;
+            margin: 20px auto 5px 0px;
+            width: 460px;
+            list-style: none;
+        }
+        li {
+            padding-bottom: 10px;
+        }
+        .row1:last-child {
+            margin-left: 20px;
+        }
+        .footer > h1 {
+            border-top: 1px solid #e1e1e1;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>When is refactoring needed?</h1>
+        <div class="string1">
+            <div class="row1">
+                <img width="90" src="https://refactoring.guru/images/content-public/r1.svg" alt="">
+                <h3>Rule of Three</h3>
+                <ol>
+                    <li>When you do something for the first time, you are just doing it to get done.</li>
+                    <li>When you do something similar for the second time, you cringe at having to repeat but do the same thing anyway.</li>
+                    <li>When you do something for the third time, you start refactoring.</li>
+                </ol>
+            </div>
+            <div class="row1">
+                <img width="90" src="https://refactoring.guru/images/content-public/r2.svg" alt="">
+                <h3>When adding a feature</h3>
+                <ol>
+                    <li><strong>Refactoring helps to understand other people's code.</strong> If it becomes necessary to add a feature to unclear code, refactoring it makes things obvious for you and those coming after you.</li>
+                    <li><strong>Refactoring makes it easier to add features.</strong> New features are added more smoothly and with less effort.</li>
+                </ol>
+            </div>
+        </div>
+        <div class="string2">
+            <div class="row1">
+                <img width="90" src="https://refactoring.guru/images/content-public/r3.svg" alt="">
+                <h3>When fixing a bug</h3>
+                <ul>
+                    <li>Bugs resemble cockroaches: they love to live in the darkest, mustiest places of your code. Clean up your code and the errors will practically find themselves.</li>
+                    <li>Managers appreciate proactive refactoring, since it eliminates the need to create special refactoring tasks later. Happy bosses mean happy programmers!</li>
+                </ul>
+            </div>
+            <div class="row1">
+                <img width="90" src="https://refactoring.guru/images/content-public/r4.svg" alt="">
+                <h3>During code review</h3>
+                <ul>
+                    <li>Review may be your last chance to tidy up your code before it becomes available to the public.</li>
+                    <li>The best way to review is together with the author of the code. You propose changes and decide, together with the author, how difficult it will be to implement various refactoring techniques. Small changes can be made right on the spot.</li>
+                </ul>
+            </div>
+        </div>
+    <div class="footer">
+        <h1>Let's get started!</h1>
+    </div>
+    </div>
+</body>
+</html>

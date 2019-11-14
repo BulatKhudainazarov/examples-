@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        figure {
+            position: relative;
+            display: inline-block;
+        }
+        img { display: block; }
+        .expand {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            right: 15px;
+            bottom: 15px;
+            padding: 5px;
+            background: rgba(255, 255, 255, 0.5) url(https://webref.ru/assets/files/expand.png) 50% 50% no-repeat;
+            background-size: 30px;
+            border: 1px solid #333;
+        }
+    </style>
+</head>
+<body>
+    <figure class="one">
+        <img src="https://webref.ru/assets/files/dessert.jpg" alt="">
+        <a href="#" class="expand"></a>
+    </figure>
+</body>
+</html>

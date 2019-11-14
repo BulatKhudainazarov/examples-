@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        "use strict"
+        // Можем писать так - let user = "John", age = 25, message = "Hello";
+        // Но лучше писать так
+        let user = "John";
+        let age = 25;
+        let message = "Hello";
+    /*  или вот так
+        let user = "John",
+            age = 25;
+            message = "Hello";
+    */  // приравниваем две переменные, итог будет таков что
+        // мы получим два алерта
+        alert(message);
+        let hello = "Hello world!";
+        let message1;
+        message1 = hello;
+
+        alert(hello);
+        alert(message1);
+        // чтобы создать не именяемую переменную мы должны создать константу
+        // ее нельзя изменять после создания
+        const myBirthday = "07.02.2000";
+        myBirthday = "1"; //тут будет ошибка
+
+    </script>
+</body>
+</html>

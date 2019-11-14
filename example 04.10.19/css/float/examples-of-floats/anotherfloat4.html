@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .sidebar, .content, footer {
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .row {
+            overflow: hidden;
+        }
+        .sidebar, .content {
+            min-height: 100px;
+        }
+        .sidebar {
+            float: left;
+            width: 200px;
+            background: #FFEAD0;
+        }
+        .content {
+            margin-left: 210px;
+            background: #C8EAF5;
+        }
+        footer {
+            margin: 10px 0;
+            background: #E2EDC1;
+        }
+        .two, .three {
+            padding: 10px;
+            box-sizing: border-box;
+            min-height: 100px;
+            margin-bottom: 10px;
+        }
+        .two {
+            float: right;
+            width: 200px;
+            background: #FFEAD0;
+        }
+        .three {
+            margin-right: 210px;
+            background: #C8EAF5;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <section class="sidebar">Боковая панель</section>
+        <section class="content">Содержимое</section>
+    </div>
+    <footer>Подвал</footer>
+
+    <div class="row">
+        <section class="two">Боковая панель</section>
+        <section class="three">Содержимое</section>
+    </div>
+</body>
+</html>

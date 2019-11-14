@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .content {
+            width: 700px;
+            overflow: hidden;
+        }
+        h4 {
+            width: 698px;
+            font-weight: normal;
+            margin: 0;
+            padding-bottom: 2px;
+            font-size: 20px;
+            border-bottom: 1px solid grey;
+        }
+        .list > a {
+            margin-top: 5px;
+            color: black;
+            display: inline-block;
+            padding: 5px;
+            border-bottom: 1px solid grey;
+        }
+        .list > a:hover {
+            border: 1px solid grey;
+            border-bottom: 2px solid #fff;
+            box-sizing: border-box;
+        }
+        img {
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h4>
+            Учебники и пособия
+        </h4>
+        <div class="list">
+            <a href="#">Все</a><a href="#">А</a><a href="#">Б</a><a href="#">В</a><a href="#">Г</a><a href="#">Д</a><a href="#">Е</a><a href="#">Ж</a><a href="#">З</a><a href="#">И</a><a href="#">К</a><a href="#">Л</a><a href="#">М</a><a href="#">Н</a><a href="#">О</a><a href="#">П</a><a href="#">Р</a><a href="#">С</a><a href="#">Т</a><a href="#">У</a><a href="#">Ф</a><a href="#">Х</a><a href="#">Ц</a><a href="#">Ч</a><a href="#">Ш</a><a href="#">Щ</a><a href="#">Э</a><a href="#">Ю</a><a href="#">Я</a><a href="#">Прочее</a>
+        </div>
+        <div class="block">
+            <img width="90" src="data:image/png;base64,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" alt="">
+            
+            <p><a href="#">Давыдов В. В. и др, Возрастная и педагогическая писхология. - 1979</a>
+            <br>Давыдов В. В. и др, Возрастная и педагогическая писхология. </p>
+        </div>
+    </div>
+</body>
+</html>

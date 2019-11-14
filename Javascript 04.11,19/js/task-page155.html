@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+</head>
+<body>
+   <h1 id="string-h1">Привет мир!</h1>
+   <p id="first-p"></p>
+   <h1 id="someh1">Мигающий заголовок</h1>
+   <h1 id="last-h1">Второй аргумент метода fadeTo()</h1>
+    <script>
+        // #1. Перечислите своих друзей (и сделайте их лучшими!)
+        $("#string-h1").text("Мои друзья");
+        var friends = ["Никита", "Дамир", "Ваня", "Илья", "Виль"];
+        for (var i = 0; i < friends.length; i++){
+            $("#first-p").append("<p>" + friends[i] + "</p>");
+        }
+        $("p").append(" лучший!");
+        $("p").fadeOut(0000).fadeIn(2500);
+
+        // #2. Мигающий заголовок // #3. Отложенная анимация
+        for (var i = 0; i < 5; i++) {
+            $("#someh1").fadeIn(1500).fadeOut(1500).delay(5000);
+        }
+        // #4. Метод fadeTo()
+        $("h1#last-h1").fadeTo(1000, 0.3);
+    </script>
+</body>
+</html>

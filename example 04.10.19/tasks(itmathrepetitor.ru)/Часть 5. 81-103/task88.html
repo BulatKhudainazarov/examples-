@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        main {
+            font-family: sans-serif;
+        }
+        .content {
+            width: 450px;
+        }
+        h1 {
+            position: relative;
+            padding: 10px 20px 15px 10px;
+            background: #CD000F;
+            width: 20%;
+            font-size: 15px;
+            text-align: center;
+            color: #fff;
+            margin: 0;
+        }
+        .other {
+            position: absolute;
+            text-align: left;
+            padding: 10px;
+            padding-left: 25px;
+            background: #fff;
+            width: 120%;
+            border: 2px solid #cd000f;
+            display: none;
+            left: 0; top: 60px;
+        }
+        main h1:hover > .other {
+            display: block;
+        }
+        a {
+            text-decoration: none;
+            color: #5C7981;
+            margin-top: 10px;
+            font-weight: bold;
+            font-size: 12px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="content">
+            <h1>Бытовая<br> техника
+            <div class="other">
+                <a href="#">Техника для дома</a>
+                <a href="#">Кухонная техника</a>
+                <a href="#">Приготовление кофе</a>
+                <a href="#">Товары для красоты для здоровья</a>
+                <a href="#">Климатическая техника</a>
+                <a href="#">Посуда</a>
+                <a href="#">Аксессуары и предметы<br> интерьера</a>
+            </div>
+            </h1>
+        </div>
+    </main>
+</body>
+</html>

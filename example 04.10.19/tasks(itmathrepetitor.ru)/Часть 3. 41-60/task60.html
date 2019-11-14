@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .back {
+            display: inline-block;
+            background: #FF0030;
+            border-radius: 20px;
+            padding: 6px 5px;
+        }
+        .in-block {
+            width: 500px; height: 100px;
+            border: 2px dashed #fff;
+            border-radius: 20px;
+            text-align: center;
+            line-height: 40px;
+            box-sizing: border-box;
+        }
+        p {
+            color: #fff;
+            font-size: 30px;
+        }
+        p::-moz-selection {
+            color: black;
+            background: #FE9857;
+        }
+        p::selection {
+            color: black;
+            background: #FE9857;
+        }
+    </style>
+</head>
+<body>
+    <div class="back">
+        <div class="in-block">
+            <p>www.itmathrepetitor.ru</p>
+        </div>
+    </div>
+</body>
+</html>

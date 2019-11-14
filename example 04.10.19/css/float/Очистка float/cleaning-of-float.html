@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .one {
+            font-size: 2em;
+            background: #e7e7e0;
+        }
+        .left, .right {
+            color: #d51920;
+            width: 50%;
+        }
+        .left {
+            float: left;
+        }
+        .right {
+            float: right;
+            text-align: right;
+        }
+    </style>
+</head>
+<body> <p>Каждый блок со стрелкой теперь занимает ширину 50% и в сумме они дают 100% ширины, поэтому абзац, идущий после arrow, начинается с новой строки.
+
+Данный метод применяется редко, поскольку не всегда можно явно указать ширину элементов, к тому же метод не решает проблему с высотой блока и его фоном (рис. 1).</p>
+    <div class="one">
+        <div class="left">←</div>
+        <div class="right">→</div>
+    </div>
+    <p>Текст</p>
+</body>
+</html>

@@ -1,0 +1,54 @@
+
+blockquote { padding-top: 20px; padding-bottom: 20px; padding-left: 20px; padding-right: 20px; }
+blockquote { padding: top bottom left right}
+
+blockquote { padding: 20px 0; }
+
+Установив два значения, 
+первое из них будет применяться сверху и снизу, 
+второе — справа и слева:
+
+/*
+       1 сверху
+          top
+          20px
+3 слева        4 справа
+  left           right
+    0              0
+       2 снизу
+         bottom
+         20px
+*/
+Но свойство padding становится интересным тем, 
+что оно может получить до четырёх значений
+
+blockquote { padding: 20px 0 10px 50px; }
+
+Порядок следующий: сверху, справа, снизу и слева.
+
+blockquote { padding: 20px 0; }
+
+	1 сверху
+          top
+          20px
+4 слева        2 справа
+  left           right
+    0              0
+       3 снизу
+         bottom
+         20px
+
+Другие свойства, для которых действует «колесо» сокращений
+Любое свойство, которое применяется ко всем четырём сторонам:
+
+margin
+padding
+border-width
+Таким образом, border является сокращенным свойством, 
+которое включает border-width, другое сокращённое свойство?
+
+На самом деле да. border (в таком порядке) — это сокращение для:
+
+border-width
+border-style
+border-color

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 20px 10px;
+        }
+        .first {
+            background: purple;
+            color: white;
+            padding: 25px;
+            border: 6px double white;
+        }
+        .second {
+            background: purple;
+            color: white;
+            padding: 25px;
+            outline: 2px solid white;
+            outline-offset: -4px;
+        }
+        .thrid {
+            background: purple;
+            padding: 1px;
+            margin: 2px 0;
+            border: 1px solid purple;
+        }
+        .thrid > div {
+            padding: 20px;
+            border: 2px solid white;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="first">Рамка вокруг текста</div>
+    <div class="second">Рамка вокруг текста</div>
+    <div class="thrid">
+        <div>Рамка вокруг текста</div>
+    </div>
+</body>
+</html>

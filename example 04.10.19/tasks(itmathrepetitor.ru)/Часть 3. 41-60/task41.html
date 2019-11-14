@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .conteiner {
+            width: 800px;
+            margin: auto;
+            font-family: sans-serif;
+            border: 1px solid #e1e1e1;
+            padding: 10px 20px;
+            overflow: hidden;
+        }
+        .date {
+            float: left;
+        }
+        .comment {
+            float: right;
+        }
+        .date1 {
+            width: 200px;
+            background: url("http://magon.net.ru/wp-content/themes/imagine/images/date-ico.png") 0 0 no-repeat;
+            background-size: 20px;
+            padding-left: 30px;
+        }
+        .blog {
+            background: url("http://magon.net.ru/wp-content/themes/imagine/images/cat-ico.png") 0 0 no-repeat;
+            padding-left: 30px;
+            background-size: 20px;
+            width: 310px;
+        }
+        .comment {
+            background: url("http://magon.net.ru/wp-content/themes/imagine/images/comment-ico-w.png") 0 0 no-repeat;
+            padding-left: 30px;
+            float: right;
+            background-size: 20px;
+        }
+        .date > a, .date, .comment > a {
+            color: #999999;
+            text-decoration: none;
+        }
+        .links > a {
+            display: inline-block;
+            padding: 5px;
+            background: #999999;
+            margin: 10px 0px 20px 10px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .img {
+            overflow: hidden;
+        }
+        .img > img {
+            float: left;
+        }
+        .text > p {
+            padding-left: 20px;
+            color: #999999;
+            overflow: auto;
+        }
+        .text p:first-child {
+            margin-bottom: 30px;
+        }
+        .last-link {
+            text-align: center;
+            margin-left: 55px;
+        }
+        .last-link > a {
+            font-style: italic;
+            text-decoration: none;
+            font-weight: 550
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <h1>Блог: техническое</h1>
+        <div class="head p">
+            <div class="date date1">Опубликовано: <a href="#"><strong>22/12/2011</strong></a></div>
+            <div class="date blog">Категория: <a href="#"><strong>Блог</strong></a></div>
+            <div class="comment"><a href="#"><strong>Оставить комментарий</strong></a></div>
+        </div>
+        <div class="links a">
+            <a href="#">blog</a>
+            <a href="#">lytdybr</a>
+            <a href="#">thoughts</a>
+        </div>
+        <div class="img">
+            <img src="http://magon.net.ru/wp-content/uploads/robotstxt.jpg" alt="">
+            <div class="text">
+                <p>Друзья, нужна помощь!</p>
+                <p>Бес попутал и я пару месяцев назад решил "оптимизировать" файл robot.txt на сайте. Дооптимизировался!</p>
+            </div>
+        </div>
+        <div class="last-link"><a href="#">Читать далее</a></div>
+    </div>
+</body>
+</html>

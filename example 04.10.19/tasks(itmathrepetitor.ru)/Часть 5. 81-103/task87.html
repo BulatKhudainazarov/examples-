@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .content {
+            padding: 10px 40px;
+            width: 400px;
+            overflow: hidden;
+            background: #E3E3E1;
+            font-family: sans-serif;
+        }
+        h1 {
+            margin: 0;
+            padding: 5px;
+            text-transform: uppercase;
+            background: #999999;
+            color: #fff;
+        }
+        .one {
+            float: left;
+            width: 50%;
+        }
+        .two {
+            float: right;
+            width: 50%;
+        }
+        h3 {
+            text-transform: uppercase;
+        }
+        h3, p {
+            padding-bottom: 2px;
+            margin-bottom: 0;
+            border-bottom: 1px solid #999;
+        }
+        span {
+            float: right;
+        }
+        .in-content {
+            width: 90%;
+            overflow: hidden;
+        }
+        .in-content > a {
+            color: #000;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        span {
+            background: #999;
+            border-radius: 20px;
+            vertical-align: middle;
+            margin-bottom:   0px;
+            display: inline-block;
+            padding: 2px;
+        }
+        p {
+            margin: 0; padding: 5px 0;
+            position: relative;
+        }
+        span {
+            position: absolute;
+            right: 10px; bottom: 8px;
+            color: #FFF;
+            font-weight: bold;
+        }
+        .active {
+            background: #A27EAE;
+            padding-left: 15px;
+            border-radius: 5px;
+            color: #fff;
+        }
+        p:hover {
+            background: #A27EAE;
+            padding-left: 15px;
+            border-radius: 5px;
+            color: #fff;
+        }
+        p:last-child {
+            border-bottom: none;
+        }
+        .first {
+            font-weight: bold;
+        }
+        .first::before {
+            content: "✔";
+            font-weight: bold;
+            margin-right: 5px;
+        }
+        .last-block {
+            display: inline-block;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>find filter</h1>
+        <div class="block one">
+            <div class="in-content">
+                <h3>licenses</h3>
+                <p class="first">Desktop</p>
+                <p>Webfont</p>
+                <p>Ebook</p>
+                <p>Application</p>
+                <p>OFL/Apache</p>
+            </div>
+        </div>
+        <div class="block two">
+            <div class="in-content">
+                <h3>family size</h3>
+                <p class="active">Any</p>
+                <p>4+ Styles</p>
+                <p>8+ Styles</p>
+                <p>12</p>
+                <p>Full Families <img src="" alt=""></p>
+            </div>
+        </div>
+        <div class="last-block"> 
+            <div class="block one">
+                <div class="in-content">
+                    <h3>downloads</h3>
+                    <p class="active">Show All</p>
+                    <p>Local Only</p>
+                    <p>Offsite Only</p>
+                </div>
+            </div>
+            <div class="block two">
+                <div class="in-content">
+                    <h3>Sort by</h3>
+                    <p class="active" >Alphabetical</p>
+                    <p>Recent</p>
+                    <p>Popular</p>
+                    <p>Hot Today</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

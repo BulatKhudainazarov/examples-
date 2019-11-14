@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .hours {
+            font-family: sans-serif;
+            padding: 0 20px 20px 20px;
+            background: #EFEFEF;
+            border-radius: 5px;
+            border: 1px solid #d0d0d0;
+            width: 650px; height: 100px;
+        }
+        select, input, button {
+            padding: 5px;
+            border-radius: 5px;
+            margin-right: 5px;
+        }
+        select:focus-within {
+            background: #E4E4E4;
+        }
+        input, button {
+            padding: 6px;
+            border: 1px solid #d0d0d0;
+        }
+        button {
+            background: #0099D5;
+            color: #fff;
+            padding: 6px 10px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="hours">
+            <h3>Искать уроки</h3>
+            <select name="ан" id="">
+                <option style="background-image: url("https://cdn.pixabay.com/photo/2013/07/13/12/03/flag-159070_960_720.png");" value="">Английский ↔ Русский</option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+            <select name="" id="">
+                <option value="">Все категории</option>
+                <option value="">Работа</option>
+                <option value="">Школа и университет</option>
+                <option value="">Путешествия</option>
+                <option value="">Самоучитель</option>
+                <option value="">Увлечения и хобби</option>
+                <option value="">Официальные тесты</option>
+            </select>
+            <input name="poisk" type="search" placeholder="на выбор"> <button>Поиска</button>
+        </div>
+    </main>
+</body>
+</html>

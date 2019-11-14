@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .conteiner {
+            padding: 15px;
+            background: #F1F2EF;
+            color: #fff;
+            width: 450px;
+            position: relative;
+            overflow: hidden;
+        }
+        .text {
+            background: #344963;
+            padding: 15px 0 15px 20px;
+            font-weight: bolder;
+            font-family: arial;
+            font-size: 35px;
+        }
+        .line {
+            width: 60px; height: 120px;
+            top: -20px;
+            background: #C9CED4;
+            position: absolute;
+            border: 10px solid #F1F2EF;
+            transform: rotate(15deg)
+        }
+        .line.one {
+            right: 100px;
+        }
+        .line.two {
+            width: 25px;
+            right: 63px;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="line one"></div>
+        <div class="text">АКЦЕНТЫ</div>
+        <div class="line two"></div>
+    </div>
+</body>
+</html>

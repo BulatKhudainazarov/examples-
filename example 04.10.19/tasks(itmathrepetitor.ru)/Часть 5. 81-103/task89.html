@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        main {
+            font-family: sans-serif;
+            position: relative;
+        }
+        .quote {
+            position: absolute;
+            top: 25px; left: 20px;
+            display: inline-block;
+            border-radius: 5px;
+            width: 240px;
+            color: #686667;
+            line-height: 22px;
+            padding: 10px;
+            background: #F7F7F7;
+        }
+        .quote::before {
+            content: '';
+            border: 20px solid transparent;
+            border-bottom: 20px solid #f7f7f7;
+            position: absolute;
+            right: -20px; bottom: 5px;
+        }
+        figure > p {
+            margin: 0;
+        }
+        figure {
+            top: 35px; left: 200px;
+            transform: rotate(10deg);
+            position: absolute;
+            display: inline-block;
+            text-align: center;
+            border: 2px solid #DCDCDC;
+        }
+        figurecaption p {
+            display: inline-block;
+            color: #686667;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <figure>
+            <p><img width="200" src="https://otvet.imgsmail.ru/download/01edd1a26fd0b18eece9107d06f5c0e6_i-15443.jpg" alt=""></p>
+            <figurecaption><p>Светлана, 23 года</p></figurecaption>
+        </figure>
+        <div class="quote"><q><i>Спасибо Динаре. Мы недолго говорили, конечно, но очень интересно! Никогда не думала, что можно так достоверно рассказать о чужой судьбе</i></q></div>
+    </main>
+</body>
+</html>

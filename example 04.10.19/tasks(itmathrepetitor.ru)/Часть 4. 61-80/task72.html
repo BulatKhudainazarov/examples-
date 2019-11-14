@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .content {
+            overflow: hidden;
+            width: 910px;
+            color: #71665D;
+            font-family: sans-serif;
+            padding: 0 20px 0;
+            border: 1px solid #e1e1e1;
+            margin: 0;
+            background: #FBFBEF;
+        }
+        h1, h1 > a {
+            text-decoration: none;
+            color: #71665D;
+            font-weight: normal;
+            padding-left: 20px;
+        }
+        .h1 {
+            border-bottom: 1px solid #e1e1e1;
+        }
+        .some {
+            padding: 20px;
+            border-bottom: 1px solid #e1e1e1;
+        }
+        .some > p {
+            margin: 2px;
+        }
+        .block {
+            float: left;
+            width: 25%;
+        }
+        .block:hover {
+            background: #FAF4E6;
+        }
+        .button:hover {
+            background: #d96654;
+        }
+        .link:hover {
+            color: #D96654;
+        }
+        .boldnum {
+            font-weight: bolder;
+            margin-right: 10px;
+        }
+        .boldnum-marg {
+            font-weight: bolder;
+        }
+        .someone {
+            height: 100px;
+        }
+        .preis {
+            color: #d96654;
+        }
+        p.preis {
+            padding: 40px 0 30px;
+        }
+        span.preis {
+            font-size: 37px;
+        }
+        a.button {
+            display: inline-block;
+            padding: 15px 20px;
+            font-size: 15px;
+            background: #4C3A3A;
+            color: #FBFBEF;
+            text-decoration: none;
+            font-weight: bold;
+            text-align: center;
+            border-radius: 4em/9em;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+        .num2active {
+            background: #FAF4E6;
+        }
+        .active {
+            color: #d96654;
+        }
+        .button.activebutton {
+            background: #d96654;
+        }
+    </style>
+</head>
+<body>
+   <div class="content">
+    <div class="block num1">
+        <div class="h1 first">
+            <h1 id="#1"><a class="link" href="#year">Year</a></h1>
+        </div>
+        <div class="some">
+            <p><span class="boldnum">2</span>Gb места</p>
+            <p><span class="boldnum">2</span>сайта / ftp акк.</p>
+            <p><span class="boldnum">2</span>базы данных</p>
+        </div>
+        <div class="some someone">
+            <p>Домен в подарок при оплате за год: <span class="boldnum-marg"><br>.ru</span></p>
+        </div>
+        <div class="some">
+            <p><span class="boldnum-marg">3</span> резервные копии</p>
+            <p><span class="boldnum-marg">стандартная</span></p>
+            <p>поддержка</p>
+            <p><span class="boldnum-marg">10 Гб</span> для почты</p>
+        </div>
+        <div class="some other1">
+            <p class="preis" ><span class="preis">1 300</span> руб./год</p>
+            <a name="year" href="#" class="button">РАЗМЕСТИТЬ САЙТ</a>
+        </div>
+    </div>
+    <div class="block num2active">
+        <div class="h1">
+            <h1 id="#1"><a class="link active" href="#Optimo">Optimo</a></h1>
+        </div>
+        <div class="some">
+            <p><span class="boldnum">4</span>Gb места</p>
+            <p><span class="boldnum">5</span>сайтов / ftp акк.</p>
+            <p><span class="boldnum">5</span>баз данных</p>
+        </div>
+        <div class="some someone">
+            <p>Домен в подарок при оплате за год: <span class="boldnum-marg"><br>.ru</span></p>
+        </div>
+        <div class="some">
+            <p><span class="boldnum-marg">3</span> резервные копии</p>
+            <p><span class="boldnum-marg">стандартная</span></p>
+            <p>поддержка</p>
+            <p><span class="boldnum-marg">10 Гб</span> для почты</p>
+        </div>
+        <div class="some other1">
+            <p class="preis" ><span class="preis">1 600</span> руб./год</p>
+            <a name="Optimo" href="#" class="button activebutton">Разместить сайт</a>
+        </div>
+    </div><div class="block num3">
+        <div class="h1">
+            <h1 id="#1"><a class="link" href="#Century">Century</a></h1>
+        </div>
+        <div class="some">
+            <p><span style=" margin: 0" class="boldnum">6.4</span> Gb места</p>
+            <p><span  style=" margin: 0" class="boldnum">10</span> сайтов / ftp акк.</p>
+            <p><span class="boldnum">∞</span>баз данных</p>
+        </div>
+        <div class="some someone">
+            <p>Домен в подарок <br> при оплате за год: <span class="boldnum-marg"><br>.ru, .biz, .com, .info,<br> .name, .net, .org, <br> .us </span></p>
+        </div>
+        <div class="some ">
+            <p><span class="boldnum-marg">3</span> резервные копии</p>
+            <p><span class="boldnum-marg">стандартная</span></p>
+            <p>поддержка</p>
+            <p><span class="boldnum-marg">10 Гб</span> для почты</p>
+        </div>
+        <div class="some other1">
+            <p class="preis" ><span class="preis">2 400</span> руб./год</p>
+            <a name="Century" href="#" class="button">Разместить сайт</a>
+        </div>
+    </div><div class="block num4">
+        <div class="h1">
+            <h1 id="#1"><a class="link" href="#Millennium">Millennium</a></h1>
+        </div>
+        <div class="some">
+            <p><span  style=" margin: 0" class="boldnum">12</span> Gb места</p>
+            <p><span style=" margin: 0" class="boldnum">20</span> сайтов / ftp акк.</p>
+            <p><span class="boldnum">∞</span>баз данных</p>
+        </div>
+        <div class="some someone">
+            <p>Домен в подарок <br> при оплате за год: <span class="boldnum-marg"><br>.ru, .biz, .com, .info,<br> .name, .net, .org, .us </span></p>
+        </div>
+        <div class="some">
+            <p><span class="boldnum-marg">3</span> резервные копии</p>
+            <p><span class="boldnum-marg">стандартная</span></p>
+            <p>поддержка</p>
+            <p><span class="boldnum-marg">10 Гб</span> для почты</p>
+        </div>
+        <div class="some other1">
+            <p class="preis" ><span class="preis">3 900</span> руб./год</p>
+            <a name="Millennium" href="#" class="button">Разместить сайт</a>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

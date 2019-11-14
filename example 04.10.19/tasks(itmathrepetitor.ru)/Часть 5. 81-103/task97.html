@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            background: url("http://subtlepatterns.com/patterns/grid_noise.png")
+        }
+        .block {
+            width: 500px; height: 300px;
+            background: #fff;
+            margin: auto;
+            margin-top: 150px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            overflow: hidden;
+        }
+        .block::after {
+            content: "Акция";
+            width: 300px; height: 50px;
+            display: block;
+            position: relative;
+            right: -300px; top: 25px;
+            background: #98C550;
+            text-align: center;
+            line-height: 50px;
+            font-size: 29px;
+            color: #5E6CAC;
+            font-family: sans-serif;
+            letter-spacing: 3px;
+            transform: rotate(45deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="block">
+
+    </div>
+</body>
+</html>

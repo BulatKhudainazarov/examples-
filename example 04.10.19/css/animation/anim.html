@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+    @keyframes around {
+          0% {
+            left: 0;
+            top: 0;
+          }
+          25% {
+            left: 240px;
+            top: 0;
+          }
+          50% {
+            left: 240px;
+            top: 140px;
+          }
+          75% {
+            left: 0;
+            top: 140px;
+          }
+          100% {
+            left: 0;
+            top: 0;
+          }
+        }
+
+        p {
+          animation: around 4s linear 0s infinite;
+          background: turquoise;
+          color: white;
+          height: 60px;
+          line-height: 60px;
+          margin: 0;
+          position: absolute;
+          text-align: center;
+          width: 60px;
+        }
+        .msg {
+          background: #fc0;
+          padding: 5px ;
+          position: absolute;
+          animation: move 10s infinite;
+        }
+        @keyframes move {
+            0% {
+                top: -100px;
+                right: 50px;
+            }
+            25% {
+                top: 0;
+                right: 50px;
+            }
+            50% {
+                top: 0;
+                right: 50px;
+            }
+            100% {
+                top: -100px;
+                right: 50px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <p>Привет</p>
+    <p class="msg">Кнопка</p>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .conteiner {
+            width: 600px;
+            font-family: sans-serif;
+            border: 0.5px solid #e1e1e1;
+            padding: 10px;
+        }
+        h1 {
+            font-size: 20px;
+            margin: 0 0 10px 40px;
+
+        }
+        .other, ul {
+            color: #999;
+            display: inline-block;
+            margin: 0;
+            padding-left: 10px;
+        }
+        .one {
+            width: 200px;
+            height: 70px;
+            border: 1px solid #e1e1e1;
+            border-radius: 5px;
+            float: left;
+        }
+        .other.one {
+            background: url("http://s017.radikal.ru/i410/1609/90/d727ffe92254.png") 20px 15px no-repeat;
+            background-size: 45px 40px;
+        }
+        .other p {
+
+            margin: 20px 0 0 70px;
+        }
+        .one {
+            text-decoration: none;
+            color: #393185;
+            font-weight: 600
+        }
+        li {
+            list-style: none;
+        }
+        li::before {
+            content: '•';
+            color: #393185;
+            font-weight: bold;
+            padding-right: 10px;
+        }
+        .in-link {
+            color: #999;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <h1>Сервис и помощь</h1>
+        <div class="block">
+            <a href="#" class="other one">
+
+                <p>Пункт самовызова</p>
+            </a>
+            <div class="other two">
+                <ul>
+                    <li><a class="in-link" href="#">Как сделать заказ</a></li>
+                    <li><a href="#" class="in-link">Способы оплаты</a></li>
+                    <li><a href="#" class="in-link">Возврат</a></li>
+                    <li><a href="#" class="in-link">Правила продажи</a></li>
+                </ul>
+            </div>
+            <div class="other three">
+                <ul>
+                    <li><a href="#" class="in-link">Публичная оферта</a></li>
+                    <li><a href="#" class="in-link">Ткани и уход за ними</a></li>
+                    <li><a href="#" class="in-link">Доставка</a></li>
+                    <li><a href="" class="in-link">Вопросы и ответы</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

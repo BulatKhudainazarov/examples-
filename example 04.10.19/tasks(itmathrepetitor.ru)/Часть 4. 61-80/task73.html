@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        main {
+            padding: 10px;
+            font-family: sans-serif;
+        }
+        .block {
+            padding: 15px 0 30px;
+            border-top: 1px dashed;
+            width: 1200px;
+            position: relative;
+            overflow: hidden;
+        }
+        img {
+            width: 200px;
+            margin-right: 15px;
+            float: left;
+        }
+        h1 {
+            position: relative;
+            margin: 0;
+        }
+        .block > h1::after {
+            content: "";
+            position: absolute;
+            background-position: 30% 50;;
+            background: url("http://pngimg.com/uploads/star/star_PNG41482.png");
+            background-size: 20px 20px;
+            background-repeat: repeat-x;
+            top: 7px; margin-left: 5px;
+        }
+        .valuation1::after {
+            width: 60px;
+            height: 20px;
+        }
+        .valuation2::after {
+            width: 80px;
+            height: 20px;
+        }
+        .valuation3::after {
+            width: 60px;
+            height: 20px;
+        }
+        .country {
+            display: inline-block;
+            color: #2D90E9;
+        }
+        h1 > a {
+            text-decoration: none;
+            color: #2D90E9;
+        }
+        .other {
+            color: #2D90E9;
+            font-weight: 700;
+        }
+        em, .comment {
+            color: #797C81;
+        }
+        .describing {
+            width: 820px;
+        }
+        .block-left {
+            position: absolute;
+            top: 0; right: 10px;
+            text-align: right;
+        }
+        .note {
+            color: #0897FF;
+            font-weight: bold;
+            font-size: 27px;
+            margin: 20px 0 5px;
+        }
+        .small {
+            font-size: 15px;
+            margin: 10px 0 10px ;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background: #0897FF;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="block">
+            <img src="https://tophotels.ru/icache/hotel_photos/83/17/4780/2280312_246x246.jpg" alt="">
+            <h1 class="valuation1"><a href="#">Citadines Kleber Strasbourg</a></h1>
+            <div class="describing">
+                <a class="country" href="#" >Страсбург</a>
+                <p class="main_text">Апарт-отель Citadines расположен рядом с площадью Клебера, всего в 10 минутах ходьбы от железнодорожного вокзала Страсбурга SNCF. До апартаментов можно подняться на лифте. <em>Сейчас 6 пользователей просматривают этот апарт-отель.</em> <a class="other link" href="#1">дополнительная информация</a></p>
+                <p class="comment" >Последнее бронирование: 24 минуты назад</p>
+            </div>
+            <div class="block-left">
+                <p class="note">Хорошо 7,7</p>
+                <p class="small">Оценка по 601 отзыву</p>
+                <a href="#" class="button">Показать цены</a>
+            </div>
+        </div>
+        <div class="block">
+            <img src="https://tophotels.ru/icache/hotel_photos/83/18/305021/2280273_246x246.jpg" alt="">
+            <h1 class="valuation2"><a href="#">Lagrange City Strasbourg</a></h1>
+            <div class="describing">
+                <a class="country" href="#" >Страсбург</a>
+                <p class="main_text">Отель Lagrane City de Strasbourg находиться в 5 минутах от железнодорожного вокзала и в 15 минутах ходьбы от очаровательного района Маленькая Франция. <em>Сейчас 8 пользователей просматривают этот апарт-отель.</em> <a class="other link" href="#1">дополнительная информация</a></p>
+                <p class="comment" >Последнее бронирование: 2 часа назад</p>
+            </div>
+            <div class="block-left">
+                <p class="note">Очень хорошо 8,2</p>
+                <p class="small">Оценка по 1127 отзыву</p>
+                <a href="#" class="button">Показать цены</a>
+            </div>
+        </div>
+        <div style="border-bottom: 1px dashed" class="block">
+            <img src="https://tophotels.ru/icache/hotel_photos/83/16/16712/2280081_246x246.png" alt="">
+                <h1 class="valuation3"><a href="#">Adagio Access Strasbourg Petite France</a></h1>
+            <div class="describing">
+                <a class="country" href="#" >Страсбург</a>
+                <p class="main_text">Апарт-отель с круглосуточной стройкой регистрации находится в центре города, всего в 1,5 км от Страсбургского собора. <em>Сейчас 2 <br>пользователей просматривают этот апарт-отель.</em> <a class="other link" href="#1">дополнительная информация</a></p>
+                <p class="comment" >Последнее бронирование: 1 час назад</p>
+            </div>
+            <div class="block-left">
+                <p class="note">Очень хорошо 8,1</p>
+                <p class="small">Оценка по 1503 отзыву</p>
+                <a href="#" class="button">Показать цены</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

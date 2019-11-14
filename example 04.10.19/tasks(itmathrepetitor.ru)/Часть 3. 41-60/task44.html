@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .conteiner {
+            padding: 5px 0 0 0;
+            width: 720px;
+            margin: auto;
+            font-family: sans-serif;
+            border: 1px solid #e1e1e1;
+        }
+        .conteiner > h1 {
+            color: #003580;
+            font-size: 16px;
+            font-weight: normal;
+            overflow: hidden;
+            margin-left: 5px;
+        }
+        .big-block {
+            background: #F2F5F9;
+
+            overflow: hidden;
+        }
+        .block  {
+            font-size: 14px;
+            padding: 25px 0 20px 0px;
+            margin-left: 10px;
+            border-bottom: 2px solid #FEBA02;
+            width: 700px;
+        }
+        .block > div {
+            display: inline-block;
+        }
+        div.one {
+            width: 125px;
+            color: #779bca;
+            vertical-align: top;
+            float: left;
+        }
+        .time {
+            width: 570px;
+            color: #003580;
+        }
+        .one.other {
+            height: 250px;
+        }
+        p.time {
+            padding: 0;
+            display: inline-block;
+            margin: 0;
+            margin-bottom: 10px;
+        }
+        p.yes {
+            background: #339900;
+            color: #fff;
+            padding: 5px 0 5px 5px;
+        }
+        .block:last-child {
+            border-bottom: none;
+        }
+        a {
+            color: #0896FF;
+            font-weight: bold;
+        }
+        .link {
+            padding-top: 20px;
+            text-align: right;
+        }
+        .link a {
+            text-decoration: none;
+        }
+        .link a::before {
+            content: '▲';
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="start" class="conteiner">
+        <h1>Порядок проживания — Gite Les Bambous</h1>
+        <div class="big-block">
+            <div class="block first">
+                <div class="one">Заезд</div>
+                <div class="time">17.00 - 20.00</div>
+            </div>
+            <div class="block">
+                <div class="one">Отъезд</div>
+                <div class="time">09.00 - 11.00</div>
+            </div>
+            <div class="block">
+                <div class="one">Отмена/ предоплата</div>
+                <div class="time">Правила отмены бронирования и предоплаты зависят от категории номера. Пожалуйста, <a href="#">введите даты проживания</a> и ознакомьтесь с условиями бронирования для требуемого номера.</div>
+            </div>
+            <div class="block">
+                <div class="one other">Размещение <br>детей и предоставление дополнительных кроватей</div>
+                <p class="time">Разрешается проживание детей любого возраста</p>
+                <p class="time yes">Бесплатно! При размешении всех детей младше 2 лет на детских кроватках проживание им предоставляется бесплатно.</p>
+                <p class="time">При размещении всех детей младше 16 лет на дополнительных кроватях взимается EUR 10 за ночь.</p>
+                <p class="time">Максимальное количество дополнительных кроватей в номере - 1.</p>
+                <p class="time">Дополнительные кровати и детские кроватки предоставляются по запросу. Требуется подтверждение со стороны отеля о предоставлении данной услуги.</p>
+                <p class="time">Дополнительные услуги не включаются автоматически в общую стоимость и оплачиваются отдельно во время вашего проживания.</p>
+            </div>
+            <div class="block">
+                <div class="one">Домашние животные</div>
+                <div class="time">Размещение домашних животных не допускается.</div>
+            </div>
+        </div>
+        <div class="link">
+            <a href="#start">В начало страницы</a>
+        </div>
+    </div>
+</body>
+</html>

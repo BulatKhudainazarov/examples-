@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        h1 {
+            position: relative;
+            width: 80px;
+            padding: 10px 20px 15px;
+            background: #D10013;
+            color: #fff;
+            font-size: 16px;
+        }
+        ul, li {
+            margin: 0; padding: 0;
+        }
+        li {
+            list-style: none;
+            margin-bottom: 10px;
+        }
+        ul {
+            position: absolute;
+            margin: 10px;
+            top: 51px; left: -10px;
+            width: 240px;
+            border: 2px solid #A9464B;
+            padding: 15px 25px;
+            padding-right: 5px;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+            display: none;
+        }
+        h1:hover > ul {
+            display: block;
+        }
+        a {
+            font-size: 14px;
+            text-decoration: none;
+            color: #1F5B7F
+        }
+        ul::before {
+            content: "";
+            border: 15px solid transparent;
+            border-bottom: 14px solid #FFFFFF;
+            position: absolute;
+            top: -27px; left: 42px
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Бытовая техника
+        <ul>
+            <li><a href="#">Техника для дома</a></li>
+            <li><a href="#">Кухонная техника</a></li>
+            <li><a href="#">Приготовление кофе</a></li>
+            <li><a href="#">Климатическая техника</a></li>
+            <li><a href="#">Товары для красоты и здоровья</a></li>
+            <li><a href="#">Посуда</a></li>
+            <li><a href="#">Аксессуары и предметы интерьера</a></li>
+        </ul>
+    </h1>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        a {
+            text-decoration: none;
+            display: block;
+            color: #E99440;
+            padding:  15px 5px;
+            background: #E3E3E3;
+            border-radius: 5px;
+            width: 100px;
+            text-align: center;
+            line-height: 10px;
+            position: relative;
+        }
+        a::before {
+            content: '';
+            border-left: 3px dotted #595959;
+            margin-right: 10px;
+        }
+        a:hover {
+            background: #595959;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+        a:hover::before {
+            content: '';
+            border-left: 3px dotted #e3e3e3;
+            margin-right: 10px;
+        }
+        a:hover::after {
+            content: '';
+            position: absolute;
+            border: 20px solid transparent;
+            border-left: 20px solid #595959;
+            text-align: center;
+            right: -40px;
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <a href="#">Отправить</a>
+    </div>
+</body>
+</html>

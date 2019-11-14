@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        main {
+            font-family: sans-serif;
+            padding: 10px;
+            width: 600px;
+        }
+        h1 {
+            margin: 0;
+            border-bottom: 1px solid #e1e1e1;
+            font-size: 16px;
+        }
+        label {
+            padding: 10px;
+            font-weight: bold;
+            display: block;
+        }
+        input, select {
+            margin-right: 10px;
+            border-radius: 5px;
+            padding: 5px 10px;
+        }
+        figure {
+            display: inline-block;
+            margin: 0 10px 10px 0;
+        }
+        figcaption {
+            text-align: center;
+        }
+        .last {
+            width: 100%;
+            background: #F5F5F5;
+            padding: 10px 20px;
+            overflow: auto;
+        }
+        .clear {
+            padding: 5px 10px;
+            float: left;
+            border-radius: 5px;
+            border: 1px solid #e1e1e1;
+        }
+        .next {
+            padding: 5px 10px;
+            float: right;
+            border-radius: 5px;
+            border: 1px solid #e1e1e1;
+            background: #00A1D7;
+            color: #fff;
+        }
+        .some1 {
+            border-radius: 5px;
+            border: 1px solid #e1e1e1;
+            background: #00A1D7;
+            color: #fff;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Регистрация Шаг 1 из 2 </h1>
+        <label for="">Имя</label>
+        <form action="#">
+            <input type="text"><button class="some1">Проверка</button>
+            <label for="">Страна</label><select placeholder="В" name="" id="">
+                <option value="">Выберите нужный вариант</option>
+                <option value="Россия">Россия</option>
+                <option value="США">США</option>
+                <option value="Финляндия">Финляндия</option>
+                <option value="Австралия">Австралия</option>
+            </select>
+            <label for="">Пол</label>
+            <figure>
+                <img width="50" src="https://image.flaticon.com/icons/png/512/46/46042.png" alt="">
+                <figcaption><input style="margin-right: 0;" name="sex" value="f" type="radio"></figcaption>
+            </figure>
+            <figure>
+                <img width="50" src="https://teamxx.files.wordpress.com/2011/03/kvindetegn.gif" alt="">
+                <figcaption><input style="margin-right: 0;" name="sex" value="men" type="radio"></figcaption>
+            </figure>
+            <div class="last">
+                <button type="reset" value="reset" class="clear">Отменить</button>
+                <button type="submit"  class="next">Далее</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

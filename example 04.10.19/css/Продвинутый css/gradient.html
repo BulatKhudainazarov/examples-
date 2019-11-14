@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        span {
+            color: pink;
+            background: black;
+        }
+        p {
+            width: 500px;
+        }
+        li {
+            width: 490px
+        }
+        div {
+            padding: 10px;
+            width: 300px;
+            margin: 10px 0 10px 0;
+        }
+        .deg1 {
+            background-image: linear-gradient(red, blue);
+        }
+        .deg {
+            background-image: linear-gradient(to bottom right, yellow, purple);
+        }
+        .deg2 {
+            background-image: linear-gradient(20deg, green, blue);
+        }
+        .deg3 {
+            background-image: linear-gradient(orange, grey, yellow)
+        }
+        .deg4 {
+            background-image: linear-gradient(orange 10%, grey 10%, yellow 50%)
+        }
+        .deg5 {
+            background-image: radial-gradient(red, yellow);
+            height: 2em;
+            text-align: center;
+            line-height: 2em;
+        }
+        .deg6 {
+            background-image: radial-gradient(at top right, black, lightgrey);
+        }
+        .deg7 {
+            background-image: radial-gradient(closest-corner at 20px 20px, green, blue);
+        }
+        .deg7:hover {
+            background-image: radial-gradient(farthest-side at 20px 20px, green, blue);
+        }
+        .deg8 {
+            background-image: radial-gradient(20px 10px at 75% 45%, darkviolet, pink);
+        }
+        input {
+            value:
+        }
+    </style>
+</head>
+<body>
+    <p>1. Задание:<br>Задай гардиент элементу div красного цвета сверху и синего снизу и отступами со всех сторон по 10px у всех эл. div ширина равна 300px и. Внутренний отступ элементов равен 10px со всех сторон, отступы между блоков равны сверху 10px и снизу 10px.</p>
+    <div class="deg1">Простой вертикальный фоновый градиент.</div>
+    <p>2. Задание:<br>Задай диагональный градиент с цветами yellow и purple и отступами со всех сторон 10px</p>
+    <div class="deg">Диагональный градиент от левого верхнего угла в правый нижний угол.</div>
+    <p>3. Задание:<br>Задай д.г. с цветами green и blue</p>
+    <div class="deg2">Диагональный градиент с углом 20 градусов.</div>
+    <p>4. Задание:<br>Задай трех цветный градиент с цветами: orange, grey, yellow.</p>
+    <div class="deg3">Довольно некрасивый градиент, но тут важна идея.</div>
+    <p>5. Задание:<br>Задай гардиент с цветами orange, gray и yellow соот. Только чтобы grey занимал 10% места, а yellow 50%</p>
+    <ol>
+        <li>у цвета orange не задана позиция цвета, так что значение по умолчанию равно 0%;</li>
+        <li>цвет grey ближе к верху, на 10% вместо 50%;</li>
+        <li>цвет yellow занимает половину градиента, от 50% и до конца 100%.</li>
+    </ol>
+    <div class="deg4">Тоже уродливый градиент, но тут важна идея.</div>
+    <p>6. Задание:<br>Задай радиальный(лучевой) градиент с цветами red и yellow и выровни его по центру и по вертикали.</p>
+    <div class="deg5">Это очень похоже на солнце, не так ли?</div>
+    <p>7. Задание:<br>Задай радиальный градиент перетекающийся с верху в право с цветами black и lightgrey соот., а также поиграй со след. значениями:</p>
+    <ul>
+        <li>closest-side</li>
+        <li>closest-corner</li>
+        <li>farthest-side</li>
+        <li>farthest-corner</li>
+    </ul>
+    <div class="deg6">Мрачный день.</div>
+    <p>8. Задание:<br>Задай р.г. с цветами green и blue.</p>
+    <div class="deg7">Наведите указатель мыши на эту зелёную звезду в небе, чтобы увидеть как она расширяется.</div>
+    <p>9. Задание:<br>Задай диск размером 20px и 10px и цветом <span>pink</span> по верху 45% и по длинне 75% </p>
+    <div class="deg8">Небольшой фиолетовый диск в море розового цвета.</div>
+    <form action="">
+        <p><input type="submit" value="Кнопка"><input type="submit" value="Кнопка"></p>
+    </form>
+</body>
+</html>
