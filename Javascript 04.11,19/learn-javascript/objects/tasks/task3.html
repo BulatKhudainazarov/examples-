@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Суть в том, что constanta защищает от изменения столько значение user
+        // все внутри user может быть изменено и так далее
+        const user = {
+            name: "John"
+        }
+
+        user.name = "Pete"; // Это будет работать, даже для константы
+        alert(user.name);
+        user = 123; // Здесь будет ошибка, так как user защищен const-ой
+    </script>
+</body>
+</html>

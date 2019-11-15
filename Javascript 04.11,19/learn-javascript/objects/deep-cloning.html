@@ -7,22 +7,29 @@
 <body>
     <script>
         let user = {
-            name: "John", 
+            name: "John",
             sizes: {
                 height: 182,
                 width: 50
             }
         };
-        
+
         console.log( user.sizes.height );
-        
+
         // скопировали user в cloneOfUser
         let cloneOfUser = Object.assign({}, user);
         console.log(cloneOfUser.sizes);
         cloneOfUser.sizes.height = cloneOfUser.sizes.height + 18;
         console.log(cloneOfUser.sizes);
-        // мы вывели старый user, но его вложенные объекты были изменены, это говорит о то что мы скопировали объект по ссылке, то есть sizes есть самое обычный объект, а как мы знает что объекты можерно 
+        // мы вывели старый user, но его вложенные объекты были изменены, это говорит о то что мы скопировали объект по ссылке, то есть sizes есть самое обычный объект, а как мы знает что объекты можено изменять по ссылке на этот самый объект
         console.log(user.sizes);
+        // сравниваем равны ли вложенные элементы
+        alert(user.sizes == cloneOfUser.sizes); // true они равны
+
+        // исправим эту ситуацию
+        let deepcloning = Object.assign({}, user.sizes);
+        console.log(deepcloning);
+        alert(user.sizes == deepcloning); // falce теперь все работает как нужно
     </script>
 </body>
 </html>

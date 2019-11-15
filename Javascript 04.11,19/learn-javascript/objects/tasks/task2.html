@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let schedule = {};
+
+        function isEmpty(obj) {
+            for (let key in obj) {
+                // если начнет выполнение, значит в объекте есть элементы
+                return false;
+            }
+            return true;
+        }
+
+        alert( isEmpty(schedule) ); // true
+    </script>
+</body>
+</html>

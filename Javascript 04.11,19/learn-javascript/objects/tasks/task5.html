@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let menu = {
+            width: 200,
+            height: 300,
+            title: "My menu"
+        };
+
+        function multiplyNumeric(someElement) {
+            for (let key in someElement) { // перебераем
+                if (typeof(someElement[key]) == "number") { // проверяем что переменные это числа
+                    someElement[key] *= 2; // умножаем
+                }
+            }
+        }
+        multiplyNumeric(menu); // вызываем действие
+        console.log(menu); // печатаем
+    </script>
+</body>
+</html>

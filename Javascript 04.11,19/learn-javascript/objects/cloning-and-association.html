@@ -5,6 +5,7 @@
     <title>Клонирование и обединение объектов</title>
 </head>
 <body>
+   <h1>Открой консоль</h1>
     <script>
         // Мы также может полностью скопировать объекты, а не просто работать с адресами на этот элемент
         // Копируемый элемент
@@ -14,41 +15,41 @@
         };
         // Пустой объект, скоро мы его заполним
         let clone = {};
-        
+
         for (let key in user) {
             clone[key] = user[key];
         }
-        
+
         console.log(user["name"]); // выведем первый элемент из ключа
         console.log(user.age);
-        console.log(clone["name"]); // проверим скопировалался объект 
+        console.log(clone["name"]); // проверим скопировалался объект
         clone.name = "Ivan";
         // поменяли только в клоне, в старом user все будет также
         console.log(clone.name + " изменили клониро значение");
-        
+
         // Тоже самое можно сделать с помощью метода object.assign
-        
+
         // object.assign(dest, [src1, src2, src3...])
         // метод копирует свойства src1... в объект dest
         let user1 = { name: "John" };
-        
+
         let permissions1 = { canView: true };
         let permissions2 = { canEdit: true };
-        
+
         Object.assign(user1, permissions1, permissions2);
         // сейча user1 будет равен {name: "John", canView: true, canEdit: true}
         console.log(user1);
-        
+
         // можем изменять старый объект и добавлять новые свойства
         Object.assign(user1, {name: "Pete", isAdmin: true, canView: "true1"});
-        
+
         console.log(user1);
-        
+
         // ну и просто можем скопировать целый объект в пустой объект
         let cloneOfUser1 = Object.assign({}, user1);
         console.log(cloneOfUser1);
-        
-        
+
+
     </script>
 </body>
 </html>
