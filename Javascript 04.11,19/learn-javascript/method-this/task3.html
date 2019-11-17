@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function makeUser() {
+            return {
+                name: "Джон",
+                ref: this
+            };
+        };
+
+        let user = makeUser();
+
+        alert ( user.ref.name ); //  Error: Cannot read property 'name' of undefined
+
+        function makeUser1() {
+            return {
+                name: "Джон",
+                ref() {
+                    return this;
+                }
+            };
+        };
+
+        let user1 = makeUser1();
+
+        alert( user1.ref().name ); // Джон
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.3.0/lodash.js"></script>
+
+</head>
+<body>
+    <script>
+
+        "use strict"
+        // проверка ввел ли пользователь именно число
+        let number1 = +prompt("Enter a number", "1");
+        // выведет true, когда аргумент - Infinity/-Infinity или не число
+        alert( isFinite(number1) );
+
+        // так же есть сравнение
+        alert(Object.is(NaN, NaN) === true);
+
+        /// для изменения переменной в число используем + или Number()
+
+        let someString = "123";
+        alert( Number(someString) === number() );
+    </script>
+</body>
+</html>

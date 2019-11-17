@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function ucFirst(name) {
+            let str = "";
+
+            let firstLetter = name[0].toUpperCase();
+
+            let lastLetters = name.substr(1, name.length);
+
+            str += firstLetter + lastLetters;
+
+            return str;
+        }
+        alert(ucFirst("Вася"));
+    </script>
+</body>
+</html>
