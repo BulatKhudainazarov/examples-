@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*
+        arr.forEach(function(item, index, array) {
+          // ... делать что-то с item
+        });
+        */
+        ["Bilbo", "Gandalf", "Nazgul"].forEach(alert);
+        ["Bilbo", "Gandalf", "Nazgul"].forEach((item, index, array) => {
+          alert(`${item} имеет позицию ${index} в ${array}`);
+        });
+    </script>
+</body>
+</html>

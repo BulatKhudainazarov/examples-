@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr = [1, 2];
+
+        // cоздать массив из: arr и добавить в конец [3,4]
+        alert( arr.concat([3,4]) ); // 1,2,3,4
+
+        // создать массив из arr и добавить [3,4] и [5,6]
+        alert( arr.concat( [3, 4], [5, 6] ) ); // 1,2,3,4,5,6
+
+        // создать массив из arr и добавить [3,4], потом добавить значения 5 и 6
+        alert( arr.concat( [3,4], 5, 6, )); 1,2,3,4,5,6
+
+        let arr = [1, 2];
+
+        let arrayLike = {
+            0: "что-то",
+            1: "ещё",
+            [Symbol.isConcatSpreadable]: true, // …Но если объект имеет специальное свойство Symbol.isConcatSpreadable, то он обрабатывается concat как массив: вместо него добавляются его числовые свойства.
+            length: 2 //Для корректной обработки в объекте должны быть числовые свойства и length:
+        };
+
+        alert( arr.concat(arrayLike) ); // 1,2,что-то,ещё
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // когда функц вызывается как new User(...) происходит следующее
+        /*
+        #1 Создается новый пустой объект в User{}, и он присваивается this
+        #2 Выполняется код функции, он модифицирует старый this, добавляя в него новое свойство то есть строку "Вася"
+        #3 Возвращает значение this
+        */
+        function User(name) {
+            this.name = name;
+            this.isAdmin = false;
+        }
+
+        let user = new User("Вася");
+        /*
+        После такого вызова, user будет следующим
+        let user = {
+            name: "Вася",
+            isAdmin: falce
+        };
+        */
+        alert(user.name); // Вася
+        alert(user.isAdmin); // false
+        console.log(user);
+    </script>
+</body>
+</html>
