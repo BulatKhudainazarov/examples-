@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function sumInput() {
+            let array =  [];
+
+            while(true) {
+                let numberOfUser = prompt("Введите число: ", 0);
+
+                if(numberOfUser === "" || numberOfUser === null || !isFinite(numberOfUser)) break;
+
+                array.push(+numberOfUser);
+            }
+
+            let sum = 0;
+            for (let number of array) {
+                sum += number;
+            }
+            return sum;
+        }
+
+        alert( sumInput() );
+    </script>
+</body>
+</html>
