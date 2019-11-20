@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let sum = 0;
+        
+        while(true) {
+            
+            let someNumber = +prompt("Введите число:", ""); 
+            
+            if (someNumber == "" || 
+                someNumber == null || 
+                !someNumber) {
+                break;
+            }
+            
+            sum += someNumber;
+            //|| someNumber == "" || someNumber = null);
+        }
+        
+        alert("Сумма: " + sum);
+    </script>
+</body>
+</html>
