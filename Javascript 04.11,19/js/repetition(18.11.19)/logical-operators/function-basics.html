@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function showMessage() {
+            alert("Всем привет!");
+        }
+
+        function plus(a, b, c) {
+            alert("Сумма чисел равна: " + (a + b + c));
+        }
+
+        function messageFromAnja(from, text) {
+            from = "*" + from + "*";
+            alert(from + " : " + text);
+        }
+
+        function emptySecond(from, text = " без текста") {
+            from = "Видал как круто, " + from + "Я не добавлю второго аргумента";
+            alert(from + text);
+        }
+
+        function mathic(text, a, b) {
+            text = `Сумма чисел ${a} и ${b} = `;
+            let sum = text + (a + b) + ";";
+            return alert( sum );
+        }
+
+        showMessage();
+        plus(10, 20, 10);
+        plus(1, 2, 3);
+
+        messageFromAnja("Аня", "Привет!");
+
+        mathic("text",10, 5);
+    </script>
+</body>
+</html>

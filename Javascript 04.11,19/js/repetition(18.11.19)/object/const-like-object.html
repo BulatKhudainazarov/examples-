@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let user = {
+          name: "John",
+          age: 30
+        };
+
+        user.car = "bmw";
+
+        let clone = {};
+
+        for (let key in user) {
+            clone[key] = user[key];
+        }
+
+        clone.name = "Pete";
+
+        for (let keys in clone) {
+            alert(keys + ": " + clone[keys]);
+        }
+
+        alert(user.name);
+
+    </script>
+</body>
+</html>

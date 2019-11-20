@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let age = +prompt("Сколько вам лет?", "18");
+        /*
+        let welcome = (age < 18) ?
+            function() { alert("Привет!") } :
+            function() { alert("Здравствуйте!") };
+        */
+        let welcome = (age < 18) ?
+            () => alert("Привет!"):
+            () => alert("Здравствуйте!");
+
+        welcome();
+    </script>
+</body>
+</html>

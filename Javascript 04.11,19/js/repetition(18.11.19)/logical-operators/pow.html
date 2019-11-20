@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let x = +prompt("x?"),
+            n = +prompt("n?");
+
+        function value() {
+            if (n >= 0) {
+                return x ** n;
+            } else {
+                alert(`Введено неверное значение степени ${n}`)
+            }
+        }
+        alert( value() );
+
+        /*
+        function pow(x, n) {
+            let result = x ** n;
+            return result;
+        }
+
+        let x = +prompt("x?");
+        let n = +prompt("n");
+
+        if (n < 1) {
+            alert(`Степень ${n} не поддерживается, используйте натуральное число`);
+        } else {
+            alert(pow(x, n));
+        }
+        */
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let user = {
+            name: "John",
+        }
+        let permissions1 = { canView: true };
+        let permissions2 = { camEdit: true };
+
+        Object.assign(user, permissions1, permissions2);
+
+        for (let keys in user) {
+            alert(keys + ": " + user[keys]);
+        }
+
+        let clone = Object.assign({}, user);
+
+        for (let keys in clone) {
+            alert(keys + ": " + clone[keys]);
+        }
+
+        alert(user == clone); // не равны так как скопированы
+
+
+    </script>
+</body>
+</html>
