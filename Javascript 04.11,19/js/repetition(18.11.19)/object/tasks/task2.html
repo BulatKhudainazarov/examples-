@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let schedule = {};
+
+        let example = {
+            name: "John",
+            car: "Lada",
+        }
+
+        //schedule["8:30"] = "get up";
+
+        function isEmpty(someObject) {
+            for (let key in someObject) {
+                return false;
+            }
+            return true;
+        }
+
+        alert(isEmpty(schedule));
+
+        alert(isEmpty(example));
+    </script>
+</body>
+</html>

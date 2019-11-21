@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function User(name) {
+            this.name = name;
+            this.isAdmin = false;
+
+            this.sayHi = function() {
+                alert("Меня зовут: " + this.name);
+            };
+        }
+
+        let user = new User("Вася");
+
+        alert(user.name);
+        alert(user.isAdmin);
+
+
+        let vasya = new User("ВАСЯ");
+        vasya.sayHi();
+        /* Тоже самое что и...
+        vasya = {
+            name: "ВАСЯ",
+            sayHi: function() {
+                alert("Меня зовут: " + this.name);
+            }
+        }
+        */
+
+
+    </script>
+</body>
+</html>

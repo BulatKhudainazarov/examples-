@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function ask(question, yes, no ){
+            (confirm(question)) ? yes() : no();
+        }
+        ask(
+            "Вы согласны?",
+            function () { alert("Вы согласились") },
+            function () { alert("Вы отменили действие") }
+        );
+    </script>
+</body>
+</html>

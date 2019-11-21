@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function ask(question, yes, no) {
+            confirm(question) ? yes() : no();
+        }
+
+        ask (
+            "Вы согласны?",
+            () => alert("Вы согласились."),
+            () => alert("Вы отменили выполнение.")
+        );
+
+        // else
+        /*
+        let ask = (question) =>
+            (confirm(question) ? alert("Вы согласились.") : alert("Вы отменили."));
+        ask("Вы согласны?");
+
+        */
+    </script>
+</body>
+</html>
