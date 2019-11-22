@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr = [];
+        let num = 0;
+        let sum = 0;
+        function sumInput() {
+            while (true) {
+                num = +prompt("Введите число", 0);
+
+                if (typeof(num) !== "number" || num == "" || num == null) {
+                    break;
+                };
+
+                arr.push(num);
+            }
+
+            for (let i = 0; i < arr.length; i++) {
+                    sum += arr[i];
+            }
+
+            alert(sum);
+        }
+
+        sumInput()
+    </script>
+</body>
+</html>

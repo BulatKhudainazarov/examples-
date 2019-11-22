@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let str = 'Ослик Иа-Иа посмотрел на виадук';
+
+        let target = "Иа";
+
+        let pos = 0;
+        while((pos = str.indexOf(target, pos +1)) != 1) {
+            alert(pos);
+        }
+    </script>
+</body>
+</html>
