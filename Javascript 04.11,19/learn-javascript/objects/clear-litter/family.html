@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function marry(man, woman) {
+            woman.husband = man; 
+            man.wife = woman;
+            
+            return {
+                father: man,
+                mother: woman
+            }
+        }
+        
+        let family = marry({
+            name: "John"
+        }, {
+            name: "Ann"
+        });
+    </script>
+</body>
+</html>
