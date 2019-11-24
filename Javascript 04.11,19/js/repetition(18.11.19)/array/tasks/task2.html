@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr = [0, 2, 30, 4, 5, 12, 3, 8, 1, 25];
+        function filterRange(array, a, b) {
+            return array.filter(item => (a <= item && item <= b));
+        };
+
+        let filtered = filterRange(arr, 0, 5);
+
+        alert(filtered);
+    </script>
+</body>
+</html>

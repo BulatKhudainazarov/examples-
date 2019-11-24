@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function filterRangeInPlace(array, a, b) {
+            arr = array.filter(item => (a <= item && item <= b));
+            return arr;
+        };
+
+        let arr = [5, 7, 3, 2, 2, 8, 1];
+
+        alert(filterRangeInPlace(arr, 1, 4));
+        alert(arr)
+    </script>
+</body>
+</html>

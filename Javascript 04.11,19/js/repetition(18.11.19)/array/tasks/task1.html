@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function camelize(str) {
+            let newWords = "";
+            str = str.split("-");
+
+            let newArr = str.map(function(item, index) {
+                return (index == 0) ? item : item[0].toUpperCase() + item.slice(1);
+            });
+            newArr = newArr.join("");
+            alert(newArr);
+        }
+
+        camelize("background-color");
+        camelize("list-style-image");
+        camelize("-webkit-transition");
+    </script>
+</body>
+</html>

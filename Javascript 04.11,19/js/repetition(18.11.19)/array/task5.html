@@ -6,10 +6,16 @@
 </head>
 <body>
     <script>
-        let arr = [1, -2, 3, 4, -9, 6];
+        "use strict"
+        let arr = [1, 2];
+        let arrayLike = {
+            0: "что-то",
+            1: "еще",
+            [Symbol.isConcatSpreadable]: true,
+            length: 2,
+        };
 
-
-
+        alert( arr.concat(arrayLike) );
     </script>
 </body>
 </html>
