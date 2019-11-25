@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        "use strict"
+        let users = [
+          {id: 1, name: "Вася"},
+          {id: 2, name: "Петя"},
+          {id: 3, name: "Маша"}
+        ];
+
+        let obj = users.find(item => item.id == 1);
+        alert(obj.name);
+
+        let indexOfObj = users.findIndex(index => index.id == 1);
+
+        alert(indexOfObj)
+    </script>
+</body>
+</html>

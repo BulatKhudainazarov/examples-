@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let vasya = { name: "Вася", age: 25 };
+        let petya = { name: "Петя", age: 30 };
+        let masha = { name: "Маша", age: 28 };
+
+        let users = [ vasya, petya, masha ];
+
+        let name = users.map(function(item) {
+            return item.name;
+        });
+
+        alert( name );
+    </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let users = [
+            {id: 1, name: "Вася"},
+            {id: 2, name: "Петя"},
+            {id: 3, name: "Маша"}
+        ];
+
+        let obj = users.filter(index => (index.id == 1));
+
+        alert(obj["0"].name);
+
+        /*let alertObj = obj.find(item => item.id == 1);
+
+        alert(alertObj.name)*/
+    </script>
+</body>
+</html>

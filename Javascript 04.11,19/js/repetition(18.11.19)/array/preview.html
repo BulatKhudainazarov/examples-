@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        "use strict"
+        let arr = ["Яблоко", "Апельсин", "Груша"];
+
+        for (let i = 0; i < arr.length; i++) {
+            alert(arr[i]);
+        }
+
+        for (let key in arr) {
+            alert(arr[key]);
+        }
+
+        for (let key of arr) {
+            alert(key);
+        }
+    </script>
+</body>
+</html>

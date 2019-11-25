@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr = ["Bilbo", "Gandalf", "Nazgul"];
+
+        arr.forEach(alert);
+
+        arr.forEach((item, index, array) => {
+            alert(`${item} имеет позицию ${index} в ${array}`);
+        });
+
+        let arr1 = [1, 0, false];
+
+        alert( arr1.indexOf(0,0) );
+        alert( arr1.indexOf(0, null));
+    </script>
+</body>
+</html>

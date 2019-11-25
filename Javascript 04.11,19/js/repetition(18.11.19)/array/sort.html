@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr = [1, -2, 15, 2, 0, 8];
+
+        function compare(a, b) {
+            if (a > b) return 1;
+            if (a == b) return 0;
+            if (a < b) return -1;
+        }
+
+        alert(arr.sort(compare));
+        alert(compare(1, 5));
+    </script>
+</body>
+</html>
