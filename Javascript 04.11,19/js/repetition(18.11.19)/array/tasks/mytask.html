@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let people = [
+            { name: "Владилен", age: 25, budget: 40000 },
+            { name: "Елена", age: 17, budget: 34000 },
+            { name: "Игорь", age: 49, budget: 50000 },
+            { name: "Михал", age: 15, budget: 18000 },
+            { name: "Василиса", age: 24, budget: 25000 },
+            { name: "Виктория", age: 38, budget: 2300 },
+        ];
+
+        //let igor = people.find(person => person.name === "Игорь");
+
+        //console.log(igor);
+
+        //let igorIndex = people.findIndex(person => person.name === "Игорь");
+
+        //console.log(igorIndex);
+
+        //let adults = people.filter(person => person.age >= 18);
+
+        //console.log(adults);
+
+
+        //let totalBudget = people.reduce((total, person) => total + //person.budget, 0)
+
+        //console.log(totalBudget);
+
+        // ==============
+
+        let filtered = people
+            .filter(person => person.budget >= 3000)
+            .map(person => {
+                return {
+                    info: `${person.name} (${person.age})`,
+                    budget: person.budget
+                }
+            })
+            .reduce((total, person) => total + person.budget, 0)
+
+        console.log(filtered);
+
+    </script>
+</body>
+</html>
