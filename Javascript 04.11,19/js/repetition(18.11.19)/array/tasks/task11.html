@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let vasya = { name: "Вася", age: 25 };
+        let petya = { name: "Петя", age: 30 };
+        let masha = { name: "Маша", age: 29 };
+
+        let arr = [ vasya, petya, masha ];
+        
+        function getAverageAge(users){
+            let averageAge = 0;
+            users.map(function(item) {
+                averageAge += item.age;
+            });
+            return averageAge / users.length;
+        };
+        
+        alert(getAverageAge(arr));
+        
+        
+    </script>
+</body>
+</html>
