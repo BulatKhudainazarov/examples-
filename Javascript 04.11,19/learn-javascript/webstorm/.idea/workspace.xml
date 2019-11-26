@@ -67,29 +67,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.weakset.js">
-    <configuration name="practish.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/map-set/practish.js" working-dir="$PROJECT_DIR$/map-set">
+  <component name="RunManager" selected="Node.js.task2.js (1)">
+    <configuration name="task1(2).js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/destructuring-assignment/task1(2).js" working-dir="$PROJECT_DIR$/destructuring-assignment">
       <method v="2" />
     </configuration>
-    <configuration name="task1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/WeakSet-Map/task1.js" working-dir="$PROJECT_DIR$/WeakSet-Map">
+    <configuration name="task1(2).js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/keys-values-entries/task1(2).js" working-dir="$PROJECT_DIR$/keys-values-entries">
       <method v="2" />
     </configuration>
-    <configuration name="task2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/WeakSet-Map/task2.js" working-dir="$PROJECT_DIR$/WeakSet-Map">
+    <configuration name="task1.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/destructuring-assignment/task1.js" working-dir="$PROJECT_DIR$/destructuring-assignment">
       <method v="2" />
     </configuration>
-    <configuration name="weakmap.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/WeakSet-Map/weakmap.js" working-dir="$PROJECT_DIR$/WeakSet-Map">
+    <configuration name="task2.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/destructuring-assignment/task2.js" working-dir="$PROJECT_DIR$/destructuring-assignment">
       <method v="2" />
     </configuration>
-    <configuration name="weakset.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/WeakSet-Map/weakset.js" working-dir="$PROJECT_DIR$/WeakSet-Map">
+    <configuration name="task2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/keys-values-entries/task2.js" working-dir="$PROJECT_DIR$/keys-values-entries">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.weakset.js" />
-        <item itemvalue="Node.js.weakmap.js" />
-        <item itemvalue="Node.js.practish.js" />
+        <item itemvalue="Node.js.task2.js (1)" />
+        <item itemvalue="Node.js.task1(2).js (1)" />
+        <item itemvalue="Node.js.task1.js (1)" />
         <item itemvalue="Node.js.task2.js" />
-        <item itemvalue="Node.js.task1.js" />
+        <item itemvalue="Node.js.task1(2).js" />
       </list>
     </recent_temporary>
   </component>
@@ -117,7 +117,7 @@
       <workItem from="1574699738306" duration="363000" />
       <workItem from="1574701012362" duration="836000" />
       <workItem from="1574702531986" duration="645000" />
-      <workItem from="1574703752667" duration="10263000" />
+      <workItem from="1574703752667" duration="15630000" />
     </task>
     <task id="LOCAL-00001" summary="Тестирую git">
       <created>1574698627097</created>
