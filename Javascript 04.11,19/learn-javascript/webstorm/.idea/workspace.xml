@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3c8c148-8a9e-4260-b13f-9418acf13e08" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webstorm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webstorm.iml" afterDir="false" />
-    </list>
+    <list default="true" id="c3c8c148-8a9e-4260-b13f-9418acf13e08" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +45,15 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Desktop\Git-Projects\examples-\Javascript 04.11,19\learn-javascript\webstorm\map-set" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -64,25 +67,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.mapset.js">
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webstorm/index.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="Node.js.weakset.js">
+    <configuration name="practish.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/map-set/practish.js" working-dir="$PROJECT_DIR$/map-set">
       <method v="2" />
     </configuration>
-    <configuration name="newindex.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webstorm/newindex.html" useBuiltInWebServerPort="true">
+    <configuration name="task1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/WeakSet-Map/task1.js" working-dir="$PROJECT_DIR$/WeakSet-Map">
       <method v="2" />
     </configuration>
-    <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/main.js" working-dir="$PROJECT_DIR$">
+    <configuration name="task2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/WeakSet-Map/task2.js" working-dir="$PROJECT_DIR$/WeakSet-Map">
       <method v="2" />
     </configuration>
-    <configuration name="mapset.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/mapset.js" working-dir="$PROJECT_DIR$">
+    <configuration name="weakmap.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/WeakSet-Map/weakmap.js" working-dir="$PROJECT_DIR$/WeakSet-Map">
+      <method v="2" />
+    </configuration>
+    <configuration name="weakset.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/WeakSet-Map/weakset.js" working-dir="$PROJECT_DIR$/WeakSet-Map">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.mapset.js" />
-        <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="Node.js.main.js" />
-        <item itemvalue="JavaScript Debug.newindex.html" />
+        <item itemvalue="Node.js.weakset.js" />
+        <item itemvalue="Node.js.weakmap.js" />
+        <item itemvalue="Node.js.practish.js" />
+        <item itemvalue="Node.js.task2.js" />
+        <item itemvalue="Node.js.task1.js" />
       </list>
     </recent_temporary>
   </component>
@@ -110,7 +117,7 @@
       <workItem from="1574699738306" duration="363000" />
       <workItem from="1574701012362" duration="836000" />
       <workItem from="1574702531986" duration="645000" />
-      <workItem from="1574703752667" duration="3323000" />
+      <workItem from="1574703752667" duration="10263000" />
     </task>
     <task id="LOCAL-00001" summary="Тестирую git">
       <created>1574698627097</created>
