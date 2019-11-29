@@ -44,11 +44,12 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -68,29 +69,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.includes.js">
-    <configuration name="includes.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/methods-array/includes.js" working-dir="$PROJECT_DIR$/methods-array">
+  <component name="RunManager" selected="Node.js.task7.js">
+    <configuration name="task5(2).js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/methods-array/tasks/task5(2).js" working-dir="$PROJECT_DIR$/methods-array/tasks">
       <method v="2" />
     </configuration>
-    <configuration name="kat.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/other-tasks/kat.js" working-dir="$PROJECT_DIR$/other-tasks">
+    <configuration name="task5.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/methods-array/tasks/task5.js" working-dir="$PROJECT_DIR$/methods-array/tasks">
       <method v="2" />
     </configuration>
-    <configuration name="sort.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/methods-array/sort.js" working-dir="$PROJECT_DIR$/methods-array">
+    <configuration name="task6(2).js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/methods-array/tasks/task6(2).js" working-dir="$PROJECT_DIR$/methods-array/tasks">
       <method v="2" />
     </configuration>
-    <configuration name="task1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/other-tasks/task1.js" working-dir="$PROJECT_DIR$/other-tasks">
+    <configuration name="task6.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/methods-array/tasks/task6.js" working-dir="$PROJECT_DIR$/methods-array/tasks">
       <method v="2" />
     </configuration>
-    <configuration name="task6.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/closure/tasks/task6.js" working-dir="$PROJECT_DIR$/closure/tasks">
+    <configuration name="task7.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/methods-array/tasks/task7.js" working-dir="$PROJECT_DIR$/methods-array/tasks">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.includes.js" />
-        <item itemvalue="Node.js.sort.js" />
-        <item itemvalue="Node.js.kat.js" />
-        <item itemvalue="Node.js.task1.js" />
+        <item itemvalue="Node.js.task7.js" />
+        <item itemvalue="Node.js.task6(2).js" />
         <item itemvalue="Node.js.task6.js" />
+        <item itemvalue="Node.js.task5(2).js" />
+        <item itemvalue="Node.js.task5.js" />
       </list>
     </recent_temporary>
   </component>
@@ -118,7 +119,7 @@
       <workItem from="1574699738306" duration="363000" />
       <workItem from="1574701012362" duration="836000" />
       <workItem from="1574702531986" duration="645000" />
-      <workItem from="1574703752667" duration="40353000" />
+      <workItem from="1574703752667" duration="62209000" />
     </task>
     <task id="LOCAL-00001" summary="Тестирую git">
       <created>1574698627097</created>
