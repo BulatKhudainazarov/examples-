@@ -5,12 +5,16 @@ let masha = { name: "Маша", surname: "Петрова", id: 3 };
 let users = [ vasya, petya, masha ];
 
 let usersMapped = users.map(function (item) {
-  let fullName = `${item.name} ${item.surname}`;
+  let fullName = {
+    fullName: item.name + " " + item.surname,
+    id: item.id,
+  }
 
   return (fullName);
 });
 
-console.log(usersMapped);
+console.log( usersMapped[0].id ) // 1
+console.log( usersMapped[0].fullName )
 
 /*
 usersMapped = [

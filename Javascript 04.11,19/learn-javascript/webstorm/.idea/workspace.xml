@@ -69,29 +69,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.task7.js">
-    <configuration name="task5(2).js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/methods-array/tasks/task5(2).js" working-dir="$PROJECT_DIR$/methods-array/tasks">
+  <component name="RunManager" selected="Node.js.task8(2).js">
+    <configuration name="task10(2).js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/methods-array/tasks/task10(2).js" working-dir="$PROJECT_DIR$/methods-array/tasks">
       <method v="2" />
     </configuration>
-    <configuration name="task5.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/methods-array/tasks/task5.js" working-dir="$PROJECT_DIR$/methods-array/tasks">
+    <configuration name="task10.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/methods-array/tasks/task10.js" working-dir="$PROJECT_DIR$/methods-array/tasks">
       <method v="2" />
     </configuration>
-    <configuration name="task6(2).js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/methods-array/tasks/task6(2).js" working-dir="$PROJECT_DIR$/methods-array/tasks">
+    <configuration name="task7(2).js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/methods-array/tasks/task7(2).js" working-dir="$PROJECT_DIR$/methods-array/tasks">
       <method v="2" />
     </configuration>
-    <configuration name="task6.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/methods-array/tasks/task6.js" working-dir="$PROJECT_DIR$/methods-array/tasks">
+    <configuration name="task8(2).js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/methods-array/tasks/task8(2).js" working-dir="$PROJECT_DIR$/methods-array/tasks">
       <method v="2" />
     </configuration>
-    <configuration name="task7.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/methods-array/tasks/task7.js" working-dir="$PROJECT_DIR$/methods-array/tasks">
+    <configuration name="task9(2).js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/methods-array/tasks/task9(2).js" working-dir="$PROJECT_DIR$/methods-array/tasks">
+      <method v="2" />
+    </configuration>
+    <configuration name="task9.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/methods-array/tasks/task9.js" working-dir="$PROJECT_DIR$/methods-array/tasks">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.task7.js" />
-        <item itemvalue="Node.js.task6(2).js" />
-        <item itemvalue="Node.js.task6.js" />
-        <item itemvalue="Node.js.task5(2).js" />
-        <item itemvalue="Node.js.task5.js" />
+        <item itemvalue="Node.js.task10.js" />
+        <item itemvalue="Node.js.task10(2).js" />
+        <item itemvalue="Node.js.task9(2).js" />
+        <item itemvalue="Node.js.task9.js" />
+        <item itemvalue="Node.js.task8(2).js" />
       </list>
     </recent_temporary>
   </component>
@@ -119,7 +122,7 @@
       <workItem from="1574699738306" duration="363000" />
       <workItem from="1574701012362" duration="836000" />
       <workItem from="1574702531986" duration="645000" />
-      <workItem from="1574703752667" duration="62209000" />
+      <workItem from="1574703752667" duration="68762000" />
     </task>
     <task id="LOCAL-00001" summary="Тестирую git">
       <created>1574698627097</created>
