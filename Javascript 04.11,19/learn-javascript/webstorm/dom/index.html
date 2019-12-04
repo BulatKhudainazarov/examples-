@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<script src="examples.js"></script>
+</head>
+<body>
+	<div>Пользователи:</div>
+	<ul>
+		<li>Джон</li>
+		<li>Пит</li>
+	</ul>
+	<script>
+    alert("Для первого div: " + document.body.firstElementChild );
+    alert("Для первого div: " + document.body.children[0] );
+
+		alert("Для ul:" + document.body.children[1]);
+		alert("For li of Pit: " + document.body.children[1].lastElementChild)
+	</script>
+</body>
+</html>

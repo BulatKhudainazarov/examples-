@@ -11,6 +11,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="98" />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="webstorm" />
   </component>
@@ -57,6 +60,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Desktop\Git-Projects\examples-\Javascript 04.11,19\learn-javascript\webstorm" />
       <recent name="C:\Users\admin\Desktop\Git-Projects\examples-\Javascript 04.11,19\learn-javascript\webstorm\repetition\func-object" />
       <recent name="C:\Users\admin\Desktop\Git-Projects\examples-\Javascript 04.11,19\learn-javascript\webstorm\keys-values-entries" />
       <recent name="C:\Users\admin\Desktop\Git-Projects\examples-\Javascript 04.11,19\learn-javascript\webstorm\map-set" />
@@ -74,8 +78,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.numb1.js">
-    <configuration name="NFE.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/repetition/func-object/NFE.js" working-dir="$PROJECT_DIR$/repetition">
+  <component name="RunManager" selected="Node.js.find.js">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webstorm/dom/task3/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webstorm/dom/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="find.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/other/find.js" working-dir="$PROJECT_DIR$/other">
       <method v="2" />
     </configuration>
     <configuration name="numb1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/main/this-call-bind-apply/numb1.js" working-dir="$PROJECT_DIR$/main/this-call-bind-apply">
@@ -84,19 +94,13 @@
     <configuration name="task1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/repetition/func-object/task1.js" working-dir="$PROJECT_DIR$/repetition/func-object">
       <method v="2" />
     </configuration>
-    <configuration name="task4while.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/repetition/recursion/tasks/task4while.js" working-dir="$PROJECT_DIR$/repetition/recursion/tasks">
-      <method v="2" />
-    </configuration>
-    <configuration name="task5.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/repetition/recursion/tasks/task5.js" working-dir="$PROJECT_DIR$/repetition/recursion/tasks">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.find.js" />
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Node.js.numb1.js" />
         <item itemvalue="Node.js.task1.js" />
-        <item itemvalue="Node.js.NFE.js" />
-        <item itemvalue="Node.js.task4while.js" />
-        <item itemvalue="Node.js.task5.js" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +129,7 @@
       <workItem from="1574701012362" duration="836000" />
       <workItem from="1574702531986" duration="645000" />
       <workItem from="1574703752667" duration="68762000" />
-      <workItem from="1575175410309" duration="36306000" />
+      <workItem from="1575175410309" duration="41370000" />
     </task>
     <task id="LOCAL-00001" summary="Тестирую git">
       <created>1574698627097</created>
@@ -160,5 +164,8 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/webstorm$index_html.dat" NAME="index.html Coverage Results" MODIFIED="1575344952241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
