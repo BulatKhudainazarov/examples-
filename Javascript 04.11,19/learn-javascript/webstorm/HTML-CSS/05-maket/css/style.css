@@ -9,6 +9,7 @@ button:focus {
 	margin: auto;
 }
 .header {
+	width: 117vw;
 	padding: 77px 0 96px 0;
 }
 .header-img {
@@ -58,6 +59,7 @@ button:focus {
 	background-color: transparent;
 }
 .features {
+	width: 117vw;
 	padding: 10px 0;
 	padding-bottom: 99px;
 	background-color: #f2f2f2;
@@ -94,6 +96,7 @@ button:focus {
 }
 .footer {
 	display: flex;
+	width: 117vw;
 	padding: 90px 0;
 }
 .footer-text__title {
