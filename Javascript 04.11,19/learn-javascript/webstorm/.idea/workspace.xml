@@ -23,9 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -54,18 +54,23 @@
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HTML-CSS/05-maket/css" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Desktop\Git-Projects\examples-\Javascript 04.11,19\learn-javascript\webstorm\HTML-CSS\05-maket\css" />
+      <recent name="C:\Users\admin\Desktop\Git-Projects\examples-\Javascript 04.11,19\learn-javascript\webstorm\HTML-CSS\05-maket" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Desktop\Git-Projects\examples-\Javascript 04.11,19\learn-javascript\webstorm\HTML-CSS\05-maket\css" />
+      <recent name="C:\Users\admin\Desktop\Git-Projects\examples-\Javascript 04.11,19\learn-javascript\webstorm\design" />
       <recent name="C:\Users\admin\Desktop\Git-Projects\examples-\Javascript 04.11,19\learn-javascript\webstorm" />
       <recent name="C:\Users\admin\Desktop\Git-Projects\examples-\Javascript 04.11,19\learn-javascript\webstorm\repetition\func-object" />
       <recent name="C:\Users\admin\Desktop\Git-Projects\examples-\Javascript 04.11,19\learn-javascript\webstorm\keys-values-entries" />
-      <recent name="C:\Users\admin\Desktop\Git-Projects\examples-\Javascript 04.11,19\learn-javascript\webstorm\map-set" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -80,29 +85,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (4)">
-    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webstorm/class/method Fetch/index.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="flex.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webstorm/design/flex.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webstorm/class/method Fetch/better promise/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webstorm/HTML-CSS/home-work1/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webstorm/class/more-about-promise/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webstorm/Pages/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html (4)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webstorm/class/promise-realization/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webstorm/HTML-CSS/05-maket/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webstorm/class/async/index.html" useBuiltInWebServerPort="true">
+    <configuration name="taskflex.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webstorm/design/taskflex.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html (4)" />
-        <item itemvalue="JavaScript Debug.index.html (3)" />
-        <item itemvalue="JavaScript Debug.index.html (2)" />
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.taskflex.html" />
+        <item itemvalue="JavaScript Debug.flex.html" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +138,9 @@
       <workItem from="1574703752667" duration="68762000" />
       <workItem from="1575175410309" duration="56621000" />
       <workItem from="1575694236248" duration="12770000" />
-      <workItem from="1575722542079" duration="15975000" />
+      <workItem from="1575722542079" duration="16578000" />
+      <workItem from="1575896736215" duration="7548000" />
+      <workItem from="1576068272237" duration="10837000" />
     </task>
     <task id="LOCAL-00001" summary="Тестирую git">
       <created>1574698627097</created>

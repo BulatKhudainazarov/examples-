@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>nested flex-box</title>
+	<style>
+		.containers {
+			color: #fff;
+			display: flex;
+		}
+
+		.red {
+			display: flex;
+			flex-direction: column;
+			background: orangered;
+		}
+
+		.green {
+			background: yellowgreen;
+		}
+
+		.blue {
+			background: steelblue;
+		}
+
+		.containers div {
+			font-size: 5vw;
+			padding: .5em;
+			flex: 1;
+		}
+	</style>
+</head>
+<body>
+	<div class="containers">
+		<div class="red">1
+			<div class="green">1a</div>
+			<div class="blue">1b</div>
+		</div>
+		<div class="green">2</div>
+		<div class="blue">3</div>
+	</div>
+
+</body>
+</html>
