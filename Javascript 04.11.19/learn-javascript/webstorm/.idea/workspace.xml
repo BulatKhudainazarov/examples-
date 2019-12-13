@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c3c8c148-8a9e-4260-b13f-9418acf13e08" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="98" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="webstorm" />
+  </component>
+  <component name="FileColors">
+    <fileColor scope="All" color="Blue" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+<<<<<<< HEAD
+=======
+        <option value="CSS File" />
+        <option value="HTML File" />
+>>>>>>> cc47138e28c588d59a0caffad4833bd604e45a4e
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_COMMON_BRANCH" value="master" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\admin\Desktop\Git-Projects\examples-\Javascript 04.11,19\learn-javascript\webstorm\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1U6re1RyI6PvDavqqZiIGMRUv44" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
+<<<<<<< HEAD
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/DOM" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+>>>>>>> cc47138e28c588d59a0caffad4833bd604e45a4e
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\Desktop\Github\examples-\Javascript 04.11,19\learn-javascript\webstorm\DOM" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Desktop\Git-Projects\examples-\Javascript 04.11,19\learn-javascript\webstorm" />
+      <recent name="C:\Users\admin\Desktop\Git-Projects\examples-\Javascript 04.11,19\learn-javascript\webstorm\repetition\func-object" />
+      <recent name="C:\Users\admin\Desktop\Git-Projects\examples-\Javascript 04.11,19\learn-javascript\webstorm\keys-values-entries" />
+      <recent name="C:\Users\admin\Desktop\Git-Projects\examples-\Javascript 04.11,19\learn-javascript\webstorm\map-set" />
+    </key>
+  </component>
+<<<<<<< HEAD
+  <component name="RunManager" selected="Node.js.numb1.js">
+    <configuration name="NFE.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/repetition/func-object/NFE.js" working-dir="$PROJECT_DIR$/repetition">
+=======
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html (4)">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webstorm/class/method Fetch/index.html" useBuiltInWebServerPort="true">
+>>>>>>> cc47138e28c588d59a0caffad4833bd604e45a4e
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webstorm/class/method Fetch/better promise/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webstorm/class/more-about-promise/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (4)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webstorm/class/promise-realization/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webstorm/class/async/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html (4)" />
+        <item itemvalue="JavaScript Debug.index.html (3)" />
+        <item itemvalue="JavaScript Debug.index.html (2)" />
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3c8c148-8a9e-4260-b13f-9418acf13e08" name="Default Changelist" comment="" />
+      <created>1574687978090</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574687978090</updated>
+      <workItem from="1574687981057" duration="328000" />
+      <workItem from="1574688515382" duration="4015000" />
+      <workItem from="1574695160337" duration="113000" />
+      <workItem from="1574695366674" duration="388000" />
+      <workItem from="1574695775670" duration="2425000" />
+      <workItem from="1574698404842" duration="392000" />
+      <workItem from="1574698817911" duration="155000" />
+      <workItem from="1574698992972" duration="333000" />
+      <workItem from="1574699346705" duration="229000" />
+      <workItem from="1574699598526" duration="24000" />
+      <workItem from="1574699641290" duration="77000" />
+      <workItem from="1574699738306" duration="363000" />
+      <workItem from="1574701012362" duration="836000" />
+      <workItem from="1574702531986" duration="645000" />
+      <workItem from="1574703752667" duration="68762000" />
+<<<<<<< HEAD
+      <workItem from="1575175410309" duration="36306000" />
+      <workItem from="1575389406947" duration="3322000" />
+=======
+      <workItem from="1575175410309" duration="56621000" />
+      <workItem from="1575694236248" duration="12770000" />
+      <workItem from="1575722542079" duration="15975000" />
+>>>>>>> cc47138e28c588d59a0caffad4833bd604e45a4e
+    </task>
+    <task id="LOCAL-00001" summary="Тестирую git">
+      <created>1574698627097</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574698627097</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Тестирую git" />
+    <option name="LAST_COMMIT_MESSAGE" value="Тестирую git" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="890" height="155" key="GridCell.Tab.0.bottom" timestamp="1575395853881">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="890" height="155" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575395853881" />
+    <state width="890" height="155" key="GridCell.Tab.0.center" timestamp="1575395853880">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="890" height="155" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1575395853880" />
+    <state width="890" height="155" key="GridCell.Tab.0.left" timestamp="1575395853880">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="890" height="155" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1575395853880" />
+    <state width="890" height="155" key="GridCell.Tab.0.right" timestamp="1575395853881">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="890" height="155" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575395853881" />
+    <state width="466" height="155" key="GridCell.Tab.1.bottom" timestamp="1575395853647">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="466" height="155" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575395853647" />
+    <state width="466" height="155" key="GridCell.Tab.1.center" timestamp="1575395853647">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="466" height="155" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1575395853647" />
+    <state width="466" height="155" key="GridCell.Tab.1.left" timestamp="1575395853647">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="466" height="155" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1575395853647" />
+    <state width="466" height="155" key="GridCell.Tab.1.right" timestamp="1575395853647">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="466" height="155" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1575395853647" />
+    <state width="466" height="155" key="GridCell.Tab.2.bottom" timestamp="1575395853648">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="466" height="155" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575395853648" />
+    <state width="466" height="155" key="GridCell.Tab.2.center" timestamp="1575395853648">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="466" height="155" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1575395853648" />
+    <state width="466" height="155" key="GridCell.Tab.2.left" timestamp="1575395853647">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="466" height="155" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1575395853647" />
+    <state width="466" height="155" key="GridCell.Tab.2.right" timestamp="1575395853648">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="466" height="155" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1575395853648" />
+    <state width="466" height="155" key="GridCell.Tab.3.bottom" timestamp="1575395853648">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="466" height="155" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575395853648" />
+    <state width="466" height="155" key="GridCell.Tab.3.center" timestamp="1575395853648">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="466" height="155" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1575395853648" />
+    <state width="466" height="155" key="GridCell.Tab.3.left" timestamp="1575395853648">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="466" height="155" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1575395853648" />
+    <state width="466" height="155" key="GridCell.Tab.3.right" timestamp="1575395853648">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="466" height="155" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1575395853648" />
+    <state x="555" y="77" key="SettingsEditor" timestamp="1575389679549">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="555" y="77" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1575389679549" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/webstorm$index_html.dat" NAME="index.html Coverage Results" MODIFIED="1575344952241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
