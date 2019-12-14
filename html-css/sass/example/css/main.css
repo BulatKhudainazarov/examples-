@@ -1,0 +1,25 @@
+.header {
+  width: 80%;
+  margin: auto;
+}
+.header__title {
+  color: #AD6CB7;
+}
+.header__text {
+  color: #964fa1;
+}
+.header__button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #AD6CB7;
+  -webkit-box-shadow: 1px 5px 20px white;
+          box-shadow: 1px 5px 20px white;
+}
+
+.line {
+  width: 400px;
+  height: 2px;
+  background-color: #AD6CB7;
+}

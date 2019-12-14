@@ -1,0 +1,292 @@
+*, *:before, *:after
+  box-sizing: border-box
+body
+  margin: 0
+  font-family: "Maven Pro", sans-serif
+html
+  font-size: 10px
+.main
+  color: #fff
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  align-items: center
+  height: 100vh
+  min-height: 600px
+  background: url("img/main-bg.jpg") no-repeat center
+  background-size: cover
+  position: relative
+  &-overlay
+    position: absolute
+    left: 0
+    top: 0
+    width: 100%
+    height: 100%
+    opacity: 0.4
+    z-index: 0
+    background-color: #ffffff
+    background-image: linear-gradient(-60deg, #88d3ce 0%, #6e45e2 100%)
+.header
+  display: flex
+  min-height: 10vh
+  justify-content: space-between
+  align-items: center
+  width: 90%
+  position: relative
+  z-index: 2
+.menu
+  width: 58%
+  ul
+    display: flex
+    justify-content: space-around
+    list-style: none
+    li
+      a
+        font-size: 16px
+        font-weight: 500
+        color: #ffffff
+.menu-link
+  color: #fff
+  text-decoration: none
+.get-started-btn
+  border: 1px solid #fff
+  padding: 10px 20px
+  border-radius: 25px
+.main-text
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  position: relative
+  z-index: 2
+  text-align: center
+  h1
+    margin: 0.5rem
+    font-size: 80px
+    font-weight: 500
+  span
+    font-size: 14px
+    font-weight: 700
+    letter-spacing: 0.7px
+    display: inline-block
+    &::after
+      content: ""
+      width: 20px
+      height: 1px
+      background-color: #fff
+      display: inline-block
+      vertical-align: middle
+      margin-left: 10px
+    &::before
+      content: ""
+      width: 20px
+      height: 2px
+      background-color: #fff
+      display: inline-block
+      vertical-align: middle
+      margin-right: 10px
+  p
+    font-size: 16px
+    font-weight: 400
+    line-height: 28px
+.main-arrow
+  position: relative
+  z-index: 2
+  height: 15vh
+  display: flex
+  justify-content: center
+  align-items: center
+.arrow-down
+  text-align: center
+  line-height: 55px
+  width: 50px
+  height: 50px
+  background-color: #fff
+  border-radius: 50%
+  box-shadow: 0 0 19px 2px rgba(204, 204, 223, 0.5)
+.table
+  background-color: #f9fafc
+  padding: 12rem 0 6rem
+  span
+    color: #9fa4af
+    text-transform: uppercase
+    font-size: 1.4rem
+    font-weight: 700
+    letter-spacing: 0.7px
+    &::after
+      content: ""
+      width: 20px
+      height: 1px
+      background-color: #6e45e2
+      display: inline-block
+      vertical-align: middle
+      margin-left: 20px
+    &::before
+      content: ""
+      width: 20px
+      height: 1px
+      background-color: #6e45e2
+      display: inline-block
+      vertical-align: middle
+      margin-right: 20px
+  h2
+    font-size: 6rem
+    font-weight: 500
+    letter-spacing: -1.69px
+    color: #4f4f6f
+    margin: 0
+  p
+    font-size: 1.6rem
+    font-weight: 400
+    line-height: 28px
+    color: #9fa4af
+.table-header
+  text-align: center
+.price-tags
+  display: flex
+  justify-content: space-around
+  align-items: center
+.price-tag
+  border-radius: 3rem
+  background-color: #ffffff
+  display: flex
+  flex-direction: column
+  text-align: center
+  align-items: center
+  justify-content: space-between
+  width: 440px
+  height: 64.8rem
+  padding: 6rem 0 6.6rem
+  img
+    margin-bottom: 5.3rem
+    height: 9.3rem
+  &:hover
+    box-shadow: 0 0 60px 10px rgba(204, 204, 223, 0.71)
+    transition: 0.2s
+  span
+    display: block
+    &::before
+      content: none
+    &::after
+      content: none
+  p
+    text-align: center
+    width: 296px
+    margin-bottom: 5.5rem
+  h4
+    color: #4f4f6f
+    font-size: 18px
+    font-weight: 500
+    margin-bottom: 1rem
+    .larg
+      font-size: 60px
+      letter-spacing: -1.69px
+      font-weight: 500
+    &::before
+      content: "$"
+      position: relative
+      top: -29px
+  .price-btn
+    padding: 21px 54px
+    border-radius: 2.5rem
+    border: none
+    font-weight: 700
+    text-transform: uppercase
+    letter-spacing: 0.6px
+    font-size: 12px
+    color: #c2c9db
+    background-color: #fff
+    box-shadow: 0 0 19px 2px rgba(204, 204, 223, 0.5)
+    &:hover
+      background-color: #6e45e2
+      cursor: pointer
+      color: #ffffff
+.call-to-action
+  position: relative
+  text-align: center
+  display: flex
+  flex-direction: column
+  align-items: center
+  padding-top: 18rem
+  padding-bottom: 18.5rem
+  color: #fff
+  span, h4, .buttons
+    z-index: 2
+  span
+    font-size: 14px
+    font-weight: 700
+    letter-spacing: 0.7px
+  h4
+    font-weight: 500
+    font-size: 60px
+    margin: 2.5rem auto 2rem
+.call-to-action-overlay
+  position: absolute
+  left: 0
+  top: 0
+  width: 100%
+  height: 100%
+  z-index: 0
+  background-color: #f9fafc
+  background-image: linear-gradient(-60deg, #88d3ce 0%, #6e45e2 100%)
+.cta-btn
+  background-color: #ffffff
+  box-shadow: 0 0 19px 2px rgba(204, 204, 223, 0.5)
+  border: 1px solid #d7dbe8
+  border-radius: 25px
+  width: 190px
+  padding: 2rem 3.1rem
+  font-size: 12px
+  text-transform: uppercase
+  font-weight: 700
+  color: #c2c9db
+  margin-right: 10px
+
+  &:hover
+    background-color: #6e45e2
+    border: 1px solid #6e45e2
+    color: #ffffff
+    cursor: pointer
+.footer
+  display: flex
+  flex-direction: column
+  padding: 50px
+.footer-menu
+  display: flex
+  justify-content: space-between
+  margin-bottom: 7.5rem
+  ul
+    display: flex
+    width: 40%
+    justify-content: space-between
+    list-style: none
+    li
+      .footer-link
+        color: #6a6a77
+        font-size: 16px
+        font-weight: 500
+        text-decoration: none
+      .active
+        border-radius: 25px
+        border: 1px solid #d7dbe8
+        background-color: #6e45e2
+        text-transform: uppercase
+        font-size: 12px
+        font-weight: 700
+        color: #ffffff
+        letter-spacing: 0.6px
+        padding: 21px 33px
+.footer-bar
+  display: flex
+  justify-content: space-between
+.footer-impression
+  opacity: 0.5
+  color: #6a6a77
+  font-size: 14px
+  font-weight: 500
+
+
+
+
+
+

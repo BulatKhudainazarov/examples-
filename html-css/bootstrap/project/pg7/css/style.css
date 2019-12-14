@@ -2,7 +2,9 @@ body {
     margin: 0;
     font-family: 'Tahoma', sans-serif;
 }
-
+img {
+    max-width: 96%;
+}
 .header {
     margin-top: 77px;
     margin-bottom: 96px;
