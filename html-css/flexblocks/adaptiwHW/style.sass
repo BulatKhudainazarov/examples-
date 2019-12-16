@@ -1,0 +1,78 @@
+*
+  box-sizing: border-box
+body
+  font-family: "Roboto Slab"
+  margin: 0
+  padding: 0
+.main
+  width: 1920px
+  height: 780px
+  background: url("img/main-bg.jpg") no-repeat top left
+  &-block
+    width: 1411px
+    position: relative
+    &::after
+      content: ""
+      display: table
+      clear: both
+  &__title
+    margin: 0 0 28px
+    color: #7c6db0
+    font-size: 60px
+    font-weight: 700
+    padding-top: 171px
+  padding-left: 390px
+  &__place
+    display: inline-block
+    font-size: 36px
+    font-weight: 700
+    background-color: #7f70b1
+    padding: 11px 20px
+    color: #ffffff
+    margin-bottom: 94px
+  &__features
+    font-family: Roboto, sans-serif
+    font-size: 22px
+    font-weight: 300
+    line-height: 30px
+    position: relative
+    margin-bottom: 117px
+    margin-left: 8px
+    letter-spacing: 0.2px
+    &::before
+      content: url("img/features-tooth1.png")
+      float: left
+      margin-right: 36px
+
+.main-img
+  position: absolute
+  top: 33px
+  right: 13px
+.main-text
+  float: left
+.main-buttons
+  max-height: 80px
+.main__button
+  border: 2px solid #01b3e0
+  margin-right: 26px
+  font-size: 22px
+  font-weight: 700
+  color: #ffffff
+  padding: 25px 57px
+  box-shadow: 0 2px 16px rgba(0, 215, 255, 0.44)
+  background-color: #1eb8b0
+  background-image: linear-gradient(-230deg, #01c4e0 0%, #01b3e0 100%)
+  cursor: pointer
+.main__button-o
+  background: transparent
+  box-shadow: 0 2px 16px rgba(0, 215, 255, 0.44)
+  border: 2px solid #01b3e0
+  padding: 25px 77px
+  font-size: 22px
+  font-weight: 700
+  color: #01b3e0
+  cursor: pointer
+
+@media (max-width: 992px)
+  .main
+    padding-left: 10px
