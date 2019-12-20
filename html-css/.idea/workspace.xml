@@ -2,30 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f6b9fad-d7d9-4644-a29e-1955369e6390" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexblocks/adaptiwHW/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexblocks/adaptiwHW/style.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexblocks/hardHW/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexblocks/hardHW/.idea/hardHW.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexblocks/hardHW/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexblocks/hardHW/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexblocks/hardHW/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexblocks/hardHW/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexblocks/hardHW/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexblocks/hardHW/style.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexblocks/simpleHW/.idea/simpleHW.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexblocks/simpleHW/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexblocks/simpleHW/style.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexblocks/some-example/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexblocks/some-example/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexblocks/some-example/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexblocks/some-example/.idea/some-example.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexblocks/some-example/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexblocks/some-example/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexblocks/some-example/flexblocks.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flexblocks/some-example/main.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flexblocks/langing-pages/pricing/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/flexblocks/langing-pages/pricing/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +62,8 @@
       <option name="presentableId" value="Default" />
       <updated>1576298028660</updated>
       <workItem from="1576298029894" duration="14000" />
-      <workItem from="1576412561574" duration="8708000" />
+      <workItem from="1576412561574" duration="10507000" />
+      <workItem from="1576700850573" duration="839000" />
     </task>
     <servers />
   </component>
