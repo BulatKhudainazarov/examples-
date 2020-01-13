@@ -3,15 +3,347 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+      @charset "UTF-8";
+      html, body {
+          font-family: 'Roboto', sans-serif;
+      }
 
-    <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> -->
+      img, .slick-slide, .slick-cloned {
+          outline: none;
+      }
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      @font-face {
+          font-family: 'Roboto Regular';
+        src: url("assets/fonts/Roboto-Regular.eot");
+        src: local("assets/fonts/Roboto"), local("assets/fonts/Roboto-Regular"), url("assets/fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("assets/fonts/Roboto-Regular.woff") format("woff"), url("assets/fonts/Roboto-Regular.ttf") format("truetype");
+        font-weight: normal;
+        font-style: normal;
+      }
 
+      @font-face {
+          font-family: 'Roboto Bold';
+        src: url("assets/fonts/Roboto-Bold.eot");
+        src: local("assets/fonts/Roboto Bold"), local("assets/fonts/Roboto-Bold"), url("assets/fonts/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("assets/fonts/Roboto-Bold.woff") format("woff"), url("assets/fonts/Roboto-Bold.ttf") format("truetype");
+        font-weight: bold;
+        font-style: normal;
+      }
+
+      @font-face {
+          font-family: 'Roboto Black';
+        src: url("assets/fonts/Roboto-Black.eot");
+        src: local("assets/fonts/Roboto Black"), local("assets/fonts/Roboto-Black"), url("assets/fonts/Roboto-Black.eot?#iefix") format("embedded-opentype"), url("assets/fonts/Roboto-Black.woff") format("woff"), url("assets/fonts/Roboto-Black.ttf") format("truetype");
+        font-weight: 900;
+        font-style: normal;
+      }
+
+      @font-face {
+          font-family: 'Roboto Light';
+        src: url("assets/fonts/Roboto-Light.eot");
+        src: local("assets/fonts/Roboto Light"), local("assets/fonts/Roboto-Light"), url("assets/fonts/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("assets/fonts/Roboto-Light.woff") format("woff"), url("assets/fonts/Roboto-Light.ttf") format("truetype");
+        font-weight: 300;
+        font-style: normal;
+      }
+
+      body {
+          margin: 0;
+      }
+
+      img {
+          max-width: 100%;
+      }
+
+      input:focus, button:focus {
+          outline: none;
+      }
+
+      .button {
+          font-size: 14px;
+          font-weight: 400;
+          color: #ffffff;
+          background: #ff9d00;
+          border: none;
+          padding: 13px 22px 12px 18px;
+          border-radius: 5px;
+          vertical-align: middle;
+      }
+
+      .button:hover {
+          background-color: #ffa71a;
+      }
+
+      .button img {
+          vertical-align: middle;
+      }
+
+      .button-big {
+          padding: 21px;
+          font-size: 15px;
+          vertical-align: middle;
+          height: 64px;
+      }
+
+      .button-o {
+          color: #373737;
+          background-color: transparent;
+          border: 1px solid rgba(55, 55, 55, 0.5);
+          padding: 12px 22px 12px 18px;
+      }
+
+      .button-o:hover {
+          background-color: #373737;
+          color: #ffffff;
+      }
+
+      .form-small {
+          color: #ffffff;
+          font-family: Roboto;
+          font-size: 14px;
+          font-weight: 300;
+          line-height: 30px;
+      }
+
+      .header {
+          font-family: 'Roboto', sans-serif;
+          padding: 15px 0;
+          margin-top: 45px;
+      }
+
+      .header-logo {
+          background: url(../../assets/i/header-logo.png) center no-repeat;
+          background-size: 100%;
+          width: 191px;
+          height: 61px;
+      }
+
+      .header-contacts {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: end;
+          -ms-flex-pack: end;
+          justify-content: flex-end;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+      }
+
+      .header-contacts__phone {
+          font-weight: 500;
+          font-size: 22px;
+          color: #373737;
+          margin-right: 13px;
+      }
+
+      .header-contacts__phones {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+      }
+
+      .header-contacts__phone:first-child {
+          border-right: 1px solid #cfcfd0;
+          padding-right: 13px;
+      }
+
+      .main {
+          position: relative;
+          padding-top: 60px;
+          padding-bottom: 65px;
+          background: #373737 url(../i/main-bg.jpg) center no-repeat;
+          background-size: cover;
+          z-index: 1;
+          color: #ffffff;
+        /* Затемнение фона на главном экране*/
+        /* Оформление главной картинки*/
+      }
+
+      .main::before {
+          content: '';
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(0, 0, 0, 0.6);
+          z-index: 0;
+      }
+
+      .main-img {
+          position: relative;
+          padding-right: 30px;
+      }
+
+      .main-img .slick-next {
+          z-index: 2000;
+          right: -10px;
+      }
+
+      .main-img::before {
+          content: '';
+          position: absolute;
+          width: 390px;
+          height: 390px;
+          border: 1px solid #ffffff;
+          border-radius: 50%;
+          z-index: -1;
+          left: 50%;
+          margin-left: -195px;
+          opacity: 0.4;
+      }
+
+      .main-text__title {
+          font-size: 41px;
+          font-weight: 700;
+          margin-bottom: 20px;
+      }
+
+      .main-text__subtitle {
+          font-size: 28px;
+          font-weight: 400;
+          margin-bottom: 24px;
+      }
+
+      .main-text__form {
+          background-color: rgba(255, 255, 255, 0.2);
+          padding: 30px 27px;
+      }
+
+      .form {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+      }
+
+      .form-title {
+          font-family: "Roboto Light";
+          font-weight: 300;
+          margin-bottom: 20px;
+          padding-right: 87px;
+          line-height: 30px;
+          font-size: 20px;
+      }
+
+      .form-title__important {
+          display: block;
+          text-transform: uppercase;
+          font-weight: 700;
+      }
+
+      .form__input {
+          border: none;
+          padding: 20px;
+          border-radius: 5px;
+          margin-right: 10px;
+          vertical-align: middle;
+          -ms-flex-preferred-size: 60%;
+          flex-basis: 60%;
+          margin-bottom: 12px;
+      }
+
+      .form-small {
+          font-size: 14px;
+          margin-left: 19px;
+      }
+
+      .overlay {
+          position: fixed;
+          display: none;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          z-index: 3;
+          background-color: rgba(0, 0, 0, 0.5);
+          text-align: center;
+      }
+
+      .overlay .popup {
+          position: fixed;
+          left: 50%;
+          top: 100px;
+          width: 750px;
+          -webkit-transform: translateX(-50%);
+          -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+      }
+
+      .overlay .popup-close {
+          position: absolute;
+          font-size: 35px;
+          color: #fff;
+          right: -20px;
+          top: -37px;
+          font-weight: 300;
+          cursor: pointer;
+      }
+
+      .overlay .popup-title {
+          display: block;
+          width: 100%;
+          max-height: 71px;
+          background-color: #ff9d00;
+          margin: 0;
+          color: #ffffff;
+          font-size: 21px;
+          text-transform: uppercase;
+          font-weight: 500;
+          line-height: 71px;
+      }
+
+      .overlay .popup-form {
+          background: url(../i/form-bg.jpg) center no-repeat;
+          background-size: cover;
+          padding: 35px 88px 50px 88px;
+          color: #ffffff;
+      }
+
+      .overlay .popup-form-header {
+          font-size: 30px;
+          font-weight: 400;
+          line-height: 27px;
+          margin-bottom: 23px;
+      }
+
+      .overlay .popup-form-header span {
+          font-size: 24px;
+      }
+
+      .overlay .popup-form__label {
+          font-size: 20px;
+          font-weight: 300;
+          display: block;
+          margin-bottom: 17px;
+      }
+
+      .overlay .popup-form__input {
+          border: none;
+          padding: 20px;
+          border-radius: 3px;
+          margin-right: 16px;
+          vertical-align: middle;
+          -ms-flex-preferred-size: 60%;
+          flex-basis: 60%;
+          font-size: 14px;
+          width: 365px;
+          height: 56px;
+      }
+
+      .overlay .popup-form__btn {
+          height: 56px;
+          width: 180px;
+          vertical-align: middle;
+      }
+
+      .overlay .popup-form__note {
+          margin-top: 9px;
+          font-size: 14px;
+          font-weight: 300;
+          line-height: 30px;
+      }
+    </style>
     <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=AG12HF4BAAAApQZlXAMCiFdGKSihgZimtA7np3XYf-kpKAgAAAAAAAAAAADaKkLRjbLusGUDmQGm-Zm7EkGw6w=="></script>
-
     <title>Home</title>
-
 </head>
 <body>
 <!-- Yandex.Metrika counter --> <script> (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js", "ym"); ym(56997949, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/56997949" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
