@@ -122,7 +122,7 @@
           <!-- /.form-title -->
           <form action="#" class="form">
             <input class="form__input" type="tel" placeholder="Введите номер телефона">
-            <button onclick="ym(56997949, 'reachGoal', 'top_btn'); return true;" class="button button-big" type="submit">Оставить заявку!</button>
+            <button id="tel" onclick="ym(56997949, 'reachGoal', 'top_btn'); return true;" class="button button-big" type="submit">Оставить заявку!</button>
           </form>
           <small class="form-small">
             *Минимальный заказ 500шт
@@ -153,10 +153,10 @@
           Получите индивидуальное предложение
           <span>на производство и поставку изделий</span>
         </div>
-        <label for="phone" class="popup-form__label">
+        <label for="phone-1" class="popup-form__label">
           Введите ваш номер телефона:
         </label>
-        <input type="tel" class="popup-form__input" name="phone" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ" required>
+        <input type="tel" class="popup-form__input" id="phone-1" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ" required>
         <button onclick="ym(56997949, 'reachGoal', 'top_btn'); return true;" class="button popup-form__btn">
         Оставить заявку!
         </button>
@@ -390,7 +390,7 @@
     <div class="offer-form">
       <form action="#" class="offer-form">
         <label class="offer-form__label" for="offer-tel">Введите ваш номер телефона:</label>
-        <input class="offer__input" name="offer-tel" type="tel" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ">
+        <input class="offer__input" id="offer-tel" type="tel" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ">
         <br>
         <button onclick="ym(56997949, 'reachGoal', 'top_btn'); return true;" class="button offer-form__button" type="submit">Оставить заявку!</button>
       </form>
