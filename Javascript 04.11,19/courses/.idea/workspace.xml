@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f6b9fad-d7d9-4644-a29e-1955369e6390" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b26a0474-4d3b-4552-87d4-075c0db22f36" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../html-css/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../html-css/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,22 +15,22 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1UxV2otH4vuQqtWW2GQOwi0riIG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1WRXokazwzDCbOtnrNPe6Y9838K" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowDebug.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -43,7 +45,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html-css/flexblocks/adaptiwHW/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/courses/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -57,18 +59,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8f6b9fad-d7d9-4644-a29e-1955369e6390" name="Default Changelist" comment="" />
-      <created>1576298028660</created>
+      <changelist id="b26a0474-4d3b-4552-87d4-075c0db22f36" name="Default Changelist" comment="" />
+      <created>1579113557360</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1576298028660</updated>
-      <workItem from="1576298029894" duration="14000" />
-      <workItem from="1576412561574" duration="10507000" />
-      <workItem from="1576700850573" duration="839000" />
-      <workItem from="1578989097169" duration="145000" />
-      <workItem from="1578989265760" duration="66000" />
-      <workItem from="1578989351119" duration="118000" />
-      <workItem from="1578989488935" duration="6000" />
+      <updated>1579113557360</updated>
+      <workItem from="1579113558522" duration="1091000" />
     </task>
     <servers />
   </component>
@@ -80,9 +76,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>

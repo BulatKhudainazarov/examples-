@@ -40,6 +40,35 @@
     </ul>
   </div>
 </nav>
+<nav class="nav_mobile">
+  <div class="container">
+    <div class="menu_min">
+      <div class="menu_min__link"><span></span></div>
+    </div>
+    <ul class="menu_min__list">
+      <li class="menu_min_link__li"><a class="menu_min_link__a" href="#main">О компании</a></li>
+      <li class="menu_min_link__li"><a class="menu_min_link__a" href="#features">преимущества</a></li>
+      <li class="menu_min_link__li"><a class="menu_min_link__a" href="#production">производство</a></li>
+      <li class="menu_min_link__li"><a class="menu_min_link__a" href="#production">склад</a></li>
+      <li class="menu_min_link__li"><a class="menu_min_link__a" href="#products">Продукция</a></li>
+      <li class="menu_min_link__li"><a class="menu_min_link__a" href="#clients">наши клиенты</a></li>
+      <li class="menu_min_link__li"><a class="menu_min_link__a" href="#feedbacks">Сертификаты</a></li>
+      <li class="menu_min_link__li"><a class="menu_min_link__a" href="#feedbacks">Отзывы</a></li>
+      <li class="menu_min_link__li"><a class="menu_min_link__a" href="#offer">контакты</a></li>
+    </ul>
+  </div>
+</nav>
+<script>
+  $(document).ready(function () {
+    let menu_link = $('.menu_min__link');
+    let menu_list = $('.menu_min__list');
+
+    menu_link.click(function f() {
+      menu_link.toggleClass('menu_min__link_active');
+      menu_list.toggleClass('menu_min__list_active');
+    })
+  })
+</script>
 
 <header class="header">
   <div class="container">
@@ -122,7 +151,7 @@
           <!-- /.form-title -->
           <form action="#" class="form">
             <input class="form__input" type="tel" placeholder="Введите номер телефона">
-            <button id="tel" onclick="ym(56997949, 'reachGoal', 'top_btn'); return true;" class="button button-big" type="submit">Оставить заявку!</button>
+            <button onclick="ym(56997949, 'reachGoal', 'top_btn'); return true;" class="button button-big" type="submit">Оставить заявку!</button>
           </form>
           <small class="form-small">
             *Минимальный заказ 500шт
@@ -153,10 +182,10 @@
           Получите индивидуальное предложение
           <span>на производство и поставку изделий</span>
         </div>
-        <label for="phone-1" class="popup-form__label">
+        <label for="phone" class="popup-form__label">
           Введите ваш номер телефона:
         </label>
-        <input type="tel" class="popup-form__input" id="phone-1" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ" required>
+        <input type="tel" class="popup-form__input" name="phone" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ" required>
         <button onclick="ym(56997949, 'reachGoal', 'top_btn'); return true;" class="button popup-form__btn">
         Оставить заявку!
         </button>
@@ -390,7 +419,7 @@
     <div class="offer-form">
       <form action="#" class="offer-form">
         <label class="offer-form__label" for="offer-tel">Введите ваш номер телефона:</label>
-        <input class="offer__input" id="offer-tel" type="tel" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ">
+        <input class="offer__input" name="offer-tel" type="tel" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ">
         <br>
         <button onclick="ym(56997949, 'reachGoal', 'top_btn'); return true;" class="button offer-form__button" type="submit">Оставить заявку!</button>
       </form>
